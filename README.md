@@ -185,5 +185,7 @@ development version:
 Contact
 =======
 
-You are welcome to:   - submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>   - send a pull request on: <https://github.com/trinker/lexicon/>  
- compose a friendly e-mail to: <tyler.rinker@gmail.com>
+You are welcome to:   
+- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>   
+- send a pull request on: <https://github.com/trinker/lexicon/>  
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>
