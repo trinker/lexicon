@@ -14,11 +14,24 @@ ver <- gsub(regex, "\\2", desc[loc])
 verbadge <- sprintf('<a href="https://img.shields.io/badge/Version-%s-orange.svg"><img src="https://img.shields.io/badge/Version-%s-orange.svg" alt="Version"/></a></p>', ver, ver)
 ````
 
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 [![Build Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
-[![Coverage Status](https://coveralls.io/repos/trinker/lexicon/badge.svg?branch=master)](https://coveralls.io/r/trinker/lexicon?branch=master)
 `r verbadge`
 
-**lexicon** is...
+<img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">  
+
+**lexicon** is a collection of lexical hash tables, dictionaries, and word lists.
+
+# Data
+
+```{r, echo=FALSE}
+pacman::p_load(pander)
+dat <- pacman::p_data(lexicon)
+dat[[1]] <- paste0('`',dat[[1]], '`')
+pander::set.alignment('left')
+pander(dat, style = "grid")
+
+```
 
 # Installation
 
