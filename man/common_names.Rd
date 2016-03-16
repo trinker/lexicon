@@ -3,7 +3,7 @@
 \docType{data}
 \name{common_names}
 \alias{common_names}
-\title{First Names and Gender (U.S.)}
+\title{First Names (U.S.)}
 \format{A character vector with 5493 elements}
 \usage{
 data(common_names)

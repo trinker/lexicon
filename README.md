@@ -67,7 +67,7 @@ Data
 <tbody>
 <tr class="odd">
 <td align="left"><p><code>common_names</code></p></td>
-<td align="left"><p>First Names and Gender (U.S.)</p></td>
+<td align="left"><p>First Names (U.S.)</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><code>discourse_markers_alemany</code></p></td>

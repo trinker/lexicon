@@ -1,4 +1,4 @@
-#' First Names and Gender (U.S.)
+#' First Names (U.S.)
 #'
 #' A dataset containing 1990 U.S. census data on first names.
 #'
