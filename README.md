@@ -12,7 +12,34 @@ Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
 **lexicon** is a collection of lexical hash tables, dictionaries, and
-word lists.
+word lists. The data prefixes help to categorize the data types:
+
+<table>
+<thead>
+<tr class="header">
+<th align="left">Prefix</th>
+<th align="left">Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><code>hash_</code></td>
+<td align="left">A <code>data.frame</code> with a lookup and return value</td>
+</tr>
+<tr class="even">
+<td align="left"><code>key_</code></td>
+<td align="left">A keyed <code>data.table</code> hash table</td>
+</tr>
+<tr class="odd">
+<td align="left"><code>pos_</code></td>
+<td align="left">A part of speech <code>vector</code></td>
+</tr>
+<tr class="even">
+<td align="left"><code>sw_</code></td>
+<td align="left">A stopword <code>vector</code></td>
+</tr>
+</tbody>
+</table>
 
 
 Table of Contents
