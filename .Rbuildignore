@@ -18,4 +18,4 @@ inst/maintenance.R
 inst/lexicon_logo
 inst/staticdocs
 inst/extra_statdoc
-
+inst/scraping_scripts

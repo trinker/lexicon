@@ -110,16 +110,24 @@ Data
 <td align="left"><p>Sentiment Lookup Key</p></td>
 </tr>
 <tr class="even">
+<td align="left"><p><code>key_sentiment_nrc</code></p></td>
+<td align="left"><p>NRC Sentiment Lookup Key</p></td>
+</tr>
+<tr class="odd">
 <td align="left"><p><code>key_strength</code></p></td>
 <td align="left"><p>Strength Lookup Key</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>key_syllable</code></p></td>
 <td align="left"><p>Syllable Counts</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>key_valence_shifters</code></p></td>
 <td align="left"><p>Valence Shifters</p></td>
+</tr>
+<tr class="even">
+<td align="left"><p><code>nrc_emotions</code></p></td>
+<td align="left"><p>NRC Emotions</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><code>pos_action_verb</code></p></td>
@@ -185,7 +193,5 @@ development version:
 Contact
 =======
 
-You are welcome to:   
-- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>   
-- send a pull request on: <https://github.com/trinker/lexicon/>  
-- compose a friendly e-mail to: <tyler.rinker@gmail.com>
+You are welcome to:   - submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>   - send a pull request on: <https://github.com/trinker/lexicon/>  
+ compose a friendly e-mail to: <tyler.rinker@gmail.com>

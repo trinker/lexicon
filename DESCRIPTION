@@ -4,10 +4,10 @@ Version: 0.0.1
 Authors@R: c(person("Tyler", "Rinker", email =
         "tyler.rinker@gmail.com", role = c("aut", "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
-Description: A collection of lexical hash tables, dictionaries, and word lists.
-Depends:
-    R (>= 3.2.2)
-Date: 2016-03-15
+Description: A collection of lexical hash tables, dictionaries, and
+        word lists.
+Depends: R (>= 3.2.2)
+Date: 2016-03-16
 License: GPL-2
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
