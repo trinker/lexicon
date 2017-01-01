@@ -18,6 +18,12 @@ Turney', P. D.'s (2010) positive/negative word list as sentiment lookup values.
   \item y. Sentiment values (+1, -1)
 }
 }
+\examples{
+\dontrun{
+library(data.table)
+key_sentiment_nrc[c('happy', 'angry')]
+}
+}
 \references{
 http://www.purl.com/net/lexicons  \cr \cr
 Mohammad, S. M. & Turney, P. D. (2010) Emotions evoked by common words and

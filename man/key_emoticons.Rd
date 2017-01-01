@@ -18,6 +18,12 @@ A \pkg{data.table} key containing common emoticons (adapted from
   \item y. The meaning of the emoticon
 }
 }
+\examples{
+\dontrun{
+library(data.table)
+key_emoticons[c(':-(', '0;)')]
+}
+}
 \references{
 \url{http://www.lingo2word.com/lists/emoticon_listH.html}
 }

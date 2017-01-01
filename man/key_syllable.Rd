@@ -17,6 +17,12 @@ A \pkg{data.table} hash table dataset containing words and syllable counts.
   \item syllables. The syllable counts per word.
 }
 }
+\examples{
+\dontrun{
+library(data.table)
+key_syllable[c('yield', 'hurtful', 'admonishing', 'abdicate')]
+}
+}
 \references{
 Counts scraped from \url{http://www.poetrysoup.com}
 }

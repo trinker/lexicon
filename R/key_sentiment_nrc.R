@@ -19,6 +19,11 @@
 #' phrases: Using Mechanical Turk to create an emotion lexicon, In Proceeding of
 #' Workshop on Computational Approaches to Analysis and Generation of Emotion in
 #' Text, 26-34.
+#' @examples
+#' \dontrun{
+#' library(data.table)
+#' key_sentiment_nrc[c('happy', 'angry')]
+#' }
 NULL
 
 

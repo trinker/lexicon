@@ -18,6 +18,12 @@ positive/negative word list as sentiment lookup values.
   \item y. Sentiment values (+1, -1)
 }
 }
+\examples{
+\dontrun{
+library(data.table)
+key_sentiment[c('happy', 'angry')]
+}
+}
 \references{
 Hu, M., & Liu, B. (2004). Mining opinion features in customer
 reviews. National Conference on Artificial Intelligence.

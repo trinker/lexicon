@@ -15,4 +15,9 @@
 #' @usage data(key_emoticons)
 #' @format A data frame with 75 rows and 2 variables
 #' @references \url{http://www.lingo2word.com/lists/emoticon_listH.html}
+#' @examples
+#' \dontrun{
+#' library(data.table)
+#' key_emoticons[c(':-(', '0;)')]
+#' }
 NULL

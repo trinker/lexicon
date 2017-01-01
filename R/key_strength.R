@@ -14,4 +14,9 @@
 #' @usage data(key_strength)
 #' @format A data frame with 2085 rows and 2 variables
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
+#' @examples
+#' \dontrun{
+#' library(data.table)
+#' key_strength[c('yield', 'admonish', 'abdicate')]
+#' }
 NULL

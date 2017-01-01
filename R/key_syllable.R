@@ -14,4 +14,9 @@
 #' @usage data(key_syllable)
 #' @format A data frame with 124603 rows and 2 variables
 #' @references Counts scraped from \url{http://www.poetrysoup.com}
+#' @examples
+#' \dontrun{
+#' library(data.table)
+#' key_syllable[c('yield', 'hurtful', 'admonishing', 'abdicate')]
+#' }
 NULL

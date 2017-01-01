@@ -7,8 +7,10 @@ Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and
         word lists.
 Depends: R (>= 3.2.2)
-Date: 2016-03-16
+Date: 2017-01-01
 License: GPL-2
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
 RoxygenNote: 5.0.1
+BugReports: https://github.com/trinker/lexicon/issues?state=open
+URL: https://github.com/trinker/lexicon

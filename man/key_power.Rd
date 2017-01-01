@@ -17,6 +17,12 @@ A \pkg{data.table} containing a power lookup key.
   \item y. A positive or negative value indicating the direction of power in relation to the subject
 }
 }
+\examples{
+\dontrun{
+library(data.table)
+key_power[c('yield', 'admonish', 'abdicate')]
+}
+}
 \references{
 \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
 }

@@ -36,5 +36,11 @@ pie"; the word "barely" deamplifies the word like.
 }
 }
 }
+\examples{
+\dontrun{
+library(data.table)
+key_valence_shifters[c('not', 'really')]
+}
+}
 \keyword{datasets}
 
