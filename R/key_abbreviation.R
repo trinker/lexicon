@@ -11,8 +11,8 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name hash_abbreviation
-#' @usage data(hash_abbreviation)
+#' @name key_abbreviation
+#' @usage data(key_abbreviation)
 #' @format A data frame with 138 rows and 2 variables
 #' @references \url{http://public.oed.com/how-to-use-the-oed/abbreviations}
 NULL

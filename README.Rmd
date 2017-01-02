@@ -24,8 +24,8 @@ verbadge <- sprintf('<a href="https://img.shields.io/badge/Version-%s-orange.svg
 
 Prefix        | Meaning
 ------------- | -------------
-`hash_`       | A `data.frame` with a lookup and return value
-`key_`        | A keyed `data.table` hash table
+`key_`       | A `data.frame` with a lookup and return value
+`hash_`        | A keyed `data.table` hash table
 `pos_`        | A part of speech `vector`
 `sw_`         | A stopword `vector`
 

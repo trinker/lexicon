@@ -29,12 +29,12 @@
 #' }
 #' @docType data
 #' @keywords datasets
-#' @name key_valence_shifters
-#' @usage data(key_valence_shifters)
+#' @name hash_valence_shifters
+#' @usage data(hash_valence_shifters)
 #' @format A data frame with 96 rows and 2 variables
 #' @examples
 #' \dontrun{
 #' library(data.table)
-#' key_valence_shifters[c('not', 'really')]
+#' hash_valence_shifters[c('not', 'really')]
 #' }
 NULL

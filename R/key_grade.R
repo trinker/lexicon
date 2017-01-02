@@ -10,7 +10,7 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name hash_grade
-#' @usage data(hash_grade)
+#' @name key_grade
+#' @usage data(key_grade)
 #' @format A data frame with 15 rows and 2 variables
 NULL

@@ -11,13 +11,13 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name key_emoticons
-#' @usage data(key_emoticons)
+#' @name hash_emoticons
+#' @usage data(hash_emoticons)
 #' @format A data frame with 75 rows and 2 variables
 #' @references \url{http://www.lingo2word.com/lists/emoticon_listH.html}
 #' @examples
 #' \dontrun{
 #' library(data.table)
-#' key_emoticons[c(':-(', '0;)')]
+#' hash_emoticons[c(':-(', '0;)')]
 #' }
 NULL

@@ -23,11 +23,11 @@ word lists. The data prefixes help to categorize the data types:
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left"><code>hash_</code></td>
+<td align="left"><code>key_</code></td>
 <td align="left">A <code>data.frame</code> with a lookup and return value</td>
 </tr>
 <tr class="even">
-<td align="left"><code>key_</code></td>
+<td align="left"><code>hash_</code></td>
 <td align="left">A keyed <code>data.table</code> hash table</td>
 </tr>
 <tr class="odd">
@@ -86,44 +86,44 @@ Data
 <td align="left"><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p></td>
 </tr>
 <tr class="even">
-<td align="left"><p><code>hash_abbreviation</code></p></td>
-<td align="left"><p>Common Abbreviations</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><code>hash_contractions</code></p></td>
-<td align="left"><p>Contraction Conversions</p></td>
-</tr>
-<tr class="even">
-<td align="left"><p><code>hash_grade</code></p></td>
-<td align="left"><p>Grades Hash</p></td>
-</tr>
-<tr class="odd">
-<td align="left"><p><code>key_emoticons</code></p></td>
+<td align="left"><p><code>hash_emoticons</code></p></td>
 <td align="left"><p>Emoticons</p></td>
 </tr>
-<tr class="even">
-<td align="left"><p><code>key_power</code></p></td>
+<tr class="odd">
+<td align="left"><p><code>hash_power</code></p></td>
 <td align="left"><p>Power Lookup Key</p></td>
 </tr>
-<tr class="odd">
-<td align="left"><p><code>key_sentiment</code></p></td>
+<tr class="even">
+<td align="left"><p><code>hash_sentiment</code></p></td>
 <td align="left"><p>Sentiment Lookup Key</p></td>
 </tr>
-<tr class="even">
-<td align="left"><p><code>key_sentiment_nrc</code></p></td>
+<tr class="odd">
+<td align="left"><p><code>hash_sentiment_nrc</code></p></td>
 <td align="left"><p>NRC Sentiment Lookup Key</p></td>
 </tr>
-<tr class="odd">
-<td align="left"><p><code>key_strength</code></p></td>
+<tr class="even">
+<td align="left"><p><code>hash_strength</code></p></td>
 <td align="left"><p>Strength Lookup Key</p></td>
 </tr>
-<tr class="even">
-<td align="left"><p><code>key_syllable</code></p></td>
+<tr class="odd">
+<td align="left"><p><code>hash_syllable</code></p></td>
 <td align="left"><p>Syllable Counts</p></td>
 </tr>
-<tr class="odd">
-<td align="left"><p><code>key_valence_shifters</code></p></td>
+<tr class="even">
+<td align="left"><p><code>hash_valence_shifters</code></p></td>
 <td align="left"><p>Valence Shifters</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><p><code>key_abbreviation</code></p></td>
+<td align="left"><p>Common Abbreviations</p></td>
+</tr>
+<tr class="even">
+<td align="left"><p><code>key_contractions</code></p></td>
+<td align="left"><p>Contraction Conversions</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><p><code>key_grade</code></p></td>
+<td align="left"><p>Grades Hash</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p><code>nrc_emotions</code></p></td>
@@ -193,7 +193,7 @@ development version:
 Contact
 =======
 
-You are welcome to:   
-- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>   
-- send a pull request on: <https://github.com/trinker/lexicon/>  
-- compose a friendly e-mail to: <tyler.rinker@gmail.com>
+You are welcome to:    
+- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>    
+- send a pull request on: <https://github.com/trinker/lexicon/>    
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>    

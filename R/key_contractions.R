@@ -10,7 +10,7 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name hash_contractions
-#' @usage data(hash_contractions)
+#' @name key_contractions
+#' @usage data(key_contractions)
 #' @format A data frame with 70 rows and 2 variables
 NULL

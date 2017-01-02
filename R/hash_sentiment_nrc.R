@@ -11,8 +11,8 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name key_sentiment_nrc
-#' @usage data(key_sentiment_nrc)
+#' @name hash_sentiment_nrc
+#' @usage data(hash_sentiment_nrc)
 #' @format A data frame with 5468 rows and 2 variables
 #' @references http://www.purl.com/net/lexicons  \cr \cr
 #' Mohammad, S. M. & Turney, P. D. (2010) Emotions evoked by common words and
@@ -22,7 +22,7 @@
 #' @examples
 #' \dontrun{
 #' library(data.table)
-#' key_sentiment_nrc[c('happy', 'angry')]
+#' hash_sentiment_nrc[c('happy', 'angry')]
 #' }
 NULL
 

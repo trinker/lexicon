@@ -1,6 +1,6 @@
 p_load(rvest, xml2, dplyr)
 
-hash_abbreviation <- 'http://public.oed.com/how-to-use-the-oed/abbreviations/' %>%
+key_abbreviation <- 'http://public.oed.com/how-to-use-the-oed/abbreviations/' %>%
     read_html() %>%
     html_nodes(xpath='//table') %>%
     lapply(html_table) %>%
@@ -23,7 +23,7 @@ hash_abbreviation <- 'http://public.oed.com/how-to-use-the-oed/abbreviations/' %
     filter(duplicated(abbreviation)) 
 
 
-hash_abbreviation %>%
+key_abbreviation %>%
     filter(abbreviation == 'p.m.')
 
 

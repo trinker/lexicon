@@ -10,7 +10,7 @@ data(grady_augmented)
 }
 \description{
 A dataset containing a vector of Grady Ward's English words augmented with
-\code{\link[lexicon]{key_syllable}}, Mark Kantrowitz's names list, other
+\code{\link[lexicon]{hash_syllable}}, Mark Kantrowitz's names list, other
 proper nouns, and contractions.
 }
 \details{

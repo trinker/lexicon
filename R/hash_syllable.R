@@ -10,13 +10,13 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name key_syllable
-#' @usage data(key_syllable)
+#' @name hash_syllable
+#' @usage data(hash_syllable)
 #' @format A data frame with 124603 rows and 2 variables
 #' @references Counts scraped from \url{http://www.poetrysoup.com}
 #' @examples
 #' \dontrun{
 #' library(data.table)
-#' key_syllable[c('yield', 'hurtful', 'admonishing', 'abdicate')]
+#' hash_syllable[c('yield', 'hurtful', 'admonishing', 'abdicate')]
 #' }
 NULL

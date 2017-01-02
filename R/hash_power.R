@@ -10,13 +10,13 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name key_power
-#' @usage data(key_power)
+#' @name hash_power
+#' @usage data(hash_power)
 #' @format A data frame with 872 rows and 2 variables
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
 #' @examples
 #' \dontrun{
 #' library(data.table)
-#' key_power[c('yield', 'admonish', 'abdicate')]
+#' hash_power[c('yield', 'admonish', 'abdicate')]
 #' }
 NULL

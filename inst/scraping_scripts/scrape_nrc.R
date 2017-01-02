@@ -24,7 +24,7 @@ nrc_long <- read.table(fl, sep ="\t", header=FALSE, skip = skip) %>%
 
 nrc <- spread(nrc_long, emotion, value) 
 
-key_sentiment_nrc <- nrc %>%
+hash_sentiment_nrc <- nrc %>%
     select(term, positive, negative) %>%
     mutate(sentiment = positive - negative) %>%
     filter(sentiment != 0) %>%
@@ -34,8 +34,8 @@ key_sentiment_nrc <- nrc %>%
 nrc_emotions <- nrc %>%
     select(-positive, -negative)
 
-pack.skel(key_sentiment_nrc, nrc_emotions)
+pack.skel(hash_sentiment_nrc, nrc_emotions)
 
 
-pax:::roxdat(key_sentiment_nrc, 'key_sentiment_nrc')
+pax:::roxdat(hash_sentiment_nrc, 'hash_sentiment_nrc')
 pax:::roxdat(nrc_emotions, 'nrc_emotions')
