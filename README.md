@@ -39,6 +39,10 @@ word lists. The data prefixes help to categorize the data types:
 <td align="left">A part of speech <code>vector</code></td>
 </tr>
 <tr class="odd">
+<td align="left"><code>pos_df_</code></td>
+<td align="left">A part of speech <code>data.frame</code></td>
+</tr>
+<tr class="even">
 <td align="left"><code>sw_</code></td>
 <td align="left">A stopword <code>vector</code></td>
 </tr>
@@ -154,38 +158,42 @@ Data
 <td align="left"><p>Adverb Word List</p></td>
 </tr>
 <tr class="even">
+<td align="left"><p><code>pos_df_pronouns</code></p></td>
+<td align="left"><p>Pronouns</p></td>
+</tr>
+<tr class="odd">
 <td align="left"><p><code>pos_interjections</code></p></td>
 <td align="left"><p>Interjections</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_preposition</code></p></td>
 <td align="left"><p>Preposition Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_buckley_salton</code></p></td>
 <td align="left"><p>Buckley &amp; Salton Stopword List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_dolch</code></p></td>
 <td align="left"><p>Leveled Dolch List of 220 Common Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_100</code></p></td>
 <td align="left"><p>Fry's 100 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_1000</code></p></td>
 <td align="left"><p>Fry's 1000 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_200</code></p></td>
 <td align="left"><p>Fry's 200 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_25</code></p></td>
 <td align="left"><p>Fry's 25 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_onix</code></p></td>
 <td align="left"><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
 </tr>

@@ -28,6 +28,7 @@ Prefix        | Meaning
 `hash_`       | A keyed `data.table` hash table
 `freq_`       | A `data.table` of terms with frequencies
 `pos_`        | A part of speech `vector`
+`pos_df_`     | A part of speech `data.frame`
 `sw_`         | A stopword `vector`
 
 
