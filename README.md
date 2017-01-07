@@ -31,10 +31,14 @@ word lists. The data prefixes help to categorize the data types:
 <td align="left">A keyed <code>data.table</code> hash table</td>
 </tr>
 <tr class="odd">
+<td align="left"><code>freq_</code></td>
+<td align="left">A <code>data.table</code> of terms with frequencies</td>
+</tr>
+<tr class="even">
 <td align="left"><code>pos_</code></td>
 <td align="left">A part of speech <code>vector</code></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><code>sw_</code></td>
 <td align="left">A stopword <code>vector</code></td>
 </tr>
@@ -78,6 +82,14 @@ Data
 <td align="left"><p>Language Assessment by Mechanical Turk Sentiment Words</p></td>
 </tr>
 <tr class="even">
+<td align="left"><p><code>freq_first_names</code></p></td>
+<td align="left"><p>Frequent U.S. First Names</p></td>
+</tr>
+<tr class="odd">
+<td align="left"><p><code>freq_last_names</code></p></td>
+<td align="left"><p>Frequent U.S. Last Names</p></td>
+</tr>
+<tr class="even">
 <td align="left"><p><code>function_words</code></p></td>
 <td align="left"><p>Function Words</p></td>
 </tr>
@@ -95,81 +107,85 @@ Data
 </tr>
 <tr class="even">
 <td align="left"><p><code>hash_sentiment</code></p></td>
-<td align="left"><p>Sentiment Lookup Key</p></td>
+<td align="left"><p>Polarity Lookup Key</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p><code>hash_sentiment_nrc</code></p></td>
 <td align="left"><p>NRC Sentiment Lookup Key</p></td>
 </tr>
 <tr class="even">
+<td align="left"><p><code>hash_sentiword</code></p></td>
+<td align="left"><p>Augmented Sentiword</p></td>
+</tr>
+<tr class="odd">
 <td align="left"><p><code>hash_strength</code></p></td>
 <td align="left"><p>Strength Lookup Key</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>hash_syllable</code></p></td>
 <td align="left"><p>Syllable Counts</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>hash_valence_shifters</code></p></td>
 <td align="left"><p>Valence Shifters</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>key_abbreviation</code></p></td>
 <td align="left"><p>Common Abbreviations</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>key_contractions</code></p></td>
 <td align="left"><p>Contraction Conversions</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>key_grade</code></p></td>
 <td align="left"><p>Grades Hash</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>nrc_emotions</code></p></td>
 <td align="left"><p>NRC Emotions</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_action_verb</code></p></td>
 <td align="left"><p>Action Word List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_adverb</code></p></td>
 <td align="left"><p>Adverb Word List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_interjections</code></p></td>
 <td align="left"><p>Interjections</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_preposition</code></p></td>
 <td align="left"><p>Preposition Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_buckley_salton</code></p></td>
 <td align="left"><p>Buckley &amp; Salton Stopword List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_dolch</code></p></td>
 <td align="left"><p>Leveled Dolch List of 220 Common Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_100</code></p></td>
 <td align="left"><p>Fry's 100 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_1000</code></p></td>
 <td align="left"><p>Fry's 1000 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_200</code></p></td>
 <td align="left"><p>Fry's 200 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_25</code></p></td>
 <td align="left"><p>Fry's 25 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_onix</code></p></td>
 <td align="left"><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
 </tr>
