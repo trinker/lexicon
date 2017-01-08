@@ -7,7 +7,7 @@
 #' @details
 #' \itemize{
 #'   \item pronoun. The pronoun.
-#'   \item type. The ponoun type; either "personal", "reflexive", or "possessive".
+#'   \item type. The pronoun type; either "personal", "reflexive", or "possessive".
 #'   \item singular. logical.  If \code{TRUE} the pronoun is singular, otherwise it's plural.
 #'   \item point_of_view. The point of view; either "first", "second", or "third".
 #' }

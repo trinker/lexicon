@@ -4,7 +4,7 @@
 #'
 #' @details
 #' \itemize{
-#'   \item word. A character coolumn of lower case words.
+#'   \item word. A character column of lower case words.
 #'   \item syllables. The syllable counts per word.
 #' }
 #'

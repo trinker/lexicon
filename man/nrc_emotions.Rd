@@ -17,7 +17,7 @@ emotions word list as a binary table.
   \item term. A term
   \item anger. Counts of anger anger
   \item anticipation. Counts of anticipation
-  \item disgust. Counts of dsgust
+  \item disgust. Counts of disgust
   \item fear. Counts of fear
   \item joy. Counts of joy
   \item sadness. Counts of sadness
