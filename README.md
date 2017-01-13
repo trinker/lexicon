@@ -1,16 +1,15 @@
-lexicon   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
-============
-
+-   [Data](#data)
+-   [Installation](#installation)
+-   [Contact](#contact)
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
 developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
+[![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
 <a href="https://img.shields.io/badge/Version-0.1.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.0-orange.svg" alt="Version"/></a>
 </p>
-[![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
-
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
 **lexicon** is a collection of lexical hash tables, dictionaries, and
@@ -51,17 +50,8 @@ word lists. The data prefixes help to categorize the data types:
 </tbody>
 </table>
 
-
-Table of Contents
-============
-
--   [Data](#data)
--   [Installation](#installation)
--   [Contact](#contact)
-
 Data
-============
-
+====
 
 <table style="width:88%;">
 <colgroup>
@@ -219,7 +209,8 @@ development version:
 Contact
 =======
 
-You are welcome to:    
-- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>    
-- send a pull request on: <https://github.com/trinker/lexicon/>    
-- compose a friendly e-mail to: <tyler.rinker@gmail.com>    
+You are welcome to:  
+- submit suggestions and bug-reports at:
+<https://github.com/trinker/lexicon/issues>  
+- send a pull request on: <https://github.com/trinker/lexicon/>  
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>
