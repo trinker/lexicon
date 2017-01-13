@@ -1,6 +1,6 @@
--   [Data](#data)
--   [Installation](#installation)
--   [Contact](#contact)
+lexicon   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
+============
+
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
@@ -50,8 +50,17 @@ word lists. The data prefixes help to categorize the data types:
 </tbody>
 </table>
 
+
+Table of Contents
+============
+
+-   [Data](#data)
+-   [Installation](#installation)
+-   [Contact](#contact)
+
 Data
-====
+============
+
 
 <table style="width:88%;">
 <colgroup>
@@ -209,8 +218,7 @@ development version:
 Contact
 =======
 
-You are welcome to:  
-- submit suggestions and bug-reports at:
-<https://github.com/trinker/lexicon/issues>  
-- send a pull request on: <https://github.com/trinker/lexicon/>  
-- compose a friendly e-mail to: <tyler.rinker@gmail.com>
+You are welcome to:    
+- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>    
+- send a pull request on: <https://github.com/trinker/lexicon/>    
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>    
