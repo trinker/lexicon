@@ -23,6 +23,9 @@ verbadge <- sprintf('<a href="https://img.shields.io/badge/Version-%s-orange.svg
 
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">  
 
+
+# Description
+
 **lexicon** is a collection of lexical hash tables, dictionaries, and word lists.  The data prefixes help to categorize the data types:
 
 Prefix        | Meaning

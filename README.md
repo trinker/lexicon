@@ -12,6 +12,19 @@ Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
+
+Table of Contents
+============
+
+-   [Description](#description)
+-   [Data](#data)
+-   [Installation](#installation)
+-   [Contact](#contact)
+
+Description
+============
+
+
 **lexicon** is a collection of lexical hash tables, dictionaries, and
 word lists. The data prefixes help to categorize the data types:
 
@@ -50,17 +63,8 @@ word lists. The data prefixes help to categorize the data types:
 </tbody>
 </table>
 
-
-Table of Contents
-============
-
--   [Data](#data)
--   [Installation](#installation)
--   [Contact](#contact)
-
 Data
-============
-
+====
 
 <table style="width:88%;">
 <colgroup>
