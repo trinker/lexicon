@@ -11,7 +11,7 @@ devtools::test()
 #==========================
 # knit README.md
 #==========================
-rmarkdown::render("README.Rmd", "all"); md_toc(insert.loc = "Data")
+rmarkdown::render("README.Rmd", "all"); md_toc(insert.loc = "Description")
 
 #==========================
 # UPDATE NEWS

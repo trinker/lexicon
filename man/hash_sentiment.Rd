@@ -4,7 +4,7 @@
 \name{hash_sentiment}
 \alias{hash_sentiment}
 \title{Polarity Lookup Key}
-\format{A data frame with 6872 rows and 2 variables}
+\format{A data frame with 6875 rows and 2 variables}
 \usage{
 data(hash_sentiment)
 }

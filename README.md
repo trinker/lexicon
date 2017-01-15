@@ -151,6 +151,14 @@ Data
 <td align="left"><p>Grades Hash</p></td>
 </tr>
 <tr class="odd">
+<td align="left"><p><code>key_grades</code></p></td>
+<td align="left"></td>
+</tr>
+<tr class="even">
+<td align="left"><p><code>key_ratings</code></p></td>
+<td align="left"></td>
+</tr>
+<tr class="odd">
 <td align="left"><p><code>nrc_emotions</code></p></td>
 <td align="left"><p>NRC Emotions</p></td>
 </tr>

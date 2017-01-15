@@ -24,6 +24,9 @@ BUG FIXES
 
 NEW FEATURES
 
+* The `ratings` and `grades` keys from *sentimentr* have been moved to the
+  *lexicon* package and renamed to `key_ratings` and `key_grades`.
+
 MINOR FEATURES
 
 IMPROVEMENTS
