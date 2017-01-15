@@ -10,8 +10,8 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name ratings
-#' @usage data(ratings)
+#' @name key_rating
+#' @usage data(key_rating)
 #' @format A data frame with 35 rows and 2 variables
 NULL
 

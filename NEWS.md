@@ -25,7 +25,7 @@ lexicon 0.1.0 -
 **NEW FEATURES**
 
 * The `ratings` and `grades` keys from *sentimentr* have been moved to the
-  *lexicon* package and renamed to `key_ratings` and `key_grades`.
+  *lexicon* package and renamed to `key_rating` and `key_grade`.
 
 **MINOR FEATURES**
 
