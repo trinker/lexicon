@@ -8,7 +8,7 @@ developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repos
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
 [![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
-<a href="https://img.shields.io/badge/Version-0.1.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.0-orange.svg" alt="Version"/></a>
+<a href="https://img.shields.io/badge/Version-0.1.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.1-orange.svg" alt="Version"/></a>
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
@@ -111,98 +111,102 @@ Data
 <td align="left"><p>Emoticons</p></td>
 </tr>
 <tr class="odd">
+<td align="left"><p><code>hash_grady_pos</code></p></td>
+<td align="left"><p>Grady Ward's Moby Parts of Speech</p></td>
+</tr>
+<tr class="even">
 <td align="left"><p><code>hash_power</code></p></td>
 <td align="left"><p>Power Lookup Key</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>hash_sentiment</code></p></td>
 <td align="left"><p>Polarity Lookup Key</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>hash_sentiment_nrc</code></p></td>
 <td align="left"><p>NRC Sentiment Lookup Key</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>hash_sentiword</code></p></td>
 <td align="left"><p>Augmented Sentiword</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>hash_strength</code></p></td>
 <td align="left"><p>Strength Lookup Key</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>hash_syllable</code></p></td>
 <td align="left"><p>Syllable Counts</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>hash_valence_shifters</code></p></td>
 <td align="left"><p>Valence Shifters</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>key_abbreviation</code></p></td>
 <td align="left"><p>Common Abbreviations</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>key_contractions</code></p></td>
 <td align="left"><p>Contraction Conversions</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>key_grade</code></p></td>
 <td align="left"><p>Grades Hash</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>key_rating</code></p></td>
 <td align="left"><p>Ratings Data Set</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>nrc_emotions</code></p></td>
 <td align="left"><p>NRC Emotions</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_action_verb</code></p></td>
 <td align="left"><p>Action Word List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_adverb</code></p></td>
 <td align="left"><p>Adverb Word List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_df_pronouns</code></p></td>
 <td align="left"><p>Pronouns</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>pos_interjections</code></p></td>
 <td align="left"><p>Interjections</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>pos_preposition</code></p></td>
 <td align="left"><p>Preposition Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_buckley_salton</code></p></td>
 <td align="left"><p>Buckley &amp; Salton Stopword List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_dolch</code></p></td>
 <td align="left"><p>Leveled Dolch List of 220 Common Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_100</code></p></td>
 <td align="left"><p>Fry's 100 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_1000</code></p></td>
 <td align="left"><p>Fry's 1000 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_fry_200</code></p></td>
 <td align="left"><p>Fry's 200 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td align="left"><p><code>sw_fry_25</code></p></td>
 <td align="left"><p>Fry's 25 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td align="left"><p><code>sw_onix</code></p></td>
 <td align="left"><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
 </tr>

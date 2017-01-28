@@ -17,23 +17,25 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.1.0 -
+lexicon 0.1.1 -
 ----------------------------------------------------------------
-
-**BUG FIXES**
 
 **NEW FEATURES**
 
-* The `ratings` and `grades` keys from *sentimentr* have been moved to the
-  *lexicon* package and renamed to `key_rating` and `key_grade`.
+* `hash_grady_pos` added to provide a lookup of Grady's parts of speech for words.
 
-**MINOR FEATURES**
+
+lexicon 0.1.0
+----------------------------------------------------------------
+
+**NEW FEATURES**
+
+* The `ratings` and `grades` keys from **sentimentr** have been moved to the
+  **lexicon** package and renamed to `key_rating` and `key_grade`.
 
 **IMPROVEMENTS**
 
 * Added the positve terms 'spot on', 'on time', & 'on point' to `hash_sentiment`.
-
-**CHANGES**
 
 
 lexicon 0.0.1
