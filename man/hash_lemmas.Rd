@@ -9,9 +9,9 @@
 data(hash_lemmas)
 }
 \description{
-A dataset based on M\u{e}chura's (2016) English lemmatization list.  This
+A dataset based on Mechura's (2016) English lemmatization list.  This
 data set can be useful for join style lemma replacement of inflected token
-forms to their root lemmas.  While this is not a true morphalogical analysis
+forms to their root lemmas.  While this is not a true morphological analysis
 this style of lemma replacement is fast and typically still robust.
 }
 \details{
@@ -21,7 +21,7 @@ this style of lemma replacement is fast and typically still robust.
 }
 }
 \references{
-M\u{e}chura, M. B. (2016). \emph{Lemmatization list: English (en)} [Data file]. Retrieved from \url{http://www.lexiconista.com}
+Mechura, M. B. (2016). \emph{Lemmatization list: English (en)} [Data file]. Retrieved from \url{http://www.lexiconista.com}
 }
 \keyword{datasets}
 
