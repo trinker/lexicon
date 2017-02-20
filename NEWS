@@ -17,7 +17,7 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.1.1 -
+lexicon 0.1.1
 ----------------------------------------------------------------
 
 NEW FEATURES
@@ -25,6 +25,7 @@ NEW FEATURES
 * `hash_grady_pos` added to provide a lookup of Grady's parts of speech for words.
 
 * `hash_lemmas` added to provide a lookup of Mechura's lemmatization list.
+
 
 lexicon 0.1.0
 ----------------------------------------------------------------
