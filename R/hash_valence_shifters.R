@@ -2,7 +2,7 @@
 #'
 #' A \pkg{data.table} dataset containing a vector of valence shifter words that
 #' can alter a polarized word's meaning and a numeric key for negators (1),
-#' amplifiers(2), de-amplifiers (3) and ``but'' conjunction (4).
+#' amplifiers(2), de-amplifiers (3) and adversative conjunctions (4).
 #'
 #' @details
 #' Valence shifters are words that alter or intensify the meaning of the polarized
@@ -14,8 +14,8 @@
 #' sentiment of the negator altered sentence, "I seriously do not like pie.", is
 #' heightened with addition of the amplifier seriously.  Whereas de-amplifiers
 #' decrease the intensity of a polarized word as in the sentence "I barely like
-#' pie"; the word "barely" deamplifies the word like.  ``but'' conjunction trump
-#' the previous clause (e.g., ``He's a nice guy but not too smart.'').
+#' pie"; the word "barely" deamplifies the word like.  Adversative conjunction
+#' trump the previous clause (e.g., ``He's a nice guy but not too smart.'').
 #'
 #' @details
 #' \itemize{
@@ -26,7 +26,7 @@
 #'   Negator     \tab 1 \cr
 #'   Amplifier  \tab 2 \cr
 #'  De-amplifier  \tab 3 \cr
-#'  `but' contraction \tab 4 \cr
+#'  Adversative Contraction \tab 4 \cr
 #' }
 #' }
 #'
