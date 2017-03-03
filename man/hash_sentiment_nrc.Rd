@@ -3,7 +3,7 @@
 \docType{data}
 \name{hash_sentiment_nrc}
 \alias{hash_sentiment_nrc}
-\title{NRC Sentiment Lookup Key}
+\title{NRC Sentiment Polarity Key}
 \format{A data frame with 5468 rows and 2 variables}
 \usage{
 data(hash_sentiment_nrc)

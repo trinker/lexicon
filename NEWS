@@ -22,7 +22,10 @@ lexicon 0.2.0 -
 
 NEW FEATURES
 
+CHANGES
 
+* `hash_sentiment` and `hash_sentiword` renamed to `hash_sentiment_hulu` and
+  `hash_sentiment_sentiword` for consistency.
 
 
 lexicon 0.1.1

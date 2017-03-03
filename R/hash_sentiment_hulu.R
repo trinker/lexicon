@@ -1,4 +1,4 @@
-#' Polarity Lookup Key
+#' Hu Lu Polarity Lookup Table
 #'
 #' A \pkg{data.table} dataset containing an augmented version of Hu & Liu's (2004)
 #' positive/negative word list as sentiment lookup values.
@@ -14,11 +14,13 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name hash_sentiment
-#' @usage data(hash_sentiment)
+#' @name hash_sentiment_sentiment
+#' @usage data(hash_sentiment_hulu)
 #' @format A data frame with 6875 rows and 2 variables
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer
 #' reviews. National Conference on Artificial Intelligence.
 #'
 #' \file{https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html}
 NULL
+
+

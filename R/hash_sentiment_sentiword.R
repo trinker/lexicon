@@ -1,4 +1,4 @@
-#' Augmented Sentiword
+#' Augmented Sentiword Polarity Table
 #'
 #' A \pkg{data.table} dataset containing an augmented version of Baccianella,
 #' Esuli and Sebastiani's (2010) positive/negative word list as sentiment lookup
@@ -16,8 +16,8 @@
 #'
 #' @docType data
 #' @keywords datasets
-#' @name hash_sentiword
-#' @usage data(hash_sentiword)
+#' @name hash_sentiment_sentiword
+#' @usage data(hash_sentiment_sentiword)
 #' @format A data frame with 20,100 rows and 2 variables
 #' @references Baccianella S., Esuli, A. and Sebastiani, F. (2010). SentiWordNet
 #' 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining.
@@ -25,3 +25,4 @@
 #'
 #' \url{http://sentiwordnet.isti.cnr.it/}
 NULL
+

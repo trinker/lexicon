@@ -1,4 +1,4 @@
-#' NRC Sentiment Lookup Key
+#' NRC Sentiment Polarity Table
 #'
 #' A \pkg{data.table} dataset containing a filtered version of Mohammad &
 #' Turney', P. D.'s (2010) positive/negative word list as sentiment lookup values.
