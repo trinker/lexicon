@@ -3,7 +3,7 @@
 \docType{data}
 \name{hash_sentiment_sentiword}
 \alias{hash_sentiment_sentiword}
-\title{Augmented Sentiword Polarity Key}
+\title{Augmented Sentiword Polarity Table}
 \format{A data frame with 20,100 rows and 2 variables}
 \usage{
 data(hash_sentiment_sentiword)

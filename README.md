@@ -8,7 +8,7 @@ developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repos
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
 [![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
-<a href="https://img.shields.io/badge/Version-0.1.1-orange.svg"><img src="https://img.shields.io/badge/Version-0.1.1-orange.svg" alt="Version"/></a>
+<a href="https://img.shields.io/badge/Version-0.2.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.2.0-orange.svg" alt="Version"/></a>
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
@@ -123,16 +123,16 @@ Data
 <td><p>Power Lookup Key</p></td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiment</code></p></td>
-<td><p>Polarity Lookup Key</p></td>
+<td><p><code>hash_sentiment_hulu</code></p></td>
+<td><p>Hu Lu Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>hash_sentiment_nrc</code></p></td>
-<td><p>NRC Sentiment Lookup Key</p></td>
+<td><p>NRC Sentiment Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiword</code></p></td>
-<td><p>Augmented Sentiword</p></td>
+<td><p><code>hash_sentiment_sentiword</code></p></td>
+<td><p>Augmented Sentiword Polarity Table</p></td>
 </tr>
 <tr class="odd">
 <td><p><code>hash_strength</code></p></td>
