@@ -25,4 +25,3 @@ single word, increasing both speed and accuracy."
 \url{http://icon.shef.ac.uk/Moby/mpos.html}
 }
 \keyword{datasets}
-

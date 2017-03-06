@@ -22,4 +22,3 @@ A dataset containing frequent last names based on the 1990 U.S. census.
 http://names.mongabay.com
 }
 \keyword{datasets}
-

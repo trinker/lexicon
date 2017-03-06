@@ -1,3 +1,6 @@
+hash_valence_shifters2 <- lexicon::hash_valence_shifters
+devtools::use_data(hash_valence_shifters2, internal = TRUE, overwrite = TRUE)
+
 root <- Sys.getenv("USERPROFILE")
 repo <- pack <- basename(getwd())
 

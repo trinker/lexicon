@@ -23,4 +23,3 @@ Dolch, E. W. (1936). A basic sight vocabulary. Elementary School
 Journal, 36, 456-460.
 }
 \keyword{datasets}
-

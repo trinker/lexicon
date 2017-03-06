@@ -15,4 +15,3 @@ A dataset containing 1990 U.S. census data on first names.
 \url{http://www.census.gov}
 }
 \keyword{datasets}
-

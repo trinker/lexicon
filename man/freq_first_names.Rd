@@ -23,4 +23,3 @@ A dataset containing frequent first names based on the 1990 U.S. census.
 http://names.mongabay.com
 }
 \keyword{datasets}
-

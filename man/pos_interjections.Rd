@@ -15,4 +15,3 @@ A dataset containing a character vector of common interjections.
 \url{http://www.vidarholen.net/contents/interjections/}
 }
 \keyword{datasets}
-

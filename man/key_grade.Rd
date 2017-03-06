@@ -3,6 +3,7 @@
 \docType{data}
 \name{key_grade}
 \alias{key_grade}
+\alias{key_grade}
 \title{Grades Hash}
 \format{A data frame with 15 rows and 2 variables}
 \usage{
@@ -27,4 +28,3 @@ A dataset containing common grades.
 }
 }
 \keyword{datasets}
-
