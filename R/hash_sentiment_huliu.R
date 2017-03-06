@@ -1,4 +1,4 @@
-#' Hu Lu Polarity Lookup Table
+#' Hu Liu Polarity Lookup Table
 #'
 #' A \pkg{data.table} dataset containing an augmented version of Hu & Liu's (2004)
 #' positive/negative word list as sentiment lookup values.

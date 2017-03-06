@@ -1,5 +1,5 @@
-hash_valence_shifters2 <- lexicon::hash_valence_shifters
-devtools::use_data(hash_valence_shifters2, internal = TRUE, overwrite = TRUE)
+# hash_valence_shifters2 <- lexicon::hash_valence_shifters
+# devtools::use_data(hash_valence_shifters2, internal = TRUE, overwrite = TRUE)
 
 root <- Sys.getenv("USERPROFILE")
 repo <- pack <- basename(getwd())
@@ -31,6 +31,6 @@ path <- find.package(pack)
 system(paste(shQuote(file.path(R.home("bin"), "R")), 
     "CMD", "Rd2pdf", shQuote(path)))
 
-qman(repo, dir=loc)
+# qman(repo, dir=loc)
 setwd(curd)
 message("Done!")

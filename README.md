@@ -1,6 +1,7 @@
-lexicon   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
-============
-
+-   [Description](#description)
+-   [Data](#data)
+-   [Installation](#installation)
+-   [Contact](#contact)
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
@@ -12,18 +13,8 @@ Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
-
-Table of Contents
-============
-
--   [Description](#description)
--   [Data](#data)
--   [Installation](#installation)
--   [Contact](#contact)
-
 Description
-============
-
+===========
 
 **lexicon** is a collection of lexical hash tables, dictionaries, and
 word lists. The data prefixes help to categorize the data types:
@@ -65,6 +56,10 @@ word lists. The data prefixes help to categorize the data types:
 
 Data
 ====
+
+    ##                     Data                      Description
+    ## 1 hash_sentiment_jockers Jockers Sentiment Polarity Table
+    ## 2  key_sentiment_jockers       Jockers Sentiment Data Set
 
 <table style="width:88%;">
 <colgroup>
@@ -123,7 +118,7 @@ Data
 <td><p>Power Lookup Key</p></td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiment_hulu</code></p></td>
+<td><p><code>hash_sentiment_huliu</code></p></td>
 <td><p>Hu Lu Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
@@ -234,7 +229,8 @@ development version:
 Contact
 =======
 
-You are welcome to:    
-- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>    
-- send a pull request on: <https://github.com/trinker/lexicon/>    
-- compose a friendly e-mail to: <tyler.rinker@gmail.com>    
+You are welcome to:  
+- submit suggestions and bug-reports at:
+<https://github.com/trinker/lexicon/issues>  
+- send a pull request on: <https://github.com/trinker/lexicon/>  
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>
