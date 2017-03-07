@@ -1,7 +1,6 @@
--   [Description](#description)
--   [Data](#data)
--   [Installation](#installation)
--   [Contact](#contact)
+lexicon   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
+============
+
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
@@ -13,8 +12,18 @@ Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis
 </p>
 <img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
 
+
+Table of Contents
+============
+
+-   [Description](#description)
+-   [Data](#data)
+-   [Installation](#installation)
+-   [Contact](#contact)
+
 Description
-===========
+============
+
 
 **lexicon** is a collection of lexical hash tables, dictionaries, and
 word lists. The data prefixes help to categorize the data types:
@@ -56,10 +65,6 @@ word lists. The data prefixes help to categorize the data types:
 
 Data
 ====
-
-    ##                     Data                      Description
-    ## 1 hash_sentiment_jockers Jockers Sentiment Polarity Table
-    ## 2  key_sentiment_jockers       Jockers Sentiment Data Set
 
 <table style="width:88%;">
 <colgroup>
@@ -119,43 +124,51 @@ Data
 </tr>
 <tr class="even">
 <td><p><code>hash_sentiment_huliu</code></p></td>
-<td><p>Hu Lu Polarity Lookup Table</p></td>
+<td><p>Hu Liu Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
+<td><p><code>hash_sentiment_jockers</code></p></td>
+<td><p>Jockers Sentiment Polarity Table</p></td>
+</tr>
+<tr class="even">
 <td><p><code>hash_sentiment_nrc</code></p></td>
 <td><p>NRC Sentiment Polarity Table</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>hash_sentiment_sentiword</code></p></td>
 <td><p>Augmented Sentiword Polarity Table</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>hash_strength</code></p></td>
 <td><p>Strength Lookup Key</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>hash_syllable</code></p></td>
 <td><p>Syllable Counts</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>hash_valence_shifters</code></p></td>
 <td><p>Valence Shifters</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>key_abbreviation</code></p></td>
 <td><p>Common Abbreviations</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>key_contractions</code></p></td>
 <td><p>Contraction Conversions</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p><code>key_grade</code></p></td>
 <td><p>Grades Hash</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p><code>key_rating</code></p></td>
 <td><p>Ratings Data Set</p></td>
+</tr>
+<tr class="odd">
+<td><p><code>key_sentiment_jockers</code></p></td>
+<td><p>Jockers Sentiment Data Set</p></td>
 </tr>
 <tr class="even">
 <td><p><code>nrc_emotions</code></p></td>
@@ -229,8 +242,7 @@ development version:
 Contact
 =======
 
-You are welcome to:  
-- submit suggestions and bug-reports at:
-<https://github.com/trinker/lexicon/issues>  
-- send a pull request on: <https://github.com/trinker/lexicon/>  
-- compose a friendly e-mail to: <tyler.rinker@gmail.com>
+You are welcome to:    
+- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>    
+- send a pull request on: <https://github.com/trinker/lexicon/>    
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>    
