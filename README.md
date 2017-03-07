@@ -66,14 +66,6 @@ word lists. The data prefixes help to categorize the data types:
 Data
 ====
 
-    ## package 'pander' successfully unpacked and MD5 sums checked
-    ## 
-    ## The downloaded binary packages are in
-    ##  C:\Users\Tyler\AppData\Local\Temp\RtmpGkFCdW\downloaded_packages
-
-    ## 
-    ## pander installed
-
 <table style="width:88%;">
 <colgroup>
 <col width="41%" />
