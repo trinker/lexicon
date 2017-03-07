@@ -17,14 +17,18 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.2.0 -
+lexicon 0.2.0
 ----------------------------------------------------------------
 
 **NEW FEATURES**
 
+* `hash_sentiment_jockers` and `key_sentiment_jockers` added as objects though
+  they are not data objects but for all purposes act the same.  These data sets
+  come from **syuzhet**'s custom dictionary built by Jockers.
+
 **CHANGES**
 
-* `hash_sentiment` and `hash_sentiword` renamed to `hash_sentiment_hulu` and
+* `hash_sentiment` and `hash_sentiword` renamed to `hash_sentiment_huliu` and
   `hash_sentiment_sentiword` for consistency.
 
 
@@ -36,6 +40,10 @@ lexicon 0.1.1
 * `hash_grady_pos` added to provide a lookup of Grady's parts of speech for words.
 
 * `hash_lemmas` added to provide a lookup of Mechura's lemmatization list.
+
+* `hash_sentiment_jockers` and `key_sentiment_jockers` added as objects though
+  they are not data objects but for all purposes act the same.  These data sets
+  come from **syuzhet**'s custom dictionary built by Jockers.
 
 
 lexicon 0.1.0

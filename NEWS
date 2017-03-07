@@ -17,10 +17,14 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.2.0 -
+lexicon 0.2.0
 ----------------------------------------------------------------
 
 NEW FEATURES
+
+* `hash_sentiment_jockers` and `key_sentiment_jockers` added as objects though
+  they are not data objects but for all purposes act the same.  These data sets
+  come from **syuzhet**'s custom dictionary built by Jockers.
 
 CHANGES
 
