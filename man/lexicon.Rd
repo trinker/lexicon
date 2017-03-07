@@ -3,9 +3,10 @@
 \docType{package}
 \name{lexicon}
 \alias{lexicon}
-\alias{package-lexicon}
 \alias{lexicon-package}
+\alias{package-lexicon}
 \title{Lexicons for Text Analysis}
 \description{
 A collection of lexical hash tables, dictionaries, and word lists.
 }
+

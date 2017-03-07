@@ -27,3 +27,4 @@ hash_strength[c('yield', 'admonish', 'abdicate')]
 \url{http://www.wjh.harvard.edu/~inquirer/inqdict.txt}
 }
 \keyword{datasets}
+

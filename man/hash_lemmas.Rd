@@ -24,3 +24,4 @@ this style of lemma replacement is fast and typically still robust.
 Mechura, M. B. (2016). \emph{Lemmatization list: English (en)} [Data file]. Retrieved from \url{http://www.lexiconista.com}
 }
 \keyword{datasets}
+

@@ -12,6 +12,7 @@ data(common_names)
 A dataset containing 1990 U.S. census data on first names.
 }
 \references{
-\url{http://www.census.gov}
+http://www.census.gov
 }
 \keyword{datasets}
+

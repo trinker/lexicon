@@ -18,3 +18,4 @@ contractions from \code{\link[lexicon]{key_contractions}}.
 \url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
 }
 \keyword{datasets}
+
