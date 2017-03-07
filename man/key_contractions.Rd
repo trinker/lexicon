@@ -18,4 +18,3 @@ A dataset containing common contractions and their expanded form.
 }
 }
 \keyword{datasets}
-

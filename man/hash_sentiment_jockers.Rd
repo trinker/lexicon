@@ -23,4 +23,3 @@ Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 from Text. Retrieved from https://github.com/mjockers/syuzhet
 }
 \keyword{datasets}
-

@@ -27,4 +27,3 @@ hash_syllable[c('yield', 'hurtful', 'admonishing', 'abdicate')]
 Counts scraped from \url{http://www.poetrysoup.com}
 }
 \keyword{datasets}
-

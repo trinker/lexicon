@@ -17,6 +17,14 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+lexicon 0.3.0
+----------------------------------------------------------------
+
+**NEW FEATURES**
+
+**CHANGES**
+
+
 lexicon 0.2.0
 ----------------------------------------------------------------
 

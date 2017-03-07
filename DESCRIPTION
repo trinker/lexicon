@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(person("Tyler", "Rinker", email =
         "tyler.rinker@gmail.com", role = c("aut", "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
@@ -15,7 +15,7 @@ Date: 2017-03-06
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 BugReports: https://github.com/trinker/lexicon/issues?state=open
 URL: https://github.com/trinker/lexicon
 Collate:

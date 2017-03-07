@@ -12,4 +12,3 @@ data(pos_preposition)
 A dataset containing a vector of common prepositions.
 }
 \keyword{datasets}
-

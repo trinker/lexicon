@@ -28,4 +28,3 @@ hash_emoticons[c(':-(', '0;)')]
 \url{http://www.lingo2word.com/lists/emoticon_listH.html}
 }
 \keyword{datasets}
-

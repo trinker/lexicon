@@ -22,4 +22,3 @@ and months) and contractions. That dataset is augmented for spell checking purpo
 Moby Thesaurus List by Grady Ward (http://www.gutenberg.org)
 }
 \keyword{datasets}
-
