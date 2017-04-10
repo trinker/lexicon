@@ -4,7 +4,7 @@
 \name{function_words}
 \alias{function_words}
 \title{Function Words}
-\format{A character vector with 352 elements}
+\format{A character vector with 350 elements}
 \usage{
 data(function_words)
 }

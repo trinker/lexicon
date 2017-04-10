@@ -17,6 +17,15 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+lexicon 0.4.0 -
+----------------------------------------------------------------
+
+**BUG FIXES**
+
+* `function_words` contained duplicates that hve been been removed.
+
+
+
 lexicon 0.3.0 - 0.3.1
 ----------------------------------------------------------------
 
