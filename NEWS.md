@@ -17,7 +17,7 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.3.0
+lexicon 0.3.0 - 0.3.1
 ----------------------------------------------------------------
 
 **BUG FIXES**

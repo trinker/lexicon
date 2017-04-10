@@ -12,13 +12,15 @@
 #' @keywords datasets
 #' @name hash_sentiment_jockers
 #' @include utils.R
-#' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs 
+#' @importFrom syuzhet get_sentiment_dictionary
+#' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 #' from Text. Retrieved from https://github.com/mjockers/syuzhet
 #' @export
 hash_sentiment_jockers <- as_key(syuzhet::get_sentiment_dictionary(dictionary = "syuzhet"))
 hash_sentiment_jockers <- hash_sentiment_jockers [!is.na(hash_sentiment_jockers[[1]]),]
 hash_sentiment_jockers <- hash_sentiment_jockers [!is.na(hash_sentiment_jockers[[2]]),]
 data.table::setkey(hash_sentiment_jockers, "x")
+hash_sentiment_jockers
 
 #' Jockers Sentiment Key
 #'
@@ -33,7 +35,8 @@ data.table::setkey(hash_sentiment_jockers, "x")
 #'
 #' @keywords datasets
 #' @name key_sentiment_jockers
-#' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs 
+#' @importFrom syuzhet get_sentiment_dictionary
+#' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 #' from Text. Retrieved from https://github.com/mjockers/syuzhet
 #' @export
 key_sentiment_jockers <- syuzhet::get_sentiment_dictionary(dictionary = "syuzhet")

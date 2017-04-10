@@ -3,3 +3,4 @@
 export(available_data)
 export(hash_sentiment_jockers)
 export(key_sentiment_jockers)
+importFrom(syuzhet,get_sentiment_dictionary)
