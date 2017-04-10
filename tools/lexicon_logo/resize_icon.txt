@@ -1,0 +1,2 @@
+cd C:\Users\Tyler\GitHub\lexicon\tools\lexicon_logo
+ffmpeg -i r_lexicona.png -vf scale=200:-1 r_lexicon.png

@@ -63,3 +63,5 @@ freq_last_names <- lapply(c("", 1, 2, 5, 8, 16), function(i){
     ) %>%
     data.table::as.data.table()
 
+pax::new_data(freq_first_names)
+pax::new_data(freq_last_names)

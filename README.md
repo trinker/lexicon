@@ -10,7 +10,8 @@ Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis
 [![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
 <a href="https://img.shields.io/badge/Version-0.3.0-orange.svg"><img src="https://img.shields.io/badge/Version-0.3.0-orange.svg" alt="Version"/></a>
 </p>
-<img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">
+
+![](tools/lexicon_logo/r_lexicon.png)
 
 
 Table of Contents
@@ -66,9 +67,9 @@ word lists. The data prefixes help to categorize the data types:
 Data
 ====
 
-<table style="width:88%;">
+<table style="width:85%;">
 <colgroup>
-<col width="41%" />
+<col width="38%" />
 <col width="45%" />
 </colgroup>
 <thead>
@@ -79,148 +80,220 @@ Data
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><code>common_names</code></p></td>
-<td><p>First Names (U.S.)</p></td>
+<td><p>common_names</p>
+</td>
+<td><p>First Names (U.S.)</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>discourse_markers_alemany</code></p></td>
-<td><p>Alemany's Discourse Markers</p></td>
+<td><p>discourse_markers_alemany</p>
+</td>
+<td><p>Alemany's Discourse Markers</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>dodds_sentiment</code></p></td>
-<td><p>Language Assessment by Mechanical Turk Sentiment Words</p></td>
+<td><p>dodds_sentiment</p>
+</td>
+<td><p>Language Assessment by Mechanical Turk Sentiment Words</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>freq_first_names</code></p></td>
-<td><p>Frequent U.S. First Names</p></td>
+<td><p>freq_first_names</p>
+</td>
+<td><p>Frequent U.S. First Names</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>freq_last_names</code></p></td>
-<td><p>Frequent U.S. Last Names</p></td>
+<td><p>freq_last_names</p>
+</td>
+<td><p>Frequent U.S. Last Names</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>function_words</code></p></td>
-<td><p>Function Words</p></td>
+<td><p>function_words</p>
+</td>
+<td><p>Function Words</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>grady_augmented</code></p></td>
-<td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p></td>
+<td><p>grady_augmented</p>
+</td>
+<td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>hash_emoticons</code></p></td>
-<td><p>Emoticons</p></td>
+<td><p>hash_emoticons</p>
+</td>
+<td><p>Emoticons</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>hash_grady_pos</code></p></td>
-<td><p>Grady Ward's Moby Parts of Speech</p></td>
+<td><p>hash_grady_pos</p>
+</td>
+<td><p>Grady Ward's Moby Parts of Speech</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>hash_lemmas</code></p></td>
-<td><p>Lemmatization List</p></td>
+<td><p>hash_lemmas</p>
+</td>
+<td><p>Lemmatization List</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>hash_power</code></p></td>
-<td><p>Power Lookup Key</p></td>
+<td><p>hash_power</p>
+</td>
+<td><p>Power Lookup Key</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiment_huliu</code></p></td>
-<td><p>Hu Liu Polarity Lookup Table</p></td>
+<td><p>hash_sentiment_huliu</p>
+</td>
+<td><p>Hu Liu Polarity Lookup Table</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>hash_sentiment_jockers</code></p></td>
-<td><p>Jockers Sentiment Polarity Table</p></td>
+<td><p>hash_sentiment_jockers</p>
+</td>
+<td><p>Jockers Sentiment Polarity Table</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>hash_sentiment_nrc</code></p></td>
-<td><p>NRC Sentiment Polarity Table</p></td>
+<td><p>hash_sentiment_nrc</p>
+</td>
+<td><p>NRC Sentiment Polarity Table</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>hash_sentiment_sentiword</code></p></td>
-<td><p>Augmented Sentiword Polarity Table</p></td>
+<td><p>hash_sentiment_sentiword</p>
+</td>
+<td><p>Augmented Sentiword Polarity Table</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>hash_strength</code></p></td>
-<td><p>Strength Lookup Key</p></td>
+<td><p>hash_strength</p>
+</td>
+<td><p>Strength Lookup Key</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>hash_syllable</code></p></td>
-<td><p>Syllable Counts</p></td>
+<td><p>hash_syllable</p>
+</td>
+<td><p>Syllable Counts</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>hash_valence_shifters</code></p></td>
-<td><p>Valence Shifters</p></td>
+<td><p>hash_valence_shifters</p>
+</td>
+<td><p>Valence Shifters</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>key_abbreviation</code></p></td>
-<td><p>Common Abbreviations</p></td>
+<td><p>key_abbreviation</p>
+</td>
+<td><p>Common Abbreviations</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>key_contractions</code></p></td>
-<td><p>Contraction Conversions</p></td>
+<td><p>key_contractions</p>
+</td>
+<td><p>Contraction Conversions</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>key_grade</code></p></td>
-<td><p>Grades Hash</p></td>
+<td><p>key_grade</p>
+</td>
+<td><p>Grades Hash</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>key_rating</code></p></td>
-<td><p>Ratings Data Set</p></td>
+<td><p>key_rating</p>
+</td>
+<td><p>Ratings Data Set</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>key_sentiment_jockers</code></p></td>
-<td><p>Jockers Sentiment Data Set</p></td>
+<td><p>key_sentiment_jockers</p>
+</td>
+<td><p>Jockers Sentiment Data Set</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>nrc_emotions</code></p></td>
-<td><p>NRC Emotions</p></td>
+<td><p>nrc_emotions</p>
+</td>
+<td><p>NRC Emotions</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>pos_action_verb</code></p></td>
-<td><p>Action Word List</p></td>
+<td><p>pos_action_verb</p>
+</td>
+<td><p>Action Word List</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>pos_adverb</code></p></td>
-<td><p>Adverb Word List</p></td>
+<td><p>pos_adverb</p>
+</td>
+<td><p>Adverb Word List</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>pos_df_pronouns</code></p></td>
-<td><p>Pronouns</p></td>
+<td><p>pos_df_pronouns</p>
+</td>
+<td><p>Pronouns</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>pos_interjections</code></p></td>
-<td><p>Interjections</p></td>
+<td><p>pos_interjections</p>
+</td>
+<td><p>Interjections</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>pos_preposition</code></p></td>
-<td><p>Preposition Words</p></td>
+<td><p>pos_preposition</p>
+</td>
+<td><p>Preposition Words</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>sw_buckley_salton</code></p></td>
-<td><p>Buckley &amp; Salton Stopword List</p></td>
+<td><p>sw_buckley_salton</p>
+</td>
+<td><p>Buckley &amp; Salton Stopword List</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>sw_dolch</code></p></td>
-<td><p>Leveled Dolch List of 220 Common Words</p></td>
+<td><p>sw_dolch</p>
+</td>
+<td><p>Leveled Dolch List of 220 Common Words</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>sw_fry_100</code></p></td>
-<td><p>Fry's 100 Most Commonly Used English Words</p></td>
+<td><p>sw_fry_100</p>
+</td>
+<td><p>Fry's 100 Most Commonly Used English Words</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>sw_fry_1000</code></p></td>
-<td><p>Fry's 1000 Most Commonly Used English Words</p></td>
+<td><p>sw_fry_1000</p>
+</td>
+<td><p>Fry's 1000 Most Commonly Used English Words</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>sw_fry_200</code></p></td>
-<td><p>Fry's 200 Most Commonly Used English Words</p></td>
+<td><p>sw_fry_200</p>
+</td>
+<td><p>Fry's 200 Most Commonly Used English Words</p>
+</td>
 </tr>
 <tr class="odd">
-<td><p><code>sw_fry_25</code></p></td>
-<td><p>Fry's 25 Most Commonly Used English Words</p></td>
+<td><p>sw_fry_25</p>
+</td>
+<td><p>Fry's 25 Most Commonly Used English Words</p>
+</td>
 </tr>
 <tr class="even">
-<td><p><code>sw_onix</code></p></td>
-<td><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
+<td><p>sw_onix</p>
+</td>
+<td><p>Onix Text Retrieval Toolkit Stopword List 1</p>
+</td>
 </tr>
 </tbody>
 </table>

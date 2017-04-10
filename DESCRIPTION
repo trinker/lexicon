@@ -5,20 +5,18 @@ Authors@R: c(person("Tyler", "Rinker", email =
         "tyler.rinker@gmail.com", role = c("aut", "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and
-    word lists.
-Depends:
-    R (>= 3.2.2)
-Imports:
-    data.table,
-    syuzhet (>= 1.0.1)
-Date: 2017-03-06
+        word lists.
+Depends: R (>= 3.2.2)
+Imports: data.table, syuzhet (>= 1.0.1)
+Date: 2017-04-09
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
 RoxygenNote: 6.0.1
 BugReports: https://github.com/trinker/lexicon/issues?state=open
 URL: https://github.com/trinker/lexicon
-Collate:
+Collate: 
+    'available_data.R'
     'common_names.R'
     'discourse_markers_alemany.R'
     'dodds_sentiment.R'

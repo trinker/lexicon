@@ -20,9 +20,14 @@ And constructed with the following guidelines:
 lexicon 0.3.0
 ----------------------------------------------------------------
 
+**BUG FIXES**
+
+* `freq_first_names` and `freq_last_names` were just a string of the data set
+  name.  This has been updated with the actual data set.
+
 **NEW FEATURES**
 
-**CHANGES**
+* `available_data` added to see what data sets are available in **lexicon**.
 
 
 lexicon 0.2.0
