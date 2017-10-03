@@ -34,7 +34,7 @@ hash_sentiment_nrc <- nrc %>%
 nrc_emotions <- nrc %>%
     select(-positive, -negative)
 
-pack.skel(hash_sentiment_nrc, nrc_emotions)
+# pack.skel(hash_sentiment_nrc, nrc_emotions)
 
 
 pax:::roxdat(hash_sentiment_nrc, 'hash_sentiment_nrc')

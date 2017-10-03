@@ -22,6 +22,10 @@ lexicon 0.2.0 -
 
 NEW FEATURES
 
+* `pos_df_irregular_nouns` and `pos_unchanging_nouns` added.  The former is a 
+  data.frame of singular and plural forms of irregular nouns.  The latter is 
+  a simple list of irregular nouns that have the same singular and plural forms.
+  
 CHANGES
 
 * `hash_sentiment` and `hash_sentiword` renamed to `hash_sentiment_huliu` and
