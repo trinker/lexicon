@@ -109,7 +109,7 @@ watch	watches
 wife	wives
 wolf	wolves
 woman	women
-zero	zeros'
+zero	zeros', stringsAsFactors = FALSE
 )
 
 

@@ -5,4 +5,3 @@
 #' @name lexicon
 #' @aliases lexicon package-lexicon
 NULL
-
