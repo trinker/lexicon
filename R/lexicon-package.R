@@ -6,4 +6,3 @@
 #' @aliases lexicon package-lexicon
 NULL
 
-

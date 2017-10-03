@@ -22,7 +22,8 @@ verbadge <- ''
 
 
 
-<img src="inst/lexicon_logo/r_lexicon.png" width="135" alt="lexicon Logo">  
+![](tools/lexicon_logo/r_lexicon.png)
+
 
 
 # Description
@@ -43,19 +44,9 @@ Prefix        | Meaning
 
 ```{r, echo=FALSE}
 pacman::p_load(pander)
-dat <- rbind.data.frame(pacman::p_data(lexicon),
-data.frame(
-    Data = pacman::p_funs(lexicon),
-    Description = c('Jockers Sentiment Polarity Table', 'Jockers Sentiment Data Set'), 
-    stringsAsFactors = FALSE
-))
-dat <- dat[order(dat$Data),]
-
-dat[[1]] <- paste0('`',dat[[1]], '`')
-row.names(dat) <- NULL
+dat <- available_data()
 pander::set.alignment('left')
 pander(dat, style = "grid")
-
 ```
 
 # Installation

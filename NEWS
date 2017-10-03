@@ -17,8 +17,13 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.2.0 -
+lexicon 0.4.0 -
 ----------------------------------------------------------------
+
+BUG FIXES
+
+* `function_words` contained duplicates that hve been been removed.
+
 
 NEW FEATURES
 
@@ -26,6 +31,32 @@ NEW FEATURES
   data.frame of singular and plural forms of irregular nouns.  The latter is 
   a simple list of irregular nouns that have the same singular and plural forms.
   
+  
+
+lexicon 0.3.0 - 0.3.1
+----------------------------------------------------------------
+
+BUG FIXES
+
+* `freq_first_names` and `freq_last_names` were just a string of the data set
+  name.  This has been updated with the actual data set.
+
+
+NEW FEATURES
+
+* `available_data` added to see what data sets are available in **lexicon**.
+
+
+lexicon 0.2.0
+----------------------------------------------------------------
+
+NEW FEATURES
+
+* `hash_sentiment_jockers` and `key_sentiment_jockers` added as objects though
+  they are not data objects but for all purposes act the same.  These data sets
+  come from **syuzhet**'s custom dictionary built by Jockers.
+
+
 CHANGES
 
 * `hash_sentiment` and `hash_sentiword` renamed to `hash_sentiment_huliu` and

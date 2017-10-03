@@ -19,7 +19,7 @@ sentiment lookup table used in \pkg{syuzhet}.
 }
 }
 \references{
-Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs 
+Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 from Text. Retrieved from https://github.com/mjockers/syuzhet
 }
 \keyword{datasets}

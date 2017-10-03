@@ -15,7 +15,9 @@ README.Rmd
 README.R
 travis.yml
 inst/maintenance.R
-inst/lexicon_logo
 inst/staticdocs
 inst/extra_statdoc
 inst/scraping_scripts
+tools/lexicon_logo/r_lexicona.png
+tools/lexicon_logo/r_lexicon.pptx
+tools/lexicon_logo/resize_icon.txt

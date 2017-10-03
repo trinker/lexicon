@@ -10,6 +10,6 @@
 #' @keywords datasets
 #' @name function_words
 #' @usage data(function_words)
-#' @format A character vector with 352 elements
+#' @format A character vector with 350 elements
 #' @references \url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
 NULL
