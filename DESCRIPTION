@@ -1,12 +1,13 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
 Version: 0.4.0
-Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut",
+          "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2017-10-03
+Date: 2017-10-04
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
@@ -48,6 +49,11 @@ Collate:
     'pos_interjections.R'
     'pos_preposition.R'
     'pos_unchanging_nouns.R'
+    'profanity_alvarez.R'
+    'profanity_arr_bad.R'
+    'profanity_banned.R'
+    'profanity_google.R'
+    'profanity_von_ahn.R'
     'sw_buckley_salton.R'
     'sw_dolch.R'
     'sw_fry_100.R'

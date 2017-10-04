@@ -27,11 +27,15 @@ lexicon 0.4.0 -
 
 **NEW FEATURES**
 
-* `pos_df_irregular_nouns` and `pos_unchanging_nouns` added.  The former is a 
-  data.frame of singular and plural forms of irregular nouns.  The latter is 
+* `pos_df_irregular_nouns` and `pos_unchanging_nouns` added.  The former is a
+  data.frame of singular and plural forms of irregular nouns.  The latter is
   a simple list of irregular nouns that have the same singular and plural forms.
-  
-  
+
+* `profanity_alvarez`, `profanity_arr_bad`, `profanity_banned`,
+  `profanity_google`, & `profanity_von_ahn` added to give access to profanity
+  word lists.
+
+
 
 lexicon 0.3.0 - 0.3.1
 ----------------------------------------------------------------

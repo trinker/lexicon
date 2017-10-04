@@ -35,9 +35,11 @@ Prefix        | Meaning
 `key_`        | A `data.frame` with a lookup and return value
 `hash_`       | A keyed `data.table` hash table
 `freq_`       | A `data.table` of terms with frequencies
+`profanity`   | A vector of profane words
 `pos_`        | A part of speech `vector`
 `pos_df_`     | A part of speech `data.frame`
 `sw_`         | A stopword `vector`
+
 
 
 # Data
