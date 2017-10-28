@@ -24,6 +24,10 @@ BUG FIXES
 
 * `function_words` contained duplicates that hve been been removed.
 
+* `hash_lemmas` contained an erroneous token-lemma pair (also-conjurer).  This
+  was spotted by Mitchell Linegar (see https://github.com/trinker/textstem/issues/5).
+  The token `also` has been removed from the dictionary.
+
 
 NEW FEATURES
 

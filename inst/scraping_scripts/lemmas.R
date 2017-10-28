@@ -172,7 +172,8 @@ lapply(zips[5], function(x){
             !(token %in% c("whizzes", "whizzing", "whizzed") & lemma == 'whizz'),
             !(token %in% c("worse", "worst") & lemma %in% c('wrong', 'ill')),
             !(token %in% c("yuppies") & lemma == 'yuppy'),
-            !(token %in% c("zoonoses") & lemma == 'zoonose')
+            !(token %in% c("zoonoses") & lemma == 'zoonose'),
+            !(token %in% c('also'))
                     ) %>%
         data.table::as.data.table()
 

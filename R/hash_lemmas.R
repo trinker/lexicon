@@ -15,6 +15,6 @@
 #' @keywords datasets
 #' @name hash_lemmas
 #' @usage data(hash_lemmas)
-#' @format A data frame with 41,533 rows and 2 variables
+#' @format A data frame with 41,532 rows and 2 variables
 #' @references Mechura, M. B. (2016). \emph{Lemmatization list: English (en)} [Data file]. Retrieved from \url{http://www.lexiconista.com}
 NULL
