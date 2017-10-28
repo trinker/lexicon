@@ -1,4 +1,4 @@
-lexicon   [![Follow](https://img.shields.io/twitter/follow/tylerrinker.svg?style=social)](https://twitter.com/intent/follow?screen_name=tylerrinker)
+lexicon   
 ============
 
 
