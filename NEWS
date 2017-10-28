@@ -17,12 +17,12 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 0.4.0 -
+lexicon 0.4.0 - 0.4.1
 ----------------------------------------------------------------
 
 BUG FIXES
 
-* `function_words` contained duplicates that hve been been removed.
+* `function_words` contained duplicates that have been been removed.
 
 * `hash_lemmas` contained an erroneous token-lemma pair (also-conjurer).  This
   was spotted by Mitchell Linegar (see https://github.com/trinker/textstem/issues/5).
