@@ -17,6 +17,26 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
+
+lexicon 0.5.0 -
+----------------------------------------------------------------
+
+**BUG FIXES**
+
+**NEW FEATURES**
+
+**MINOR FEATURES**
+
+**IMPROVEMENTS**
+
+**CHANGES**
+
+*  The word "incredibly" was removed from `hash_sentiment_jockers` and added as
+  an amplifier to `hash_valence_shifters`.  Spotted by AbdulMajedRaja:
+  https://github.com/trinker/sentimentr/issues/58#issuecomment-343373693
+
+
+
 lexicon 0.4.0 - 0.4.1
 ----------------------------------------------------------------
 

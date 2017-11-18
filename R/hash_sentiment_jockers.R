@@ -1,6 +1,6 @@
 #' Jockers Polarity Lookup Table
 #'
-#' A \pkg{data.table} dataset containing an modified version of Jocker's (2017)
+#' A \pkg{data.table} dataset containing a modified version of Jocker's (2017)
 #' sentiment lookup table used in \pkg{syuzhet}.
 #'
 #' @details
@@ -16,7 +16,9 @@
 #' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 #' from Text. Retrieved from https://github.com/mjockers/syuzhet
 #' @export
-hash_sentiment_jockers <- as_key(syuzhet::get_sentiment_dictionary(dictionary = "syuzhet"))
+hash_sentiment_jockers <- syuzhet::get_sentiment_dictionary(dictionary = "syuzhet")
+hash_sentiment_jockers <- hash_sentiment_jockers[hash_sentiment_jockers[['word']] != 'incredibly',]
+hash_sentiment_jockers <- as_key(hash_sentiment_jockers)
 hash_sentiment_jockers <- hash_sentiment_jockers [!is.na(hash_sentiment_jockers[[1]]),]
 hash_sentiment_jockers <- hash_sentiment_jockers [!is.na(hash_sentiment_jockers[[2]]),]
 data.table::setkey(hash_sentiment_jockers, "x")

@@ -36,5 +36,18 @@
 #' @keywords datasets
 #' @name hash_valence_shifters
 #' @usage data(hash_valence_shifters)
-#' @format A data frame with 93 rows and 2 variables
+#' @format A data frame with 94 rows and 2 variables
 NULL
+
+
+# hash_valence_shifters <- sentimentr::update_valence_shifter_table(
+#     lexicon::hash_valence_shifters,
+#     x = data.frame(x = 'incredibly', y = 3, stringsAsFactors = FALSE)
+# )
+#
+#
+#
+#
+# pax::new_data(hash_valence_shifters)
+
+

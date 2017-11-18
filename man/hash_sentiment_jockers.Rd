@@ -4,12 +4,12 @@
 \name{hash_sentiment_jockers}
 \alias{hash_sentiment_jockers}
 \title{Jockers Polarity Lookup Table}
-\format{An object of class \code{data.table} (inherits from \code{data.frame}) with 10739 rows and 2 columns.}
+\format{An object of class \code{data.table} (inherits from \code{data.frame}) with 10738 rows and 2 columns.}
 \usage{
 hash_sentiment_jockers
 }
 \description{
-A \pkg{data.table} dataset containing an modified version of Jocker's (2017)
+A \pkg{data.table} dataset containing a modified version of Jocker's (2017)
 sentiment lookup table used in \pkg{syuzhet}.
 }
 \details{
