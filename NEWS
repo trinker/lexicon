@@ -25,14 +25,20 @@ BUG FIXES
 
 NEW FEATURES
 
+* `sw_mallete`, `sw_jockers`, `sw_python` and `sw_lucene` stopword lists added.
+
+* `hash_sentiment_senticnet` sentiment hash table added for use in the **sentimentr**
+  package.
+
 MINOR FEATURES
 
 IMPROVEMENTS
 
 CHANGES
 
-*  The word "incredibly" was removed from `hash_sentiment_jockers` and added as
-  an amplifier to `hash_valence_shifters`.  Spotted by AbdulMajedRaja:
+*  The word "incredibly" was removed from `hash_sentiment_jockers`,
+  `hash_sentiment_huliu`, & `hash_sentiment_sentiword` and added as an amplifier
+  to `hash_valence_shifters`.  Spotted by AbdulMajedRaja:
   https://github.com/trinker/sentimentr/issues/58#issuecomment-343373693
 
 

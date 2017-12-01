@@ -4,7 +4,7 @@
 \name{hash_sentiment_huliu}
 \alias{hash_sentiment_huliu}
 \title{Hu Liu Polarity Lookup Table}
-\format{A data frame with 6875 rows and 2 variables}
+\format{A data frame with 6874 rows and 2 variables}
 \usage{
 data(hash_sentiment_huliu)
 }

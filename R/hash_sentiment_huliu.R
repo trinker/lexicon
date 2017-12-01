@@ -16,7 +16,7 @@
 #' @keywords datasets
 #' @name hash_sentiment_huliu
 #' @usage data(hash_sentiment_huliu)
-#' @format A data frame with 6875 rows and 2 variables
+#' @format A data frame with 6874 rows and 2 variables
 #' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer
 #' reviews. National Conference on Artificial Intelligence.
 #'
