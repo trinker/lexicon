@@ -49,7 +49,7 @@ word lists. The data prefixes help to categorize the data types:
 </tr>
 <tr class="even">
 <td><code>profanity</code></td>
-<td>A vector of profane words</td>
+<td>A profane words <code>vector</code></td>
 </tr>
 <tr class="odd">
 <td><code>pos_</code></td>
@@ -68,6 +68,14 @@ word lists. The data prefixes help to categorize the data types:
 
 Data
 ====
+
+    ## package 'pander' successfully unpacked and MD5 sums checked
+    ## 
+    ## The downloaded binary packages are in
+    ##  C:\Users\Tyler\AppData\Local\Temp\Rtmp4ivEMn\downloaded_packages
+
+    ## 
+    ## pander installed
 
 <table style="width:85%;">
 <colgroup>
@@ -166,177 +174,207 @@ Data
 </td>
 </tr>
 <tr class="odd">
+<td><p>hash_sentiment_senticnet</p>
+</td>
+<td><p>Augmented SenticNet Polarity Table</p>
+</td>
+</tr>
+<tr class="even">
 <td><p>hash_sentiment_sentiword</p>
 </td>
 <td><p>Augmented Sentiword Polarity Table</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_strength</p>
 </td>
 <td><p>Strength Lookup Key</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_syllable</p>
 </td>
 <td><p>Syllable Counts</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_valence_shifters</p>
 </td>
 <td><p>Valence Shifters</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>key_abbreviation</p>
 </td>
 <td><p>Common Abbreviations</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>key_contractions</p>
 </td>
 <td><p>Contraction Conversions</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>key_grade</p>
 </td>
 <td><p>Grades Hash</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>key_rating</p>
 </td>
 <td><p>Ratings Data Set</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>key_sentiment_jockers</p>
 </td>
 <td><p>Jockers Sentiment Data Set</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>nrc_emotions</p>
 </td>
 <td><p>NRC Emotions</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>pos_action_verb</p>
 </td>
 <td><p>Action Word List</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>pos_adverb</p>
 </td>
 <td><p>Adverb Word List</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>pos_df_irregular_nouns</p>
 </td>
 <td><p>Irregular Nouns Word Dataframe</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>pos_df_pronouns</p>
 </td>
 <td><p>Pronouns</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>pos_interjections</p>
 </td>
 <td><p>Interjections</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>pos_preposition</p>
 </td>
 <td><p>Preposition Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>pos_unchanging_nouns</p>
 </td>
 <td><p>Nouns that are the Same Plural/Singular</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>profanity_alvarez</p>
 </td>
 <td><p>Alejandro U. Alvarez's List of Profane Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>profanity_arr_bad</p>
 </td>
 <td><p>Stackoverflow user2592414's List of Profane Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>profanity_banned</p>
 </td>
 <td><p>bannedwordlist.com's List of Profane Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>profanity_google</p>
 </td>
 <td><p>Google's List of Profane Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>profanity_von_ahn</p>
 </td>
 <td><p>Luis von Ahn's List of Profane Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_buckley_salton</p>
 </td>
 <td><p>Buckley &amp; Salton Stopword List</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_dolch</p>
 </td>
 <td><p>Leveled Dolch List of 220 Common Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_fry_100</p>
 </td>
 <td><p>Fry's 100 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_fry_1000</p>
 </td>
 <td><p>Fry's 1000 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_fry_200</p>
 </td>
 <td><p>Fry's 200 Most Commonly Used English Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_fry_25</p>
 </td>
 <td><p>Fry's 25 Most Commonly Used English Words</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>sw_jockers</p>
+</td>
+<td><p>Matthew Jocker's Expanded Topic Modeling Stopword List</p>
+</td>
+</tr>
+<tr class="odd">
+<td><p>sw_lucene</p>
+</td>
+<td><p>Lucene Stopword List</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>sw_mallet</p>
+</td>
+<td><p>MALLET Stopword List</p>
 </td>
 </tr>
 <tr class="odd">
 <td><p>sw_onix</p>
 </td>
 <td><p>Onix Text Retrieval Toolkit Stopword List 1</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>sw_python</p>
+</td>
+<td><p>Python Stopword List</p>
 </td>
 </tr>
 </tbody>
