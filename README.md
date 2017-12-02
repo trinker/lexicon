@@ -48,7 +48,7 @@ word lists. The data prefixes help to categorize the data types:
 <td>A <code>data.table</code> of terms with frequencies</td>
 </tr>
 <tr class="even">
-<td><code>profanity</code></td>
+<td><code>profanity_</code></td>
 <td>A profane words <code>vector</code></td>
 </tr>
 <tr class="odd">
