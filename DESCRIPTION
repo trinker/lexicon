@@ -28,6 +28,7 @@ Collate:
     'hash_lemmas.R'
     'hash_power.R'
     'hash_sentiment_huliu.R'
+    'hash_sentiment_inquirer.R'
     'utils.R'
     'hash_sentiment_jockers.R'
     'hash_sentiment_nrc.R'
@@ -66,4 +67,3 @@ Collate:
     'sw_mallet.R'
     'sw_onix.R'
     'sw_python.R'
-
