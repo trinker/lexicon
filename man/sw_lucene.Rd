@@ -13,6 +13,8 @@ A dataset containing a character vector of Lucene's stopwords used in
 \code{StopAnalyzer.ENGLISH_STOP_WORDS_SE}.
 }
 \details{
+Lucene's License:
+
 Licensed to the Apache Software Foundation (ASF) under one or more
 contributor license agreements.  See the NOTICE file distributed with
 this work for additional information regarding copyright ownership.

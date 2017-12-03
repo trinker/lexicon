@@ -27,8 +27,8 @@ lexicon 0.5.0 -
 
 * `sw_mallete`, `sw_jockers`, `sw_python` and `sw_lucene` stopword lists added.
 
-* `hash_sentiment_senticnet` & `hash_sentiment_inquirer` sentiment hash tables
-  added for use in the **sentimentr** package.
+* `hash_sentiment_senticnet` `hash_sentiment_vadar` & `hash_sentiment_inquirer`
+  sentiment hash tables added for use in the **sentimentr** package.
 
 **MINOR FEATURES**
 
