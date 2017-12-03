@@ -3,7 +3,7 @@
 \docType{data}
 \name{hash_sentiment_vadar}
 \alias{hash_sentiment_vadar}
-\title{Filtered Vadar Polarity Table}
+\title{Filtered VADAR Polarity Table}
 \format{A data frame with 7236 rows and 2 variables}
 \usage{
 data(hash_sentiment_vadar)

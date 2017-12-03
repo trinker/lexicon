@@ -1,4 +1,4 @@
-#' Filtered Vadar Polarity Table
+#' Filtered VADAR Polarity Table
 #'
 #' A \pkg{data.table} dataset containing an filtered version of Hutto &
 #' Gilbert's (2014) positive/negative word list as sentiment lookup values.
