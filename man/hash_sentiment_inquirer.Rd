@@ -4,7 +4,7 @@
 \name{hash_sentiment_inquirer}
 \alias{hash_sentiment_inquirer}
 \title{Inquirer Polarity Lookup Table}
-\format{A data frame with 3450 rows and 2 variables}
+\format{A data frame with 3,450 rows and 2 variables}
 \usage{
 data(hash_sentiment_inquirer)
 }

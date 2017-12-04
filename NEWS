@@ -25,10 +25,19 @@ BUG FIXES
 
 NEW FEATURES
 
-* `sw_mallete`, `sw_jockers`, `sw_python` and `sw_lucene` stopword lists added.
+* `sw_mallete`, `sw_jockers`, `sw_python`, `sw_lucene`, `sw_loughran_mcdonald_short`,
+  & `sw_loughran_mcdonald_long` stopword lists added.
 
-* `hash_sentiment_senticnet` `hash_sentiment_vadar` & `hash_sentiment_inquirer`
-  sentiment hash tables added for use in the **sentimentr** package.
+* `hash_sentiment_senticnet` `hash_sentiment_vadar`, `hash_sentiment_inquirer`,
+  & `hash_sentiment_loughran_mcdonald` sentiment hash tables added for use in
+  the **sentimentr** package.
+
+* `modal_loughran_mcdonald` added; a data.table of wea, moderate, and strong
+  modal verbs.
+
+* `constraining_loughran_mcdonald` added, a vector of words that are associated
+  with constraining.
+
 
 MINOR FEATURES
 

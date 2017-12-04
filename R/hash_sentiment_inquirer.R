@@ -13,7 +13,7 @@
 #' @keywords datasets
 #' @name hash_sentiment_inquirer
 #' @usage data(hash_sentiment_inquirer)
-#' @format A data frame with 3450 rows and 2 variables
+#' @format A data frame with 3,450 rows and 2 variables
 #' @references \url{http://www.wjh.harvard.edu/~inquirer/homecat.htm}
 NULL
 
