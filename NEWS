@@ -44,7 +44,10 @@ MINOR FEATURES
 IMPROVEMENTS
 
 * `hash_valence_shifters` added following negators: "daren't", "hadn't",
-  "needn't", "oughtn't".  In addition, all contraction negators were re-added
+  "needn't", "oughtn't"; the following amplifiers: "absolutely", "considerably",
+  "decidedly", "effing", "especially", "majorly", "most", "uber"; the following
+  de-amplifiers: "almost", "kind of", "kinda", "partly", "somewhat", "sort of",
+  "sorta".  In addition, all contraction negators were re-added
   to the `hash_valence_shifters` sans apostrophe as cleaning or less formal
   writing may result in contractions without apostrophes.
 
