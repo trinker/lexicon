@@ -43,6 +43,11 @@ MINOR FEATURES
 
 IMPROVEMENTS
 
+* `hash_valence_shifters` added following negators: "daren't", "hadn't",
+  "needn't", "oughtn't".  In addition, all contraction negators were re-added
+  to the `hash_valence_shifters` sans apostrophe as cleaning or less formal
+  writing may result in contractions without apostrophes.
+
 CHANGES
 
 *  The word "incredibly" was removed from `hash_sentiment_jockers`,

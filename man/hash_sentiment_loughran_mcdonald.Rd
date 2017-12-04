@@ -10,7 +10,8 @@ data(hash_sentiment_loughran_mcdonald)
 }
 \description{
 A \pkg{data.table} dataset containing an filtered version of Loughran &
-McDonald's (2016) positive/negative word list as sentiment lookup values.
+McDonald's (2016) positive/negative financial word list as sentiment lookup
+values.
 }
 \details{
 \itemize{
