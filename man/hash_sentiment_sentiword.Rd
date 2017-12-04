@@ -4,7 +4,7 @@
 \name{hash_sentiment_sentiword}
 \alias{hash_sentiment_sentiword}
 \title{Augmented Sentiword Polarity Table}
-\format{A data frame with 20,098 rows and 2 variables}
+\format{A data frame with 20,094 rows and 2 variables}
 \usage{
 data(hash_sentiment_sentiword)
 }

@@ -18,7 +18,7 @@
 #' @keywords datasets
 #' @name hash_sentiment_sentiword
 #' @usage data(hash_sentiment_sentiword)
-#' @format A data frame with 20,098 rows and 2 variables
+#' @format A data frame with 20,094 rows and 2 variables
 #' @references Baccianella S., Esuli, A. and Sebastiani, F. (2010). SentiWordNet
 #' 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining.
 #' International Conference on Language Resources and Evaluation.
