@@ -31,6 +31,7 @@ Collate:
     'hash_sentiment_inquirer.R'
     'utils.R'
     'hash_sentiment_jockers.R'
+    'hash_sentiment_jockers_rinker.R'
     'hash_sentiment_loughran_mcdonald.R'
     'hash_sentiment_nrc.R'
     'hash_sentiment_senticnet.R'

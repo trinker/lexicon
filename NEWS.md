@@ -29,8 +29,8 @@ lexicon 0.5.0 -
   & `sw_loughran_mcdonald_long` stopword lists added.
 
 * `hash_sentiment_senticnet` `hash_sentiment_vadar`, `hash_sentiment_inquirer`,
-  & `hash_sentiment_loughran_mcdonald` sentiment hash tables added for use in
-  the **sentimentr** package.
+  `hash_sentiment_loughran_mcdonald`, & `hash_sentiment_jockers_rinker`
+  sentiment hash tables added for use in the **sentimentr** package.
 
 * `modal_loughran_mcdonald` added; a data.table of wea, moderate, and strong
   modal verbs.
