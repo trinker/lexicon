@@ -4,7 +4,7 @@
 \name{hash_sentiment_jockers_rinker}
 \alias{hash_sentiment_jockers_rinker}
 \title{Combined Jockers & Rinker Lexicon}
-\format{A data frame with 11,701 rows and 2 variables}
+\format{A data frame with 11,702 rows and 2 variables}
 \usage{
 data(hash_sentiment_jockers_rinker)
 }
