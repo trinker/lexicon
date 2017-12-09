@@ -33,7 +33,7 @@ NEW FEATURES
   `hash_sentiment_jockers_rinker` sentiment hash tables added for use in the
   **sentimentr** package.
 
-* `modal_loughran_mcdonald` added; a data.table of wea, moderate, and strong
+* `modal_loughran_mcdonald` added; a data.table of weak, moderate, and strong
   modal verbs.
 
 * `constraining_loughran_mcdonald` added, a vector of words that are associated
