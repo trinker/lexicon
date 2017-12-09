@@ -3,7 +3,7 @@
 \docType{data}
 \name{hash_sentiment_jockers_rinker}
 \alias{hash_sentiment_jockers_rinker}
-\title{Combined Jockers & Rinker Lexicon}
+\title{Combined Jockers & Rinker Polarity Lookup Table}
 \format{A data frame with 11,702 rows and 2 variables}
 \usage{
 data(hash_sentiment_jockers_rinker)

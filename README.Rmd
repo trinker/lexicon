@@ -45,7 +45,7 @@ Prefix        | Meaning
 # Data
 
 ```{r, echo=FALSE}
-pacman::p_load(pander)
+pacman::p_load(pander, lexicon)
 dat <- available_data()
 pander::set.alignment('left')
 pander(dat, style = "grid")

@@ -106,51 +106,75 @@ Data
 </td>
 </tr>
 <tr class="odd">
+<td><p>emojis_sentiment</p>
+</td>
+<td><p>Emoji Sentiment Data</p>
+</td>
+</tr>
+<tr class="even">
 <td><p>freq_first_names</p>
 </td>
 <td><p>Frequent U.S. First Names</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>freq_last_names</p>
 </td>
 <td><p>Frequent U.S. Last Names</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>function_words</p>
 </td>
 <td><p>Function Words</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>grady_augmented</p>
 </td>
 <td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p>
 </td>
 </tr>
+<tr class="even">
+<td><p>hash_emojis</p>
+</td>
+<td><p>Emoji Description Lookup Table</p>
+</td>
+</tr>
 <tr class="odd">
+<td><p>hash_emojis_identifier</p>
+</td>
+<td><p>Emoji Identifier Lookup Table</p>
+</td>
+</tr>
+<tr class="even">
 <td><p>hash_emoticons</p>
 </td>
 <td><p>Emoticons</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_grady_pos</p>
 </td>
 <td><p>Grady Ward's Moby Parts of Speech</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_lemmas</p>
 </td>
 <td><p>Lemmatization List</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_power</p>
 </td>
 <td><p>Power Lookup Key</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>hash_sentiment_emojis</p>
+</td>
+<td><p>Emoji Sentiment Polarity Lookup Table</p>
 </td>
 </tr>
 <tr class="odd">
@@ -174,7 +198,7 @@ Data
 <tr class="even">
 <td><p>hash_sentiment_jockers_rinker</p>
 </td>
-<td><p>Combined Jockers &amp; Rinker Lexicon</p>
+<td><p>Combined Jockers &amp; Rinker Polarity Lookup Table</p>
 </td>
 </tr>
 <tr class="odd">

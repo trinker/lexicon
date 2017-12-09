@@ -1,4 +1,4 @@
-#' Combined Jockers & Rinker Lexicon
+#' Combined Jockers & Rinker Polarity Lookup Table
 #'
 #' A \pkg{data.table} dataset containing a combined and augmented version of
 #' Jockers (2017) & Rinker's augmeted Hu & Liu (2004) positive/negative word
