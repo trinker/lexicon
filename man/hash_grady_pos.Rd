@@ -18,7 +18,7 @@ Moby project.  The words with non-ASCII characters removed.
 \details{
 \itemize{
   \item word. The word.
-  \item pos. The part of speech; one of :\code{Adjective}, \code{Adverb}, \code{Conjunction}, \code{Definite Article}, \code{Interjection}, \code{Noun}, \code{Noun Phrase}, \code{Plural}, \code{Preposition}, \code{Pronoun}, \code{Verb (intransitive)}, \code{Verb (transitive)}, or \code{Verb (usu participle)}.  Note that the first part of speech for a word is its primary use; all other uses are seondary.
+  \item pos. The part of speech; one of :\code{Adjective}, \code{Adverb}, \code{Conjunction}, \code{Definite Article}, \code{Interjection}, \code{Noun}, \code{Noun Phrase}, \code{Plural}, \code{Preposition}, \code{Pronoun}, \code{Verb (intransitive)}, \code{Verb (transitive)}, or \code{Verb (usu participle)}.  Note that the first part of speech for a word is its primary use; all other uses are secondary.
   \item n_pos. The number of parts of speech associated with a word.  Useful for filtering.
   \item space. logical.  If \code{TRUE} the word contains a space.  Useful for filtering.
   \item primary. logical.  If \code{TRUE} the word is the primary part of speech used.

@@ -69,7 +69,7 @@ NULL
 
 #' Emoji Description Lookup Table
 #'
-#' A dataset containing ascii byte code representation of emojis and their
+#' A dataset containing ASCII byte code representation of emojis and their
 #' accompanying description (from unicode.org).
 #'
 #' @details
@@ -91,7 +91,7 @@ NULL
 
 #' Emoji Identifier Lookup Table
 #'
-#' A dataset containing ascii byte code representation of emojis and their
+#' A dataset containing ASCII byte code representation of emojis and their
 #' accompanying identifier (for use in the \pkg{textclean} or \pkg{sentimentr}
 #' packages).
 #'

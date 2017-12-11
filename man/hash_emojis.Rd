@@ -9,7 +9,7 @@
 data(hash_emojis)
 }
 \description{
-A dataset containing ascii byte code representation of emojis and their
+A dataset containing ASCII byte code representation of emojis and their
 accompanying description (from unicode.org).
 }
 \details{

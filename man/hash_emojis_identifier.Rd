@@ -9,7 +9,7 @@
 data(hash_emojis_identifier)
 }
 \description{
-A dataset containing ascii byte code representation of emojis and their
+A dataset containing ASCII byte code representation of emojis and their
 accompanying identifier (for use in the \pkg{textclean} or \pkg{sentimentr}
 packages).
 }

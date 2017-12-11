@@ -1,7 +1,7 @@
 #' Combined Jockers & Rinker Polarity Lookup Table
 #'
 #' A \pkg{data.table} dataset containing a combined and augmented version of
-#' Jockers (2017) & Rinker's augmeted Hu & Liu (2004) positive/negative word
+#' Jockers (2017) & Rinker's augmented Hu & Liu (2004) positive/negative word
 #' list as sentiment lookup values.
 #'
 #' @details
