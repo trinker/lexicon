@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 0.6.2
+Version: 0.6.3
 Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut",
           "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>

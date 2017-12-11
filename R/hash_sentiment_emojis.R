@@ -6,13 +6,13 @@
 #' uses as negative, neutral, or positive to form a probability distribution
 #' (\eqn{p_{-}, p_{0}, p_{+}})
 #' (\url{http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0144296&type=printable})..
-#' The sentiment score is calculated via the authors formula:
+#' The sentiment score is calculated via the authors' formula:
 #' \eqn{\frac{\sum{(-1*p_{-}, 0 * p_{0}, p_{+}})}{\sum{(p_{-}, p_{0}, p_{+}})}}.
 #' This polarity lookup table differs from the other ones included in the
 #' \pkg{lexicon} package in the the first column are not words but identifiers.
 #' These identifiers are found in the \code{emojis_sentiment} data set.  The
 #' typical use case is to utilize the \pkg{textclean} or \pkg{sentimentr}
-#' packages' \code{\link[textclean]{replace_emoji}} to swap out emojis for a
+#' packages' \code{replace_emoji} to swap out emojis for a
 #' more computer friendly identifier.
 #'
 #' @details
@@ -39,7 +39,7 @@ NULL
 #' each of the the emoji uses as negative, neutral, or positive to form a
 #' probability distribution (\eqn{p_{-}, p_{0}, p_{+}})
 #' (\url{http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0144296&type=printable})..
-#' The sentiment score is calculated via the authors formula:
+#' The sentiment score is calculated via the authors' formula:
 #' \eqn{\frac{\sum{(-1*p_{-}, 0 * p_{0}, p_{+}})}{\sum{(p_{-}, p_{0}, p_{+}})}}.
 #'
 #' @details

@@ -14,7 +14,7 @@ emoji sentiment data.  The authors used Twitter data and 83 coders to rate
 each of the the emoji uses as negative, neutral, or positive to form a
 probability distribution (\eqn{p_{-}, p_{0}, p_{+}})
 (\url{http://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0144296&type=printable})..
-The sentiment score is calculated via the authors formula:
+The sentiment score is calculated via the authors' formula:
 \eqn{\frac{\sum{(-1*p_{-}, 0 * p_{0}, p_{+}})}{\sum{(p_{-}, p_{0}, p_{+}})}}.
 }
 \details{
