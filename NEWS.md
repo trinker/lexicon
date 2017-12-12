@@ -18,10 +18,15 @@ And constructed with the following guidelines:
 
 
 
-lexicon 0.5.0 - 0.6.3
+lexicon 0.7.0 -
 ----------------------------------------------------------------
 
-**BUG FIXES**
+
+
+
+
+lexicon 0.5.0 - 0.6.3
+----------------------------------------------------------------
 
 **NEW FEATURES**
 
@@ -42,8 +47,6 @@ lexicon 0.5.0 - 0.6.3
 * `hash_emojis` and `emojis_sentiment` data sets added for text analysis with
   emojis.
 
-
-**MINOR FEATURES**
 
 **IMPROVEMENTS**
 
