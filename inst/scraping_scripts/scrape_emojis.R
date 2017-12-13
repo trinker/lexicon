@@ -43,11 +43,23 @@ hash_sentiment_emojis <- data.table::setDT(setNames(emojis_sentiment[c('id', 'se
 data.table::setkey(hash_sentiment_emojis, "x")
 pax::new_data(hash_sentiment_emojis)
 
-emojis_sentiment <- as.data.frame(emojis_sentiment, stringsAsFactors = FALSE)
+emojis_sentiment <- as.data.frame(
+    emojis_sentiment%>%
+        dplyr::mutate(y = to_byte(y)) %>%
+        dplyr::mutate(y = gsub('(<e2><80><9c>|<e2><80><99>|<e2><80><9d>)', "'", y)),
+    stringsAsFactors = FALSE
+)
 pax::new_data(emojis_sentiment)
 
 
-hash_emojis <- data.table::setDT(setNames(emojis_sentiment[c('byte', 'name')], c('x', 'y')))
+hash_emojis <- data.table::setDT(
+    setNames(
+        emojis_sentiment[c('byte', 'name')] %>%
+            dplyr::mutate(name = to_byte(name)) %>%
+            dplyr::mutate(name = gsub('(<e2><80><9c>|<e2><80><99>|<e2><80><9d>)', "'", name)),
+        c('x', 'y')
+    ))
+
 data.table::setkey(hash_emojis, "x")
 pax::new_data(hash_emojis)
 

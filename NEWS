@@ -21,7 +21,18 @@ And constructed with the following guidelines:
 lexicon 0.7.0 -
 ----------------------------------------------------------------
 
+BUG FIXES
 
+* `emojis_sentiment` & `hash_emojis` contained non-ASCII characters.  These have
+  been removed.
+
+NEW FEATURES
+
+MINOR FEATURES
+
+IMPROVEMENTS
+
+CHANGES
 
 
 
