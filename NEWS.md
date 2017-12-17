@@ -28,6 +28,9 @@ lexicon 0.7.0 -
 
 **NEW FEATURES**
 
+* `hash_sentiment_socal_google` sentiment hash table added for use in the
+  **sentimentr** package.
+
 **MINOR FEATURES**
 
 **IMPROVEMENTS**

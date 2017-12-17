@@ -45,8 +45,8 @@ pax::new_data(hash_sentiment_emojis)
 
 emojis_sentiment <- as.data.frame(
     emojis_sentiment%>%
-        dplyr::mutate(y = to_byte(y)) %>%
-        dplyr::mutate(y = gsub('(<e2><80><9c>|<e2><80><99>|<e2><80><9d>)', "'", y)),
+        dplyr::mutate(name = to_byte(name)) %>%
+        dplyr::mutate(name = gsub('(<e2><80><9c>|<e2><80><99>|<e2><80><9d>)', "'", name)),
     stringsAsFactors = FALSE
 )
 pax::new_data(emojis_sentiment)
