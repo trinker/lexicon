@@ -8,7 +8,7 @@ socal_google <- read.csv(loc, sep="\t", header = FALSE, stringsAsFactors = FALSE
     tbl_df() %>%
     mutate(
         y = as.numeric(y),
-        x = gsub('-', '', x)
+        x = gsub('-', ' ', x)
     ) %>%
     filter(!is.na(x) & !is.na(y) & y != 0) %>%
     filter(grepl('^[a-zA-Z]', x)) %>%
