@@ -6,7 +6,7 @@ Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2017-12-16
+Date: 2017-12-18
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
@@ -37,6 +37,7 @@ Collate:
     'hash_sentiment_nrc.R'
     'hash_sentiment_senticnet.R'
     'hash_sentiment_sentiword.R'
+    'hash_sentiment_slangsd.R'
     'hash_sentiment_socal_google.R'
     'hash_sentiment_vadar.R'
     'hash_strength.R'
