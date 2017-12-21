@@ -160,69 +160,81 @@ Data
 </td>
 </tr>
 <tr class="even">
+<td><p>hash_internet_slang</p>
+</td>
+<td><p>List of Internet Slang and Corresponding Meanings</p>
+</td>
+</tr>
+<tr class="odd">
 <td><p>hash_lemmas</p>
 </td>
 <td><p>Lemmatization List</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_power</p>
 </td>
 <td><p>Power Lookup Key</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_emojis</p>
 </td>
 <td><p>Emoji Sentiment Polarity Lookup Table</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_huliu</p>
 </td>
 <td><p>Hu Liu Polarity Lookup Table</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_inquirer</p>
 </td>
 <td><p>Inquirer Polarity Lookup Table</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_jockers</p>
 </td>
 <td><p>Jockers Sentiment Polarity Table</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_jockers_rinker</p>
 </td>
 <td><p>Combined Jockers &amp; Rinker Polarity Lookup Table</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_loughran_mcdonald</p>
 </td>
 <td><p>Loughran-McDonald Polarity Table</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_nrc</p>
 </td>
 <td><p>NRC Sentiment Polarity Table</p>
 </td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_senticnet</p>
 </td>
 <td><p>Augmented SenticNet Polarity Table</p>
 </td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_sentiword</p>
 </td>
 <td><p>Augmented Sentiword Polarity Table</p>
+</td>
+</tr>
+<tr class="even">
+<td><p>hash_sentiment_slangsd</p>
+</td>
+<td><p>SlangSD Sentiment Polarity Table</p>
 </td>
 </tr>
 <tr class="odd">

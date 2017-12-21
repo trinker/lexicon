@@ -28,8 +28,8 @@ lexicon 0.7.0 -
 
 **NEW FEATURES**
 
-* `hash_sentiment_socal_google` sentiment hash table added for use in the
-  **sentimentr** package.
+* `hash_sentiment_socal_google` and `hash_sentiment_slangsd` sentiment hash 
+  tables added for use in the **sentimentr** package.
 
 * `hash_internet_slag` added as a <a href="https://github.com/trinker/lexicon" target="_blank">lexicon</a> to map slang to understood meaning.
 

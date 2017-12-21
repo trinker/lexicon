@@ -38,6 +38,7 @@ Collate:
     'hash_sentiment_nrc.R'
     'hash_sentiment_senticnet.R'
     'hash_sentiment_sentiword.R'
+    'hash_sentiment_slangsd.R'
     'hash_sentiment_socal_google.R'
     'hash_sentiment_vadar.R'
     'hash_strength.R'
