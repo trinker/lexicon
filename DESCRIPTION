@@ -1,12 +1,12 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 0.7.1
+Version: 0.7.2
 Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2017-12-16
+Date: 2017-12-20
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
@@ -25,6 +25,7 @@ Collate:
     'grady_augmented.R'
     'hash_emoticons.R'
     'hash_grady_pos.R'
+    'hash_internet_slang.R'
     'hash_lemmas.R'
     'hash_power.R'
     'hash_sentiment_emojis.R'

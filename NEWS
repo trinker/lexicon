@@ -31,6 +31,8 @@ NEW FEATURES
 * `hash_sentiment_socal_google` sentiment hash table added for use in the
   **sentimentr** package.
 
+* `hash_internet_slag` added as a lexicon to map slang to understood meaning.
+
 MINOR FEATURES
 
 IMPROVEMENTS
