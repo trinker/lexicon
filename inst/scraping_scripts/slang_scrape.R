@@ -10,7 +10,7 @@ rtxt <- robotstxt(domain='smart-words.org')
 rtxt
 
 
-## scrape 
+## scrape
 
 url %>%
     read_html() -> txt
@@ -40,12 +40,12 @@ hash_internet_slang <- txt  %>%
             {gsub('[.?!, ]+$', '', .)} %>%
             trimws() %>%
             stringi::stri_replace_first_regex(
-                '(fuck the world / )|(remember / )|( / remember)|( / honest)|(available / )|( \\(fr.+$)|(, original post)', 
+                '(fuck the world / )|(remember / )|( / remember)|( / honest)|(available / )|( \\(fr.+$)|(, original post)',
                 ''
             ) %>%
             textclean::mgsub(
-                c(' / sex / ', 'thread / .. text / .. transmission', 'whoomp, there it is; meaning "hooray"', 'its friday', 'fine manual', '(just)'), 
-                c(', sex, ', 'text', 'hooray', "it's friday", 'fucking manual', 'just')
+                c('thanks god', ' / sex / ', 'thread / .. text / .. transmission', 'whoomp, there it is; meaning "hooray"', 'its friday', 'fine manual', '(just)'),
+                c('thank god', ', sex, ', 'text', 'hooray', "it's friday", 'fucking manual', 'just')
             ) %>%
             stringi::stri_replace_first_regex('\\s*/.+$', '')
     ) %>%
@@ -75,7 +75,7 @@ hash_internet_slang <- txt  %>%
     data.table::data.table()
 
 data.table::setkey(hash_internet_slang, "x")
-hash_internet_slang['YMMV'] 
+hash_internet_slang['TGIF']
 
 pax::new_data(hash_internet_slang, stand.alone = TRUE)
 
