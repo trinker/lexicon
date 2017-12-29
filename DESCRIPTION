@@ -1,12 +1,13 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 0.7.2
-Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre")))
+Version: 0.7.3
+Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut",
+          "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2017-12-20
+Date: 2017-12-29
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
@@ -19,6 +20,7 @@ Collate:
     'constraining_loughran_mcdonald.R'
     'discourse_markers_alemany.R'
     'dodds_sentiment.R'
+    'enable_word_list.R'
     'freq_first_names.R'
     'freq_last_names.R'
     'function_words.R'

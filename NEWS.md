@@ -28,10 +28,14 @@ lexicon 0.7.0 -
 
 **NEW FEATURES**
 
-* `hash_sentiment_socal_google` and `hash_sentiment_slangsd` sentiment hash 
+* `hash_sentiment_socal_google` and `hash_sentiment_slangsd` sentiment hash
   tables added for use in the **sentimentr** package.
 
 * `hash_internet_slag` added as a <a href="https://github.com/trinker/lexicon" target="_blank">lexicon</a> to map slang to understood meaning.
+
+* `enable_word_list` added.  This is the Enhanced North American Benchmark
+  Lexicon (ENABLE) which is used in the game Words With Friends
+  (https://en.wikipedia.org/wiki/Words_with_Friends)
 
 **MINOR FEATURES**
 
