@@ -35,13 +35,17 @@ lexicon 0.7.0 -
 
 * `enable_word_list` added.  This is the Enhanced North American Benchmark
   Lexicon (ENABLE) which is used in the game Words With Friends
-  (https://en.wikipedia.org/wiki/Words_with_Friends)
+  (https://en.wikipedia.org/wiki/Words_with_Friends).
 
 **MINOR FEATURES**
 
 **IMPROVEMENTS**
 
 **CHANGES**
+
+* The columns `n_pos`, `space`, & `primary` have been removed from the
+  `hash_grady_pos` data set to save space.  The `grady_pos_feature` function can
+  be used to re-add these columns.
 
 
 

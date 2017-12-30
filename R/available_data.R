@@ -14,17 +14,19 @@ available_data <- function(){
         stringsAsFactors = FALSE), c("Data", "Description"))
 
     ns <- getNamespaceExports(loadNamespace('lexicon'))
-    ns <- ns[!ns %in% c("available_data")]
-    dat <- rbind.data.frame(dat,
-    data.frame(
-        Data = ns,
-        Description = c('Jockers Sentiment Polarity Table', 'Jockers Sentiment Data Set'),
-        stringsAsFactors = FALSE
-    ))
+    ns <- ns[!ns %in% c("available_data", 'grady_pos_feature')]
+    dat <- rbind.data.frame(
+        dat,
+        data.frame(
+            Data = ns,
+            Description = c('Jockers Sentiment Polarity Table', 'Jockers Sentiment Data Set'),
+            stringsAsFactors = FALSE
+        )
+    )
     dat <- dat[order(dat[['Data']]),]
     row.names(dat) <- NULL
     dat
 }
 
 
-
+#enable_word_list

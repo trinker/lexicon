@@ -3,37 +3,47 @@
 \docType{data}
 \name{hash_grady_pos}
 \alias{hash_grady_pos}
+\alias{grady_pos_feature}
 \title{Grady Ward's Moby Parts of Speech}
-\format{A data frame with 250,892 rows and 5 variables}
+\format{A data frame with 246,691 rows and 3 variables}
 \source{
-\url{http://icon.shef.ac.uk/Moby/mpos.html}
+\url{http://www.gutenberg.org/ebooks/3201}
 }
 \usage{
 data(hash_grady_pos)
+
+grady_pos_feature(data)
+}
+\arguments{
+\item{data}{This should be \code{lexicon::hash_grady_pos}.}
 }
 \description{
 A dataset containing a hash lookup of Grady Ward's parts of speech from the
 Moby project.  The words with non-ASCII characters removed.
+
+\code{grady_pos_feature} - A function for augmenting \code{hash_grady_pos}
+with 3 additional columns: (1) \code{n_pos} - the number of parts of speech
+a word has, (2) \code{space} - logical; indicating if a word contains a space,
+& (3) \code{primary} - logical; indicating if this is the most likely part of
+speech given the word.
 }
 \details{
 \itemize{
   \item word. The word.
   \item pos. The part of speech; one of :\code{Adjective}, \code{Adverb}, \code{Conjunction}, \code{Definite Article}, \code{Interjection}, \code{Noun}, \code{Noun Phrase}, \code{Plural}, \code{Preposition}, \code{Pronoun}, \code{Verb (intransitive)}, \code{Verb (transitive)}, or \code{Verb (usu participle)}.  Note that the first part of speech for a word is its primary use; all other uses are secondary.
-  \item n_pos. The number of parts of speech associated with a word.  Useful for filtering.
-  \item space. logical.  If \code{TRUE} the word contains a space.  Useful for filtering.
-  \item primary. logical.  If \code{TRUE} the word is the primary part of speech used.
 }
 }
 \examples{
 \dontrun{
 library(data.table)
 
+hash_grady_pos <- grady_pos_feature(hash_grady_pos)
 hash_grady_pos['dog']
 hash_grady_pos[primary == TRUE, ]
 hash_grady_pos[primary == TRUE & space == FALSE, ]
 }
 }
 \references{
-Moby Thesaurus List by Grady Ward: \url{http://icon.shef.ac.uk/Moby/mpos.html}
+Moby Thesaurus List by Grady Ward: \url{http://www.gutenberg.org/ebooks/3201}
 }
 \keyword{datasets}

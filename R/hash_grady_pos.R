@@ -7,24 +7,54 @@
 #' \itemize{
 #'   \item word. The word.
 #'   \item pos. The part of speech; one of :\code{Adjective}, \code{Adverb}, \code{Conjunction}, \code{Definite Article}, \code{Interjection}, \code{Noun}, \code{Noun Phrase}, \code{Plural}, \code{Preposition}, \code{Pronoun}, \code{Verb (intransitive)}, \code{Verb (transitive)}, or \code{Verb (usu participle)}.  Note that the first part of speech for a word is its primary use; all other uses are secondary.
-#'   \item n_pos. The number of parts of speech associated with a word.  Useful for filtering.
-#'   \item space. logical.  If \code{TRUE} the word contains a space.  Useful for filtering.
-#'   \item primary. logical.  If \code{TRUE} the word is the primary part of speech used.
 #' }
 #'
 #' @docType data
 #' @keywords datasets
 #' @name hash_grady_pos
+#' @rdname hash_grady_pos
 #' @usage data(hash_grady_pos)
-#' @format A data frame with 250,892 rows and 5 variables
-#' @source \url{http://icon.shef.ac.uk/Moby/mpos.html}
-#' @references Moby Thesaurus List by Grady Ward: \url{http://icon.shef.ac.uk/Moby/mpos.html}
+#' @format A data frame with 246,691 rows and 3 variables
+#' @source \url{http://www.gutenberg.org/ebooks/3201}
+#' @references Moby Thesaurus List by Grady Ward: \url{http://www.gutenberg.org/ebooks/3201}
 #' @examples
 #' \dontrun{
 #' library(data.table)
 #'
+#' hash_grady_pos <- grady_pos_feature(hash_grady_pos)
 #' hash_grady_pos['dog']
 #' hash_grady_pos[primary == TRUE, ]
 #' hash_grady_pos[primary == TRUE & space == FALSE, ]
 #' }
 NULL
+
+
+#' Grady Ward's Moby Parts of Speech
+#'
+#' \code{grady_pos_feature} - A function for augmenting \code{hash_grady_pos}
+#' with 3 additional columns: (1) \code{n_pos} - the number of parts of speech
+#' a word has, (2) \code{space} - logical; indicating if a word contains a space,
+#' & (3) \code{primary} - logical; indicating if this is the most likely part of
+#' speech given the word.
+#'
+#' @param data This should be \code{lexicon::hash_grady_pos}.
+#' @rdname hash_grady_pos
+#' @importFrom data.table .N :=
+#' @export
+grady_pos_feature <- function(data){
+
+    data <- data.table::copy(data)
+    n_pos <- space <- primary <- NULL
+
+    data <- data[, n_pos := .N, by = 'word'][, space := grepl("\\s", word)][]
+
+
+    uDT <- unique(data)
+    data[, "primary" := FALSE]
+    data[uDT, primary := TRUE, mult = "first"][]
+
+    data.table::setkey(data, 'word')
+
+    data
+
+}

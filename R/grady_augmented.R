@@ -12,6 +12,6 @@
 #' @keywords datasets
 #' @name grady_augmented
 #' @usage data(grady_augmented)
-#' @format A character vector with 122806 elements
+#' @format A character vector with 122,806 elements
 #' @references Moby Thesaurus List by Grady Ward (http://www.gutenberg.org)
 NULL

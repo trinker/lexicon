@@ -41,10 +41,29 @@ hash_grady_pos <- mobyr %>%
 
 setkey(hash_grady_pos, 'word')
 
+hash_grady_pos <- unique(lexicon::hash_grady_pos[, 1:2])
+setkey(hash_grady_pos, 'word')
 
-uDT <- unique(hash_grady_pos)
-hash_grady_pos[, "primary":=FALSE]
-hash_grady_pos[uDT, primary:=TRUE, mult="first"][]
+
+grady_pos_feature <- function(data){
+
+    data <- data.table::copy(data)
+
+    data <- data[, n_pos := .N, by = 'word'][, space := grepl("\\s", word)][]
+
+
+    uDT <- unique(data)
+    data[, "primary" := FALSE]
+    data[uDT, primary := TRUE, mult = "first"][]
+
+    data.table::setkey(data, 'word')
+
+    data
+
+}
+
+
+grady_pos_feature(hash_grady_pos)
 
 
 ## test hash
@@ -55,7 +74,7 @@ table(hash_grady_pos$pos)
 write_clip(capture.output(acc.roxygen2::dat4rox(hash_grady_pos)))
 write_clip(paste(paste0("\\code{", names(table(hash_grady_pos$pos)), "}"), collapse = ", "))
 
-pax::new_data(hash_grady_pos)
+pax::new_data(hash_grady_pos, stand.alone = TRUE)
 
 
 #' Grady Ward's Moby Parts of Speech
