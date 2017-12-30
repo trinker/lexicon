@@ -44,7 +44,7 @@ NULL
 grady_pos_feature <- function(data){
 
     data <- data.table::copy(data)
-    n_pos <- space <- primary <- NULL
+    n_pos <- space <- primary <- word <- NULL
 
     data <- data[, n_pos := .N, by = 'word'][, space := grepl("\\s", word)][]
 
