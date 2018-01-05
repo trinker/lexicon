@@ -7,7 +7,7 @@ Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2017-12-30
+Date: 2018-01-04
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
