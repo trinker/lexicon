@@ -5,11 +5,11 @@ citEntry(entry = "manual",
     title = "{lexicon}: Lexicon Data",
     author = "Tyler W. Rinker",
     address = "Buffalo, New York",
-    note = "version 0.7.3",
+    note = "version 0.7.4",
     year = "2018",
     url = "http://github.com/trinker/lexicon",
     textVersion  = paste("Rinker, T. W. (2018).",
         "lexicon: Lexicon Data",
-        "version 0.7.3.",
+        "version 0.7.4.",
         "http://github.com/trinker/lexicon")
 )

@@ -1,13 +1,13 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 0.7.3
+Version: 0.7.4
 Authors@R: c(person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut",
           "cre")))
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Date: 2018-01-04
+Date: 2018-01-12
 License: MIT + file LICENSE
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
