@@ -18,13 +18,14 @@ And constructed with the following guidelines:
 
 
 
-lexicon 0.7.0 -
+lexicon 0.7.0 - 0.7.4
 ----------------------------------------------------------------
 
 **BUG FIXES**
 
 * `emojis_sentiment` & `hash_emojis` contained non-ASCII characters.  These have
   been removed.
+
 
 **NEW FEATURES**
 
@@ -37,9 +38,7 @@ lexicon 0.7.0 -
   Lexicon (ENABLE) which is used in the game Words With Friends
   (https://en.wikipedia.org/wiki/Words_with_Friends).
 
-**MINOR FEATURES**
 
-**IMPROVEMENTS**
 
 **CHANGES**
 
