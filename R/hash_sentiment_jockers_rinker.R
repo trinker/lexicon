@@ -14,7 +14,7 @@
 #' @keywords datasets
 #' @name hash_sentiment_jockers_rinker
 #' @usage data(hash_sentiment_jockers_rinker)
-#' @format A data frame with 11,702 rows and 2 variables
+#' @format A data frame with 11,709 rows and 2 variables
 #' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 #' from Text. Retrieved from https://github.com/mjockers/syuzhet \cr \cr
 #' Hu, M., & Liu, B. (2004). Mining opinion features in customer

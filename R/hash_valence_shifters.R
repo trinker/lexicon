@@ -36,7 +36,7 @@
 #' @keywords datasets
 #' @name hash_valence_shifters
 #' @usage data(hash_valence_shifters)
-#' @format A data frame with 134 rows and 2 variables
+#' @format A data frame with 140 rows and 2 variables
 NULL
 
 
