@@ -17,10 +17,15 @@
 #' @name hash_sentiment_huliu
 #' @usage data(hash_sentiment_huliu)
 #' @format A data frame with 6874 rows and 2 variables
-#' @references Hu, M., & Liu, B. (2004). Mining opinion features in customer
-#' reviews. National Conference on Artificial Intelligence.
+#' @references Hu, M., & Liu, B. (2004). Mining and summarizing customer reviews.
+#' Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery
+#' & Data Mining (KDD-2004). Seattle, Washington. \cr
+#'
+#' Hu, M., & Liu, B. (2004). Mining opinion features in customer
+#' reviews. National Conference on Artificial Intelligence.\cr
 #'
 #' \file{https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html}
 NULL
+
 
 

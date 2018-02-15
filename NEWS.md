@@ -18,6 +18,20 @@ And constructed with the following guidelines:
 
 
 
+lexicon 0.8.0 -
+----------------------------------------------------------------
+
+**BUG FIXES**
+
+**NEW FEATURES**
+
+**MINOR FEATURES**
+
+**IMPROVEMENTS**
+
+**CHANGES**
+
+
 lexicon 0.7.0 - 0.7.4
 ----------------------------------------------------------------
 

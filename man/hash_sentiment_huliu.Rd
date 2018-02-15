@@ -22,8 +22,12 @@ positive/negative word list as sentiment lookup values.
 }
 }
 \references{
+Hu, M., & Liu, B. (2004). Mining and summarizing customer reviews.
+Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery
+& Data Mining (KDD-2004). Seattle, Washington. \cr
+
 Hu, M., & Liu, B. (2004). Mining opinion features in customer
-reviews. National Conference on Artificial Intelligence.
+reviews. National Conference on Artificial Intelligence.\cr
 
 \file{https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html}
 }

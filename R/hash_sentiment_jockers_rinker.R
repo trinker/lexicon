@@ -17,8 +17,10 @@
 #' @format A data frame with 11,709 rows and 2 variables
 #' @references Jockers, M. L. (2017). Syuzhet: Extract sentiment and plot arcs
 #' from Text. Retrieved from https://github.com/mjockers/syuzhet \cr \cr
-#' Hu, M., & Liu, B. (2004). Mining opinion features in customer
-#' reviews. National Conference on Artificial Intelligence.
+#'
+#' Hu, M., & Liu, B. (2004). Mining and summarizing customer reviews.
+#' Proceedings of the ACM SIGKDD International Conference on Knowledge Discovery
+#' & Data Mining (KDD-2004). Seattle, Washington.
 NULL
 
 
