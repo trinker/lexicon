@@ -23,6 +23,9 @@ lexicon 0.8.0 -
 
 **BUG FIXES**
 
+* `hash_valence_shifters` contained a typo: "sparesly" instead of "sparsely".
+  This was spotted by Claire Kunesh.
+
 **NEW FEATURES**
 
 **MINOR FEATURES**
