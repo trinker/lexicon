@@ -30,9 +30,14 @@ more computer friendly identifier.
   \item y. Sentiment
 }
 }
+\section{Copyright}{
+ 2015 - Department of Knowledge Technologies
+}
+
 \references{
 Novak, P. K., Smailovic, J., Sluban, B., and Mozetic, I. (2015)
 Sentiment of emojis. PLoS ONE 10(12). doi:10.1371/journal.pone.0144296 \cr \cr
-http://kt.ijs.si/data/Emoji_sentiment_ranking/index.html
+http://kt.ijs.si/data/Emoji_sentiment_ranking/index.html \cr \cr
+https://creativecommons.org/licenses/by-sa/4.0/
 }
 \keyword{datasets}

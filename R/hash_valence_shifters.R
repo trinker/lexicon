@@ -28,7 +28,7 @@
 #'   Negator     \tab 1 \cr
 #'   Amplifier (intensifier)  \tab 2 \cr
 #'  De-amplifier (downtoner)  \tab 3 \cr
-#'  Adversative Contraction \tab 4 \cr
+#'  Adversative Conjunction \tab 4 \cr
 #' }
 #' }
 #'

@@ -19,6 +19,22 @@ any neutral words.
   \item x. Words
   \item y. Sentiment values (+1, -1)
 }
+
+Original Licensing:
+The dictionary is free to use. If you use it for an academic publication, we 
+ask that you cite it using the citation below. If it is used in anything other 
+than an academic publication, we ask that you provide a credit and link to SlangSD.com.
+
+article{DBLP:journals/corr/Wu-etal16,
+  author    = {Liang Wu and Fred Morstatter and Huan Liu},
+  title     = {SlangSD: Building and Using a Sentiment Dictionary of Slang 
+               Words for Short-Text Sentiment Classification},
+  journal   = {CoRR},
+  volume    = {abs/1608.05129},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1608.05129},
+  timestamp = {Wed, 17 Aug 2016 23:32:57 GMT}
+}
 }
 \references{
 Wu, L., Morstatter, F.,  and Liu, H. (2016). SlangSD: Building 

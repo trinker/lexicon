@@ -1,11 +1,11 @@
-#' Grades Hash
+#' Grades Data Set
 #'
-#' A dataset containing letter grades and corresponding semantic meaning.
+#' A dataset containing common grades.
 #'
 #' @details
 #' \itemize{
-#'   \item x. Letter grade
-#'   \item y. Semantic meaning of grade
+#'   \item x. The graphic representation of the grade
+#'   \item y. The meaning of the grade
 #' }
 #'
 #' @docType data

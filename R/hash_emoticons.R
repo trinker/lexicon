@@ -1,23 +1,25 @@
 #' Emoticons
 #'
 #' A \pkg{data.table} key containing common emoticons (adapted from
-#' \href{http://www.lingo2word.com/lists/emoticon_listH.html}{Popular Emoticon List}).
+#' Wikipedia's Page semi-protected 'List of emoticons').
 #'
 #' @details
 #' \itemize{
 #'   \item x. The graphic representation of the emoticon
 #'   \item y. The meaning of the emoticon
 #' }
-#'
+#' 
+#' @section License: https://creativecommons.org/licenses/by-sa/3.0/legalcode
 #' @docType data
 #' @keywords datasets
 #' @name hash_emoticons
 #' @usage data(hash_emoticons)
-#' @format A data frame with 75 rows and 2 variables
-#' @references \url{http://www.lingo2word.com/lists/emoticon_listH.html}
+#' @format A data.table with 144 rows and 2 variables
+#' @references https://en.wikipedia.org/wiki/List_of_emoticons
 #' @examples
 #' \dontrun{
 #' library(data.table)
-#' hash_emoticons[c(':-(', '0;)')]
+#' hash_emoticons[c(':-(', '0:)')]
+
 #' }
 NULL

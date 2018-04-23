@@ -13,12 +13,13 @@
 #'   \item x. Words
 #'   \item y. Sentiment values
 #' }
-#'
+#' 
+#' @section License: https://creativecommons.org/licenses/by-sa/3.0/legalcode
 #' @docType data
 #' @keywords datasets
 #' @name hash_sentiment_sentiword
 #' @usage data(hash_sentiment_sentiword)
-#' @format A data frame with 20,094 rows and 2 variables
+#' @format A data frame with 20,093 rows and 2 variables
 #' @references Baccianella S., Esuli, A. and Sebastiani, F. (2010). SentiWordNet
 #' 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining.
 #' International Conference on Language Resources and Evaluation.

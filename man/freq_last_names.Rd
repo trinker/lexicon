@@ -4,7 +4,7 @@
 \name{freq_last_names}
 \alias{freq_last_names}
 \title{Frequent U.S. Last Names}
-\format{A data frame with 14,840 rows and 3 variables}
+\format{A data frame with 14,840 rows and 2 variables}
 \usage{
 data(freq_last_names)
 }
@@ -14,11 +14,10 @@ A dataset containing frequent last names based on the 1990 U.S. census.
 \details{
 \itemize{
   \item Surname. A last name
-  \item n. The approximate frequency
   \item prop. The proportion
 }
 }
 \references{
-http://names.mongabay.com
+https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html
 }
 \keyword{datasets}

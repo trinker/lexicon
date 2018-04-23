@@ -9,7 +9,11 @@
 #'   \item x. Words
 #'   \item y. Sentiment values
 #' }
-#'
+#' 
+#' @section License: The original license states:
+#' This work is licensed under a Creative Commons 
+#' Attribution-NonCommercial-ShareAlike 4.0 International License.
+#' https://creativecommons.org/licenses/by-nc-sa/4.0/
 #' @docType data
 #' @keywords datasets
 #' @name hash_sentiment_socal_google

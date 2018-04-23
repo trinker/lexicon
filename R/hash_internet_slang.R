@@ -14,5 +14,7 @@
 #' @name hash_internet_slang
 #' @usage data(hash_internet_slang)
 #' @format A data frame with 175 rows and 2 variables
-#' @references \url{http://www.smart-words.org/abbreviations/text.html}
+#' @references Possel, H. (n.d.). English language smart words.  Retrieved from 
+#' http://www.smart-words.org \cr \cr
+#' \url{http://www.smart-words.org/abbreviations/text.html}
 NULL

@@ -4,13 +4,13 @@
 \name{hash_emoticons}
 \alias{hash_emoticons}
 \title{Emoticons}
-\format{A data frame with 75 rows and 2 variables}
+\format{A data.table with 144 rows and 2 variables}
 \usage{
 data(hash_emoticons)
 }
 \description{
 A \pkg{data.table} key containing common emoticons (adapted from
-\href{http://www.lingo2word.com/lists/emoticon_listH.html}{Popular Emoticon List}).
+Wikipedia's Page semi-protected 'List of emoticons').
 }
 \details{
 \itemize{
@@ -18,13 +18,17 @@ A \pkg{data.table} key containing common emoticons (adapted from
   \item y. The meaning of the emoticon
 }
 }
+\section{License}{
+ https://creativecommons.org/licenses/by-sa/3.0/legalcode
+}
+
 \examples{
 \dontrun{
 library(data.table)
-hash_emoticons[c(':-(', '0;)')]
+hash_emoticons[c(':-(', '0:)')]
 }
 }
 \references{
-\url{http://www.lingo2word.com/lists/emoticon_listH.html}
+https://en.wikipedia.org/wiki/List_of_emoticons
 }
 \keyword{datasets}

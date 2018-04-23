@@ -4,13 +4,17 @@
 \name{pos_df_irregular_nouns}
 \alias{pos_df_irregular_nouns}
 \title{Irregular Nouns Word Dataframe}
-\format{A data frame with 106 rows and 2 variables}
+\format{A data frame with 124 rows and 2 variables  
+https://cms.azed.gov/home/GetDocumentFile?id=54de1d89aadebe14a8707103 \cr \cr
+https://en.wikipedia.org/wiki/English_plurals}
 \usage{
 data(pos_df_irregular_nouns)
 }
 \description{
 A dataset containing a \code{data.frame} of irregular noun singular and 
-plural forms.
+plural forms from Arizona Department of Education (https://cms.azed.gov)
+and augmented with selected common nouns from Wikipedia's "English Plurals" 
+(https://en.wikipedia.org/wiki/English_plurals).
 }
 \details{
 \itemize{ 
@@ -18,7 +22,9 @@ plural forms.
   \item plural. The plural form of the noun
 }
 }
-\references{
-\url{http://www.esldesk.com/vocabulary/irregular-nouns}
+\section{License}{
+ The Wikipedia data is Creative Commons.  See 
+https://creativecommons.org/licenses/by-sa/3.0/ for License information.
 }
+
 \keyword{datasets}

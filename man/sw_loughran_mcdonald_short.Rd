@@ -12,6 +12,13 @@ data(sw_loughran_mcdonald_short)
 A dataset containing a character vector of Loughran & McDonald's (2016)
 short stopword list.
 }
+\section{License}{
+ The original authors note the data is available for 
+non-commercial, research use: "The data compilations provided on 
+this website are for use by individual researchers.".  For more details see:
+https://sraf.nd.edu/textual-analysis/resources/#Master%20Dictionary.
+}
+
 \references{
 Loughran, T. and McDonald, B. (2016). Textual analysis in
 accounting and finance: A survey. Journal of Accounting Research 54(4),

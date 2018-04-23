@@ -12,6 +12,10 @@ data(profanity_alvarez)
 A dataset containing a character vector of profane words from Alejandro U.
 Alvarez.
 }
+\section{TermsOfUse}{
+ https://archive.org/about/terms.php
+}
+
 \references{
 \url{https://web.archive.org/web/20130704010355/http://urbanoalvarez.es:80/blog/2008/04/04/bad-words-list/}
 }

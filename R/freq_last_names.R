@@ -5,7 +5,6 @@
 #' @details
 #' \itemize{
 #'   \item Surname. A last name
-#'   \item n. The approximate frequency
 #'   \item prop. The proportion
 #' }
 #'
@@ -13,7 +12,7 @@
 #' @keywords datasets
 #' @name freq_last_names
 #' @usage data(freq_last_names)
-#' @format A data frame with 14,840 rows and 3 variables
+#' @format A data frame with 14,840 rows and 2 variables
 #' @references
-#' http://names.mongabay.com
+#' https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html
 NULL

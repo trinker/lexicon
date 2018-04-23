@@ -2,7 +2,8 @@
 #'
 #' A dataset containing a character vector of profane words from Alejandro U.
 #' Alvarez.
-#'
+#' 
+#' @section TermsOfUse: https://archive.org/about/terms.php
 #' @docType data
 #' @keywords datasets
 #' @name profanity_alvarez

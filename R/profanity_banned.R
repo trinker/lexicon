@@ -1,7 +1,12 @@
 #' bannedwordlist.com's List of Profane Words
 #'
 #' A dataset containing a character vector of profane words from bannedwordlist.com.
-#'
+#' 
+#' @section Disclaimer: From the original author: "These lists are free to download. You may use them for 
+#' any purpose you wish and may copy, modify and distribute them freely. The 
+#' swear words lists are provided "as-is" without any warranty or guarantee 
+#' whatsoever. Don't blame me when the users of your forum, blog or community 
+#' find more creative ways of offending people."
 #' @docType data
 #' @keywords datasets
 #' @name profanity_banned

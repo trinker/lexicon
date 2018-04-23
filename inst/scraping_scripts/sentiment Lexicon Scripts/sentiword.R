@@ -86,4 +86,6 @@ left_just(data.frame(
 options(width=width)
 
 
+hash_sentiment_sentiword <- sentimentr::update_polarity_table(lexicon::hash_sentiment_sentiword)
+pax::new_data(hash_sentiment_sentiword)
 

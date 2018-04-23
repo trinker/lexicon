@@ -12,6 +12,11 @@ data(profanity_arr_bad)
 A dataset containing a character vector of profane words from Stackoverflow
 user2592414.
 }
+\section{License}{
+ The Stackoverflow data is Creative Commons.  See 
+https://creativecommons.org/licenses/by-sa/3.0/ for License information.
+}
+
 \references{
 \url{https://stackoverflow.com/a/17706025/1000343}
 }

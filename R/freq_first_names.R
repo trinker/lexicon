@@ -5,7 +5,6 @@
 #' @details
 #' \itemize{
 #'   \item Name. A first name
-#'   \item n. The approximate frequency within the sex
 #'   \item prop. The proportion within the sex
 #'   \item sex. The sex corresponding to the name
 #' }
@@ -14,7 +13,7 @@
 #' @keywords datasets
 #' @name freq_first_names
 #' @usage data(freq_first_names)
-#' @format A data frame with 5494 rows and 4 variables
+#' @format A data frame with 5494 rows and 3 variables
 #' @references
-#' http://names.mongabay.com
+#' https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html
 NULL

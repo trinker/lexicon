@@ -8,7 +8,13 @@
 #'   \item x. Words
 #'   \item y. Sentiment values (+1, -1)
 #' }
-#'
+#' 
+#' @section License: The original authors note the data is available for 
+#' non-commercial use: "If interested in commercial use of any of these lexicons, 
+#' send email to Saif M. Mohammad (Senior Research Officer at NRC and creator of 
+#' these lexicons): saif.mohammad@@nrc-cnrc.gc.ca and Pierre Charron (Client 
+#' Relationship Leader at NRC): Pierre.Charron@@nrc-cnrc.gc.ca. A nominal 
+#' one-time licensing fee may apply."
 #' @docType data
 #' @keywords datasets
 #' @name hash_sentiment_nrc

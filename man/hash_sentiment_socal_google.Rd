@@ -19,6 +19,13 @@ values.
   \item y. Sentiment values
 }
 }
+\section{License}{
+ The original license states:
+This work is licensed under a Creative Commons 
+Attribution-NonCommercial-ShareAlike 4.0 International License.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+}
+
 \references{
 Taboada, M., Brooke, J., Tofiloski, M., Voll, K., and Stede, M.
 (2011). Lexicon-based methods for sentiment analysis. Computational

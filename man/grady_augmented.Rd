@@ -10,8 +10,7 @@ data(grady_augmented)
 }
 \description{
 A dataset containing a vector of Grady Ward's English words augmented with
-\code{\link[lexicon]{hash_syllable}}, Mark Kantrowitz's names list, other
-proper nouns, and contractions.
+Mark Kantrowitz's names list, other proper nouns, and contractions.
 }
 \details{
 A dataset containing a vector of Grady Ward's English words
@@ -19,6 +18,6 @@ augmented with proper nouns (U.S. States, Countries, Mark Kantrowitz's Names Lis
 and months) and contractions. That dataset is augmented for spell checking purposes.
 }
 \references{
-Moby Thesaurus List by Grady Ward (http://www.gutenberg.org)
+Moby Thesaurus List by Grady Ward
 }
 \keyword{datasets}

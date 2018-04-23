@@ -15,8 +15,7 @@
 #' @rdname hash_grady_pos
 #' @usage data(hash_grady_pos)
 #' @format A data frame with 246,691 rows and 3 variables
-#' @source \url{http://www.gutenberg.org/ebooks/3201}
-#' @references Moby Thesaurus List by Grady Ward: \url{http://www.gutenberg.org/ebooks/3201}
+#' @source Originally downloaded from: http://icon.shef.ac.uk/Moby
 #' @examples
 #' \dontrun{
 #' library(data.table)

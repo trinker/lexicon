@@ -19,6 +19,8 @@ set is an augmented version of \url{http://www.smart-words.org/abbreviations/tex
 }
 }
 \references{
+Possel, H. (n.d.). English language smart words.  Retrieved from 
+http://www.smart-words.org \cr \cr
 \url{http://www.smart-words.org/abbreviations/text.html}
 }
 \keyword{datasets}

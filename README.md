@@ -7,7 +7,7 @@ state and is being actively
 developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
-[![](http://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
+[![](https://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
 
 ![](tools/lexicon_logo/r_lexicon.png)
 
@@ -82,388 +82,260 @@ Data
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>common_names</p>
-</td>
-<td><p>First Names (U.S.)</p>
-</td>
+<td><p>common_names</p></td>
+<td><p>First Names (U.S.)</p></td>
 </tr>
 <tr class="even">
-<td><p>constraining_loughran_mcdonald</p>
-</td>
-<td><p>Loughran-McDonald Constraining Words</p>
-</td>
+<td><p>constraining_loughran_mcdonald</p></td>
+<td><p>Loughran-McDonald Constraining Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>discourse_markers_alemany</p>
-</td>
-<td><p>Alemany's Discourse Markers</p>
-</td>
+<td><p>discourse_markers_alemany</p></td>
+<td><p>Alemany's Discourse Markers</p></td>
 </tr>
 <tr class="even">
-<td><p>dodds_sentiment</p>
-</td>
-<td><p>Language Assessment by Mechanical Turk Sentiment Words</p>
-</td>
+<td><p>dodds_sentiment</p></td>
+<td><p>Language Assessment by Mechanical Turk Sentiment Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>emojis_sentiment</p>
-</td>
-<td><p>Emoji Sentiment Data</p>
-</td>
+<td><p>emojis_sentiment</p></td>
+<td><p>Emoji Sentiment Data</p></td>
 </tr>
 <tr class="even">
-<td><p>enable_word_list</p>
-</td>
-<td><p>ENABLE Word List</p>
-</td>
+<td><p>enable_word_list</p></td>
+<td><p>ENABLE Word List</p></td>
 </tr>
 <tr class="odd">
-<td><p>freq_first_names</p>
-</td>
-<td><p>Frequent U.S. First Names</p>
-</td>
+<td><p>freq_first_names</p></td>
+<td><p>Frequent U.S. First Names</p></td>
 </tr>
 <tr class="even">
-<td><p>freq_last_names</p>
-</td>
-<td><p>Frequent U.S. Last Names</p>
-</td>
+<td><p>freq_last_names</p></td>
+<td><p>Frequent U.S. Last Names</p></td>
 </tr>
 <tr class="odd">
-<td><p>function_words</p>
-</td>
-<td><p>Function Words</p>
-</td>
+<td><p>function_words</p></td>
+<td><p>Function Words</p></td>
 </tr>
 <tr class="even">
-<td><p>grady_augmented</p>
-</td>
-<td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p>
-</td>
+<td><p>grady_augmented</p></td>
+<td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_emojis</p>
-</td>
-<td><p>Emoji Description Lookup Table</p>
-</td>
+<td><p>hash_emojis</p></td>
+<td><p>Emoji Description Lookup Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_emojis_identifier</p>
-</td>
-<td><p>Emoji Identifier Lookup Table</p>
-</td>
+<td><p>hash_emojis_identifier</p></td>
+<td><p>Emoji Identifier Lookup Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_emoticons</p>
-</td>
-<td><p>Emoticons</p>
-</td>
+<td><p>hash_emoticons</p></td>
+<td><p>Emoticons</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_grady_pos</p>
-</td>
-<td><p>Grady Ward's Moby Parts of Speech</p>
-</td>
+<td><p>hash_grady_pos</p></td>
+<td><p>Grady Ward's Moby Parts of Speech</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_internet_slang</p>
-</td>
-<td><p>List of Internet Slang and Corresponding Meanings</p>
-</td>
+<td><p>hash_internet_slang</p></td>
+<td><p>List of Internet Slang and Corresponding Meanings</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_lemmas</p>
-</td>
-<td><p>Lemmatization List</p>
-</td>
+<td><p>hash_lemmas</p></td>
+<td><p>Lemmatization List</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_power</p>
-</td>
-<td><p>Power Lookup Key</p>
-</td>
+<td><p>hash_power</p></td>
+<td><p>Power Lookup Key</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_emojis</p>
-</td>
-<td><p>Emoji Sentiment Polarity Lookup Table</p>
-</td>
+<td><p>hash_sentiment_emojis</p></td>
+<td><p>Emoji Sentiment Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_sentiment_huliu</p>
-</td>
-<td><p>Hu Liu Polarity Lookup Table</p>
-</td>
+<td><p>hash_sentiment_huliu</p></td>
+<td><p>Hu Liu Polarity Lookup Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_inquirer</p>
-</td>
-<td><p>Inquirer Polarity Lookup Table</p>
-</td>
+<td><p>hash_sentiment_inquirer</p></td>
+<td><p>Inquirer Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_sentiment_jockers</p>
-</td>
-<td><p>Jockers Sentiment Polarity Table</p>
-</td>
+<td><p>hash_sentiment_jockers</p></td>
+<td><p>Jockers Sentiment Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_jockers_rinker</p>
-</td>
-<td><p>Combined Jockers &amp; Rinker Polarity Lookup Table</p>
-</td>
+<td><p>hash_sentiment_jockers_rinker</p></td>
+<td><p>Combined Jockers &amp; Rinker Polarity Lookup Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_sentiment_loughran_mcdonald</p>
-</td>
-<td><p>Loughran-McDonald Polarity Table</p>
-</td>
+<td><p>hash_sentiment_loughran_mcdonald</p></td>
+<td><p>Loughran-McDonald Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_nrc</p>
-</td>
-<td><p>NRC Sentiment Polarity Table</p>
-</td>
+<td><p>hash_sentiment_nrc</p></td>
+<td><p>NRC Sentiment Polarity Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_sentiment_senticnet</p>
-</td>
-<td><p>Augmented SenticNet Polarity Table</p>
-</td>
+<td><p>hash_sentiment_senticnet</p></td>
+<td><p>Augmented SenticNet Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_sentiword</p>
-</td>
-<td><p>Augmented Sentiword Polarity Table</p>
-</td>
+<td><p>hash_sentiment_sentiword</p></td>
+<td><p>Augmented Sentiword Polarity Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_sentiment_slangsd</p>
-</td>
-<td><p>SlangSD Sentiment Polarity Table</p>
-</td>
+<td><p>hash_sentiment_slangsd</p></td>
+<td><p>SlangSD Sentiment Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_socal_google</p>
-</td>
-<td><p>SO-CAL Google Polarity Table</p>
-</td>
+<td><p>hash_sentiment_socal_google</p></td>
+<td><p>SO-CAL Google Polarity Table</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_sentiment_vadar</p>
-</td>
-<td><p>Filtered VADAR Polarity Table</p>
-</td>
+<td><p>hash_sentiment_vadar</p></td>
+<td><p>Filtered VADAR Polarity Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_strength</p>
-</td>
-<td><p>Strength Lookup Key</p>
-</td>
+<td><p>hash_strength</p></td>
+<td><p>Strength Lookup Key</p></td>
 </tr>
 <tr class="odd">
-<td><p>hash_syllable</p>
-</td>
-<td><p>Syllable Counts</p>
-</td>
+<td><p>hash_syllable</p></td>
+<td><p>Syllable Counts</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_valence_shifters</p>
-</td>
-<td><p>Valence Shifters</p>
-</td>
+<td><p>hash_valence_shifters</p></td>
+<td><p>Valence Shifters</p></td>
 </tr>
 <tr class="odd">
-<td><p>key_abbreviation</p>
-</td>
-<td><p>Common Abbreviations</p>
-</td>
+<td><p>key_abbreviation</p></td>
+<td><p>Common Abbreviations</p></td>
 </tr>
 <tr class="even">
-<td><p>key_contractions</p>
-</td>
-<td><p>Contraction Conversions</p>
-</td>
+<td><p>key_contractions</p></td>
+<td><p>Contraction Conversions</p></td>
 </tr>
 <tr class="odd">
-<td><p>key_grade</p>
-</td>
-<td><p>Grades Hash</p>
-</td>
+<td><p>key_grade</p></td>
+<td><p>Grades Hash</p></td>
 </tr>
 <tr class="even">
-<td><p>key_rating</p>
-</td>
-<td><p>Ratings Data Set</p>
-</td>
+<td><p>key_rating</p></td>
+<td><p>Ratings Data Set</p></td>
 </tr>
 <tr class="odd">
-<td><p>key_sentiment_jockers</p>
-</td>
-<td><p>Jockers Sentiment Data Set</p>
-</td>
+<td><p>key_sentiment_jockers</p></td>
+<td><p>Jockers Sentiment Data Set</p></td>
 </tr>
 <tr class="even">
-<td><p>modal_loughran_mcdonald</p>
-</td>
-<td><p>Loughran-McDonald Modal List</p>
-</td>
+<td><p>modal_loughran_mcdonald</p></td>
+<td><p>Loughran-McDonald Modal List</p></td>
 </tr>
 <tr class="odd">
-<td><p>nrc_emotions</p>
-</td>
-<td><p>NRC Emotions</p>
-</td>
+<td><p>nrc_emotions</p></td>
+<td><p>NRC Emotions</p></td>
 </tr>
 <tr class="even">
-<td><p>pos_action_verb</p>
-</td>
-<td><p>Action Word List</p>
-</td>
+<td><p>pos_action_verb</p></td>
+<td><p>Action Word List</p></td>
 </tr>
 <tr class="odd">
-<td><p>pos_adverb</p>
-</td>
-<td><p>Adverb Word List</p>
-</td>
+<td><p>pos_adverb</p></td>
+<td><p>Adverb Word List</p></td>
 </tr>
 <tr class="even">
-<td><p>pos_df_irregular_nouns</p>
-</td>
-<td><p>Irregular Nouns Word Dataframe</p>
-</td>
+<td><p>pos_df_irregular_nouns</p></td>
+<td><p>Irregular Nouns Word Dataframe</p></td>
 </tr>
 <tr class="odd">
-<td><p>pos_df_pronouns</p>
-</td>
-<td><p>Pronouns</p>
-</td>
+<td><p>pos_df_pronouns</p></td>
+<td><p>Pronouns</p></td>
 </tr>
 <tr class="even">
-<td><p>pos_interjections</p>
-</td>
-<td><p>Interjections</p>
-</td>
+<td><p>pos_interjections</p></td>
+<td><p>Interjections</p></td>
 </tr>
 <tr class="odd">
-<td><p>pos_preposition</p>
-</td>
-<td><p>Preposition Words</p>
-</td>
+<td><p>pos_preposition</p></td>
+<td><p>Preposition Words</p></td>
 </tr>
 <tr class="even">
-<td><p>pos_unchanging_nouns</p>
-</td>
-<td><p>Nouns that are the Same Plural/Singular</p>
-</td>
+<td><p>pos_unchanging_nouns</p></td>
+<td><p>Nouns that are the Same Plural/Singular</p></td>
 </tr>
 <tr class="odd">
-<td><p>profanity_alvarez</p>
-</td>
-<td><p>Alejandro U. Alvarez's List of Profane Words</p>
-</td>
+<td><p>profanity_alvarez</p></td>
+<td><p>Alejandro U. Alvarez's List of Profane Words</p></td>
 </tr>
 <tr class="even">
-<td><p>profanity_arr_bad</p>
-</td>
-<td><p>Stackoverflow user2592414's List of Profane Words</p>
-</td>
+<td><p>profanity_arr_bad</p></td>
+<td><p>Stackoverflow user2592414's List of Profane Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>profanity_banned</p>
-</td>
-<td><p>bannedwordlist.com's List of Profane Words</p>
-</td>
+<td><p>profanity_banned</p></td>
+<td><p>bannedwordlist.com's List of Profane Words</p></td>
 </tr>
 <tr class="even">
-<td><p>profanity_google</p>
-</td>
-<td><p>Google's List of Profane Words</p>
-</td>
+<td><p>profanity_google</p></td>
+<td><p>Google's List of Profane Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>profanity_von_ahn</p>
-</td>
-<td><p>Luis von Ahn's List of Profane Words</p>
-</td>
+<td><p>profanity_von_ahn</p></td>
+<td><p>Luis von Ahn's List of Profane Words</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_buckley_salton</p>
-</td>
-<td><p>Buckley &amp; Salton Stopword List</p>
-</td>
+<td><p>sw_buckley_salton</p></td>
+<td><p>Buckley &amp; Salton Stopword List</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_dolch</p>
-</td>
-<td><p>Leveled Dolch List of 220 Common Words</p>
-</td>
+<td><p>sw_dolch</p></td>
+<td><p>Leveled Dolch List of 220 Common Words</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_fry_100</p>
-</td>
-<td><p>Fry's 100 Most Commonly Used English Words</p>
-</td>
+<td><p>sw_fry_100</p></td>
+<td><p>Fry's 100 Most Commonly Used English Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_fry_1000</p>
-</td>
-<td><p>Fry's 1000 Most Commonly Used English Words</p>
-</td>
+<td><p>sw_fry_1000</p></td>
+<td><p>Fry's 1000 Most Commonly Used English Words</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_fry_200</p>
-</td>
-<td><p>Fry's 200 Most Commonly Used English Words</p>
-</td>
+<td><p>sw_fry_200</p></td>
+<td><p>Fry's 200 Most Commonly Used English Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_fry_25</p>
-</td>
-<td><p>Fry's 25 Most Commonly Used English Words</p>
-</td>
+<td><p>sw_fry_25</p></td>
+<td><p>Fry's 25 Most Commonly Used English Words</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_jockers</p>
-</td>
-<td><p>Matthew Jocker's Expanded Topic Modeling Stopword List</p>
-</td>
+<td><p>sw_jockers</p></td>
+<td><p>Matthew Jocker's Expanded Topic Modeling Stopword List</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_loughran_mcdonald_long</p>
-</td>
-<td><p>Loughran-McDonald Long Stopword List</p>
-</td>
+<td><p>sw_loughran_mcdonald_long</p></td>
+<td><p>Loughran-McDonald Long Stopword List</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_loughran_mcdonald_short</p>
-</td>
-<td><p>Loughran-McDonald Short Stopword List</p>
-</td>
+<td><p>sw_loughran_mcdonald_short</p></td>
+<td><p>Loughran-McDonald Short Stopword List</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_lucene</p>
-</td>
-<td><p>Lucene Stopword List</p>
-</td>
+<td><p>sw_lucene</p></td>
+<td><p>Lucene Stopword List</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_mallet</p>
-</td>
-<td><p>MALLET Stopword List</p>
-</td>
+<td><p>sw_mallet</p></td>
+<td><p>MALLET Stopword List</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_onix</p>
-</td>
-<td><p>Onix Text Retrieval Toolkit Stopword List 1</p>
-</td>
+<td><p>sw_onix</p></td>
+<td><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
 </tr>
 <tr class="even">
-<td><p>sw_python</p>
-</td>
-<td><p>Python Stopword List</p>
-</td>
+<td><p>sw_python</p></td>
+<td><p>Python Stopword List</p></td>
 </tr>
 </tbody>
 </table>

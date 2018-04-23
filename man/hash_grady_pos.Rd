@@ -7,7 +7,7 @@
 \title{Grady Ward's Moby Parts of Speech}
 \format{A data frame with 246,691 rows and 3 variables}
 \source{
-\url{http://www.gutenberg.org/ebooks/3201}
+Originally downloaded from: http://icon.shef.ac.uk/Moby
 }
 \usage{
 data(hash_grady_pos)
@@ -42,8 +42,5 @@ hash_grady_pos['dog']
 hash_grady_pos[primary == TRUE, ]
 hash_grady_pos[primary == TRUE & space == FALSE, ]
 }
-}
-\references{
-Moby Thesaurus List by Grady Ward: \url{http://www.gutenberg.org/ebooks/3201}
 }
 \keyword{datasets}
