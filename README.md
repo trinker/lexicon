@@ -90,64 +90,48 @@ Data
 <td><p>Loughran-McDonald Constraining Words</p></td>
 </tr>
 <tr class="odd">
-<td><p>discourse_markers_alemany</p></td>
-<td><p>Alemany's Discourse Markers</p></td>
-</tr>
-<tr class="even">
-<td><p>dodds_sentiment</p></td>
-<td><p>Language Assessment by Mechanical Turk Sentiment Words</p></td>
-</tr>
-<tr class="odd">
 <td><p>emojis_sentiment</p></td>
 <td><p>Emoji Sentiment Data</p></td>
 </tr>
 <tr class="even">
-<td><p>enable_word_list</p></td>
-<td><p>ENABLE Word List</p></td>
-</tr>
-<tr class="odd">
 <td><p>freq_first_names</p></td>
 <td><p>Frequent U.S. First Names</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>freq_last_names</p></td>
 <td><p>Frequent U.S. Last Names</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>function_words</p></td>
 <td><p>Function Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>grady_augmented</p></td>
 <td><p>Augmented List of Grady Ward's English Words and Mark Kantrowitz's Names List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_emojis</p></td>
 <td><p>Emoji Description Lookup Table</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_emojis_identifier</p></td>
 <td><p>Emoji Identifier Lookup Table</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_emoticons</p></td>
 <td><p>Emoticons</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_grady_pos</p></td>
 <td><p>Grady Ward's Moby Parts of Speech</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_internet_slang</p></td>
 <td><p>List of Internet Slang and Corresponding Meanings</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_lemmas</p></td>
 <td><p>Lemmatization List</p></td>
-</tr>
-<tr class="odd">
-<td><p>hash_power</p></td>
-<td><p>Power Lookup Key</p></td>
 </tr>
 <tr class="even">
 <td><p>hash_sentiment_emojis</p></td>
@@ -158,92 +142,68 @@ Data
 <td><p>Hu Liu Polarity Lookup Table</p></td>
 </tr>
 <tr class="even">
-<td><p>hash_sentiment_inquirer</p></td>
-<td><p>Inquirer Polarity Lookup Table</p></td>
-</tr>
-<tr class="odd">
 <td><p>hash_sentiment_jockers</p></td>
 <td><p>Jockers Sentiment Polarity Table</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_jockers_rinker</p></td>
 <td><p>Combined Jockers &amp; Rinker Polarity Lookup Table</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_loughran_mcdonald</p></td>
 <td><p>Loughran-McDonald Polarity Table</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_nrc</p></td>
 <td><p>NRC Sentiment Polarity Table</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_senticnet</p></td>
 <td><p>Augmented SenticNet Polarity Table</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_sentiword</p></td>
 <td><p>Augmented Sentiword Polarity Table</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>hash_sentiment_slangsd</p></td>
 <td><p>SlangSD Sentiment Polarity Table</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>hash_sentiment_socal_google</p></td>
 <td><p>SO-CAL Google Polarity Table</p></td>
-</tr>
-<tr class="odd">
-<td><p>hash_sentiment_vadar</p></td>
-<td><p>Filtered VADAR Polarity Table</p></td>
-</tr>
-<tr class="even">
-<td><p>hash_strength</p></td>
-<td><p>Strength Lookup Key</p></td>
-</tr>
-<tr class="odd">
-<td><p>hash_syllable</p></td>
-<td><p>Syllable Counts</p></td>
 </tr>
 <tr class="even">
 <td><p>hash_valence_shifters</p></td>
 <td><p>Valence Shifters</p></td>
 </tr>
 <tr class="odd">
-<td><p>key_abbreviation</p></td>
-<td><p>Common Abbreviations</p></td>
-</tr>
-<tr class="even">
 <td><p>key_contractions</p></td>
 <td><p>Contraction Conversions</p></td>
 </tr>
-<tr class="odd">
-<td><p>key_grade</p></td>
-<td><p>Grades Hash</p></td>
-</tr>
 <tr class="even">
+<td><p>key_grade</p></td>
+<td><p>Grades Data Set</p></td>
+</tr>
+<tr class="odd">
 <td><p>key_rating</p></td>
 <td><p>Ratings Data Set</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>key_sentiment_jockers</p></td>
 <td><p>Jockers Sentiment Data Set</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>modal_loughran_mcdonald</p></td>
 <td><p>Loughran-McDonald Modal List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>nrc_emotions</p></td>
 <td><p>NRC Emotions</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>pos_action_verb</p></td>
 <td><p>Action Word List</p></td>
-</tr>
-<tr class="odd">
-<td><p>pos_adverb</p></td>
-<td><p>Adverb Word List</p></td>
 </tr>
 <tr class="even">
 <td><p>pos_df_irregular_nouns</p></td>
@@ -262,32 +222,16 @@ Data
 <td><p>Preposition Words</p></td>
 </tr>
 <tr class="even">
-<td><p>pos_unchanging_nouns</p></td>
-<td><p>Nouns that are the Same Plural/Singular</p></td>
-</tr>
-<tr class="odd">
 <td><p>profanity_alvarez</p></td>
 <td><p>Alejandro U. Alvarez's List of Profane Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>profanity_arr_bad</p></td>
 <td><p>Stackoverflow user2592414's List of Profane Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>profanity_banned</p></td>
 <td><p>bannedwordlist.com's List of Profane Words</p></td>
-</tr>
-<tr class="even">
-<td><p>profanity_google</p></td>
-<td><p>Google's List of Profane Words</p></td>
-</tr>
-<tr class="odd">
-<td><p>profanity_von_ahn</p></td>
-<td><p>Luis von Ahn's List of Profane Words</p></td>
-</tr>
-<tr class="even">
-<td><p>sw_buckley_salton</p></td>
-<td><p>Buckley &amp; Salton Stopword List</p></td>
 </tr>
 <tr class="odd">
 <td><p>sw_dolch</p></td>
@@ -330,10 +274,6 @@ Data
 <td><p>MALLET Stopword List</p></td>
 </tr>
 <tr class="odd">
-<td><p>sw_onix</p></td>
-<td><p>Onix Text Retrieval Toolkit Stopword List 1</p></td>
-</tr>
-<tr class="even">
 <td><p>sw_python</p></td>
 <td><p>Python Stopword List</p></td>
 </tr>
