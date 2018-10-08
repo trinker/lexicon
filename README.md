@@ -234,46 +234,50 @@ Data
 <td><p>bannedwordlist.com's List of Profane Words</p></td>
 </tr>
 <tr class="odd">
+<td><p>profanity_zac_anger</p></td>
+<td><p>Zac Anger's List of Profane Words</p></td>
+</tr>
+<tr class="even">
 <td><p>sw_dolch</p></td>
 <td><p>Leveled Dolch List of 220 Common Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_fry_100</p></td>
 <td><p>Fry's 100 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_fry_1000</p></td>
 <td><p>Fry's 1000 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_fry_200</p></td>
 <td><p>Fry's 200 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_fry_25</p></td>
 <td><p>Fry's 25 Most Commonly Used English Words</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_jockers</p></td>
 <td><p>Matthew Jocker's Expanded Topic Modeling Stopword List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_loughran_mcdonald_long</p></td>
 <td><p>Loughran-McDonald Long Stopword List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_loughran_mcdonald_short</p></td>
 <td><p>Loughran-McDonald Short Stopword List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_lucene</p></td>
 <td><p>Lucene Stopword List</p></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><p>sw_mallet</p></td>
 <td><p>MALLET Stopword List</p></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><p>sw_python</p></td>
 <td><p>Python Stopword List</p></td>
 </tr>
