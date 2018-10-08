@@ -5,41 +5,24 @@ Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
 Imports: data.table, syuzhet (>= 1.0.1)
-Authors@R: c( 
-    person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre", "cph")),
-    person("University of Notre Dame", role = c('dtc', "cph")),
-    person("Department of Knowledge Technologies", role = c('dtc', "cph")),
-    person("Unicode, Inc.", role = c('dtc', "cph")),
-    person("John", "Higgins", role = c('dtc', "cph")),
-    person("Grady", "Ward", role = c('dtc')),
-    person("Heiko", "Possel", role = c('dtc')),
-    person("Michal Boleslav", "Mechura", role = c('dtc', "cph")),
-    person("Bing", "Liu", role = c('dtc')),
-    person("Minqing", "Hu", role = c('dtc')),
-    person("Saif M.", "Mohammad", role = c('dtc')),
-    person("Peter", "Turney", role = c('dtc')),
-    person("Erik", "Cambria", role = c('dtc')),
-    person('Soujanya', 'Poria', role = c('dtc')),
-    person('Rajiv', 'Bajpai', role = c('dtc')),
-    person("Bjoern", "Schuller", role = c('dtc')),
-    person("SentiWordNet", role = c('dtc', "cph")),
-    person("Liang", "Wu", role = c('dtc', "cph")),
-    person("Fred", "Morstatter", role = c('dtc', "cph")),
-    person("Huan", "Liu", role = c('dtc', "cph")),
-    person("Grammar Revolution", role = c('dtc', "cph")),
-    person("Vidar", "Holen", role = c('dtc', "cph")),
-    person("Alejandro U.", "Alvarez", role = c('dtc', "cph")),
-    person("Stackoverflow User user2592414", role = c('dtc', "cph")),
-    person("BannedWordList.com", role = c('dtc', "cph")),
-    person("Apache Software Foundation", role = c('dtc', "cph")),
-    person("Andrew Kachites", "McCallum", role = c('dtc', "cph")),
-    person("Alireza", "Savand", role = c('dtc', "cph"))
-    )
-Date: 2018-04-22
+Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre", "cph")), person("University of Notre
+              Dame", role = c('dtc', "cph")), person("Department of Knowledge Technologies", role = c('dtc', "cph")),
+              person("Unicode, Inc.", role = c('dtc', "cph")), person("John", "Higgins", role = c('dtc', "cph")), person("Grady",
+              "Ward", role = c('dtc')), person("Heiko", "Possel", role = c('dtc')), person("Michal Boleslav", "Mechura", role =
+              c('dtc', "cph")), person("Bing", "Liu", role = c('dtc')), person("Minqing", "Hu", role = c('dtc')), person("Saif M.",
+              "Mohammad", role = c('dtc')), person("Peter", "Turney", role = c('dtc')), person("Erik", "Cambria", role = c('dtc')),
+              person('Soujanya', 'Poria', role = c('dtc')), person('Rajiv', 'Bajpai', role = c('dtc')), person("Bjoern", "Schuller",
+              role = c('dtc')), person("SentiWordNet", role = c('dtc', "cph")), person("Liang", "Wu", role = c('dtc', "cph")),
+              person("Fred", "Morstatter", role = c('dtc', "cph")), person("Huan", "Liu", role = c('dtc', "cph")), person("Grammar
+              Revolution", role = c('dtc', "cph")), person("Vidar", "Holen", role = c('dtc', "cph")), person("Alejandro U.",
+              "Alvarez", role = c('dtc', "cph")), person("Stackoverflow User user2592414", role = c('dtc', "cph")),
+              person("BannedWordList.com", role = c('dtc', "cph")), person("Apache Software Foundation", role = c('dtc', "cph")),
+              person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
+              person("Zact", 'Anger', role = c('dtc', "cph")))
 License: GPL-3
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.0.9000
 BugReports: https://github.com/trinker/lexicon/issues?state=open
 URL: https://github.com/trinker/lexicon
 Collate: 
@@ -80,6 +63,7 @@ Collate:
     'profanity_alvarez.R'
     'profanity_arr_bad.R'
     'profanity_banned.R'
+    'profanity_zac_anger.R'
     'sw_dolch.R'
     'sw_fry_100.R'
     'sw_fry_1000.R'
