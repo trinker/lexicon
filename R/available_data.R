@@ -2,11 +2,19 @@
 #'
 #' See available \pkg{lexicon} data a data.frame.
 #'
+#' @param regex A regex to search for within the data columns.
+#' @param \ldots Other arguments passed to \code{grep}.
 #' @return Returns a data.frame
 #' @export
 #' @examples
 #' available_data()
-available_data <- function(){
+#' available_data('hash_')
+#' available_data('hash_sentiment')
+#' available_data('python')
+#' available_data('prof')
+#' available_data('English')
+#' available_data('Stopword')
+available_data <- function(regex = NULL, ...){
 
 
     results <- utils::data(package = 'lexicon')[["results"]]
@@ -25,8 +33,18 @@ available_data <- function(){
     )
     dat <- dat[order(dat[['Data']]),]
     row.names(dat) <- NULL
-    dat
+
+    if (!is.null(regex)){
+        locs <- sort(unique(unlist( lapply(dat, function(x){ grep(regex, x, ...) }) )))
+
+        if (length(locs) > 0) {
+            dat <- dat[locs,]
+        } else {
+            warning('`regex` not found, returning all available data')
+        }
+    }
+
+    dat 
+
 }
 
-
-#enable_word_list

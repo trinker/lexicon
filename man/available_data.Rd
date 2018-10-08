@@ -4,7 +4,12 @@
 \alias{available_data}
 \title{Get Available \pkg{lexicon} Data}
 \usage{
-available_data()
+available_data(regex = NULL, ...)
+}
+\arguments{
+\item{regex}{A regex to search for within the data columns.}
+
+\item{\ldots}{Other arguments passed to \code{grep}.}
 }
 \value{
 Returns a data.frame
@@ -14,4 +19,10 @@ See available \pkg{lexicon} data a data.frame.
 }
 \examples{
 available_data()
+available_data('hash_')
+available_data('hash_sentiment')
+available_data('python')
+available_data('prof')
+available_data('English')
+available_data('Stopword')
 }

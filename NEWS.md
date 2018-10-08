@@ -28,6 +28,9 @@ lexicon 1.0.1 -
 
 **MINOR FEATURES**
 
+* `available_data` picks up a `regex` argument to search for specific substrings
+  and return matching rows.
+
 **IMPROVEMENTS**
 
 **CHANGES**
