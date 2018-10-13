@@ -22,6 +22,12 @@ lexicon 1.0.1 -
 
 **BUG FIXES**
 
+* `hash_lemmas` had the lemma of `as` to be `a`.  This was incorrect (spotted by
+  Jonathan Bratt).
+  
+* `hash_lemmas` had Spaces before 2 tokens (" furtherst", " skilled") meaning.  
+  This axtra white space has been stripped.
+
 **NEW FEATURES**
 
 * `profanity_zac_anger` added to provide a longer list of profane words.

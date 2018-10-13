@@ -198,4 +198,16 @@ clipr::write_clip(paste(paste0("\\code{", names(table(hash_lemmas$pos)), "}"), c
 
 pax::new_data(hash_lemmas)
 
+## removed `as` and sorted alphabetically on 2018-10-13
+hash_lemmas <- lexicon::hash_lemmas
+
+hash_lemmas <- hash_lemmas[token != 'as',][, token := trimws(token)][, lemma := trimws(lemma)][order(token),]
+
+data.table::setkey(hash_lemmas, 'token')
+hash_lemmas['skilled']
+
+
+pax::new_data(hash_lemmas)
+
+
 
