@@ -50,9 +50,26 @@ unlist(leets)[duplicated(unlist(leets))]
 
 
 
-lete
+leets
 
 
+as_leet <- function(x, dictionary = leets, ...){
+    
+    nms <- names(dictionary)
+    y <- strsplit(x, '')
+    unlist(lapply(y, function(z) {
+    
+           locs <- match(toupper(z) , nms)
+           z[!is.na(locs)] <- unlist(lapply(na.omit(locs), function(w) {
+               sample(dictionary[[w]], 1)        
+           }))
+           
+           paste(z, collapse = '')
+            
+    }))
+}
+
+cat(as_leet(c('I can speak leet.',  'Can your computer do the same?')), sep = '\n')
 
 
 
