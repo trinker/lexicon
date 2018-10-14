@@ -24,6 +24,6 @@
 #' 3.0: An Enhanced Lexical Resource for Sentiment Analysis and Opinion Mining.
 #' International Conference on Language Resources and Evaluation.
 #'
-#' \url{http://sentiwordnet.isti.cnr.it/}
+#' https://sentiwordnet.isti.cnr.it
 NULL
 
