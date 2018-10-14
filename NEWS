@@ -32,6 +32,10 @@ NEW FEATURES
 
 * `profanity_zac_anger` added to provide a longer list of profane words.
 
+* `profanity_racist` added to provide a profane list that is specific for 
+  dtecting racist terms.
+
+
 MINOR FEATURES
 
 * `available_data` picks up a `regex` argument to search for specific substrings

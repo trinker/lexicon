@@ -18,7 +18,7 @@ Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role =
               "Alvarez", role = c('dtc', "cph")), person("Stackoverflow User user2592414", role = c('dtc', "cph")),
               person("BannedWordList.com", role = c('dtc', "cph")), person("Apache Software Foundation", role = c('dtc', "cph")),
               person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
-              person("Zact", 'Anger', role = c('dtc', "cph")))
+              person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")))
 License: GPL-3
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
@@ -63,6 +63,7 @@ Collate:
     'profanity_alvarez.R'
     'profanity_arr_bad.R'
     'profanity_banned.R'
+    'profanity_racist.R'
     'profanity_zac_anger.R'
     'sw_dolch.R'
     'sw_fry_100.R'
