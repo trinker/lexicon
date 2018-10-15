@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 1.1.1
+Version: 1.1.2
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
@@ -19,9 +19,12 @@ Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role =
               person("BannedWordList.com", role = c('dtc', "cph")), person("Apache Software Foundation", role = c('dtc', "cph")),
               person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
               person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")), 
-              person("TColin", "Martindale", role = c('dtc', "cph")), person("John", "Wiseman", role = c('dtc', "cph")))
+              person("Colin", "Martindale", role = c('dtc', "cph")), person("John", "Wiseman", role = c('dtc', "cph")),
+              person("Nadra", "Pencle", role = c('dtc', "cph")), person("Irina", "Mălăescu", role = c('dtc', "cph"))
+              )
 License: GPL-3
 LazyData: TRUE
+Encoding: UTF-8
 Roxygen: list(wrap = FALSE)
 RoxygenNote: 6.1.0.9000
 BugReports: https://github.com/trinker/lexicon/issues?state=open
@@ -51,6 +54,7 @@ Collate:
     'hash_sentiment_socal_google.R'
     'hash_valence_shifters.R'
     'key_contractions.R'
+    'key_corporate_social_responsibility.R'
     'key_grade.R'
     'key_ratings.R'
     'key_regressive_imagery.R'

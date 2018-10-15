@@ -40,6 +40,9 @@ NEW FEATURES
   Regressive Imagery Dictionary (RID) is a text analysis coding taxonomy that 
   can be used to measure the degree to which a text is *primordial* vs. 
   *conceptual*.
+  
+* `key_corporate_social_responsibility` added to provide R users with access to 
+  Pencle & Mălăescu's Corporate Social Responsibility (CSR) Dictionary. 
 
 MINOR FEATURES
 

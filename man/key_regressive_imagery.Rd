@@ -9,7 +9,7 @@
 data(key_regressive_imagery)
 }
 \description{
-A dataset containing a Colin Martindale's (1975, 1990) English Regressive Imagery 
+A dataset containing Colin Martindale's (1975, 1990) English Regressive Imagery 
 Dictionary (RID).  The Regressive Imagery Dictionary (RID) is a text analysis
 coding taxonomy that can be used to measure the degree to which a text is 
 \emph{primordial} vs. \emph{conceptual}.  This acts as a proxy for assessing the 
