@@ -35,6 +35,11 @@ lexicon 1.0.1 -
 * `profanity_racist` added to provide a profane list that is specific for 
   dtecting racist terms.
 
+* `key_regressive_imagery` added to provide R users with access to Colin 
+  Martindale's (1975, 1990) English Regressive Imagery Dictionary (RID).  The 
+  Regressive Imagery Dictionary (RID) is a text analysis coding taxonomy that 
+  can be used to measure the degree to which a text is *primordial* vs. 
+  *conceptual*.
 
 **MINOR FEATURES**
 

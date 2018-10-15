@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 1.1.0
+Version: 1.1.1
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
@@ -18,7 +18,8 @@ Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role =
               "Alvarez", role = c('dtc', "cph")), person("Stackoverflow User user2592414", role = c('dtc', "cph")),
               person("BannedWordList.com", role = c('dtc', "cph")), person("Apache Software Foundation", role = c('dtc', "cph")),
               person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
-              person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")))
+              person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")), 
+              person("TColin", "Martindale", role = c('dtc', "cph")), person("John", "Wiseman", role = c('dtc', "cph")))
 License: GPL-3
 LazyData: TRUE
 Roxygen: list(wrap = FALSE)
@@ -52,6 +53,7 @@ Collate:
     'key_contractions.R'
     'key_grade.R'
     'key_ratings.R'
+    'key_regressive_imagery.R'
     'lexicon-package.R'
     'modal_loughran_mcdonald.R'
     'nrc_emotions.R'
