@@ -27,19 +27,26 @@ lexicon 1.0.1 -
   
 * `hash_lemmas` had Spaces before 2 tokens (" furtherst", " skilled") meaning.  
   This extra white space has been stripped.
+  
+* The `hash_sentiment_senticnett` dictionary contained "sparsely" which is also
+  contained in `hash_valence_shifters`.  This term has been dropped from the 
+  `hash_sentiment_senticnett` dictionary.  See # 12 for more info.
 
 **NEW FEATURES**
 
 * `profanity_zac_anger` added to provide a longer list of profane words.
 
 * `profanity_racist` added to provide a profane list that is specific for 
-  dtecting racist terms.
+  detecting racist terms.
 
 * `key_regressive_imagery` added to provide R users with access to Colin 
   Martindale's (1975, 1990) English Regressive Imagery Dictionary (RID).  The 
   Regressive Imagery Dictionary (RID) is a text analysis coding taxonomy that 
   can be used to measure the degree to which a text is *primordial* vs. 
   *conceptual*.
+  
+* `key_corporate_social_responsibility` added to provide R users with access to 
+  Pencle & Mălăescu's Corporate Social Responsibility (CSR) Dictionary. 
 
 **MINOR FEATURES**
 

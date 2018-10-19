@@ -4,7 +4,7 @@
 \name{hash_sentiment_senticnet}
 \alias{hash_sentiment_senticnet}
 \title{Augmented SenticNet Polarity Table}
-\format{A data frame with 23,627 rows and 2 variables}
+\format{A data frame with 23,626 rows and 2 variables}
 \usage{
 data(hash_sentiment_senticnet)
 }

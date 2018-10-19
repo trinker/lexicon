@@ -24,4 +24,7 @@ senticnet <- senticnet %>%
 
 hash_sentiment_senticnet <- sentimentr::update_polarity_table(senticnet)
 
+
+hash_sentiment_senticnet <- sentimentr::update_key(hash_sentiment_senticnet, drop = "sparsely")
+
 pax::new_data(hash_sentiment_senticnet, , stand.alone = TRUE)
