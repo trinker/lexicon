@@ -55,5 +55,11 @@ lexicon 1.0.1 -
 
 **IMPROVEMENTS**
 
+* `hash_sentiment_jockers_rinker` now contains the word 'fuckin'.  Additionally,
+  the word 'fucking' has a milder negative value because this word, though often 
+  used as a negator, is also used as a amplifier.  By reducing it's weight it 
+  allows more positive words to have more pull but if no polarized words exist 
+  'fucking' will still keep the typical negative direction of the clause.
+
 **CHANGES**
 
