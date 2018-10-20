@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 1.1.3
+Version: 1.2.0
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
