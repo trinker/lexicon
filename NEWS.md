@@ -17,7 +17,7 @@ And constructed with the following guidelines:
 * Bug fixes and misc changes bumps the patch
 
 
-lexicon 1.0.1 - 
+lexicon 1.0.1 - 1.1.3
 ----------------------------------------------------------------
 
 **BUG FIXES**
@@ -61,5 +61,4 @@ lexicon 1.0.1 -
   allows more positive words to have more pull but if no polarized words exist 
   'fucking' will still keep the typical negative direction of the clause.
 
-**CHANGES**
 
