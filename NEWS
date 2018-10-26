@@ -32,7 +32,13 @@ IMPROVEMENTS
 
 CHANGES
 
+* `profanity_zac_anger` contained 2 regexes marked as UTF-8 strings.  These were 
+  dropped.
 
+* `key_corporate_social_responsibility` contained 5 regexes & 5 tokens marked as 
+  Latin-1 strings.  These were pretty apostrophes that were converted to ASCII 
+  apostrophes.
+  
 
 lexicon 1.0.1 - 1.1.3
 ----------------------------------------------------------------

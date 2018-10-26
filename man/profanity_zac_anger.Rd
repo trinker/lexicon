@@ -4,7 +4,7 @@
 \name{profanity_zac_anger}
 \alias{profanity_zac_anger}
 \title{Zac Anger's List of Profane Words}
-\format{A character vector with 3,078 elements}
+\format{A character vector with 3,076 elements}
 \usage{
 data(profanity_zac_anger)
 }

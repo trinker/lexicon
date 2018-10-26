@@ -1444,14 +1444,20 @@ pacman::p_load(tidyverse, textshape, data.tree)
 
 key_corporate_social_responsibility  <- corporate_social_responsibility  %>%
     textshape::tidy_list('dimension', 'regex') %>%
-    mutate(token = gsub('\\\\b', '', regex)) %>%
+    mutate(
+        token = gsub('\\\\b', '', regex),
+        token = gsub('’', "'", token),
+        regex = gsub('’', "'", regex)   
+    ) %>%
     as_tibble() %>%
     mutate(
         dimension = factor(dimension, levels = unique(dimension))
     ) %>%
     arrange(dimension, token) %>% 
-    distinct()
+    distinct() 
     
-
+    
+grep('[^ -~]', key_corporate_social_responsibility$regex, value = TRUE)
+grep('[^ -~]', key_corporate_social_responsibility$token, value = TRUE)
 
 pax::new_data(key_corporate_social_responsibility) # pax:::roxdat(key_regressive_imagery, 'key_regressive_imagery')

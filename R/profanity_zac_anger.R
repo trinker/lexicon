@@ -10,7 +10,7 @@
 #' @keywords datasets
 #' @name profanity_zac_anger
 #' @usage data(profanity_zac_anger)
-#' @format A character vector with 3,078 elements
+#' @format A character vector with 3,076 elements
 #' @references \url{https://github.com/zacanger/profane-words}
 NULL
 
