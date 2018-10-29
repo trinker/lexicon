@@ -1,6 +1,6 @@
 Package: lexicon
 Title: Lexicons for Text Analysis
-Version: 1.2.0
+Version: 1.2.1
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
 Depends: R (>= 3.2.2)
@@ -20,7 +20,7 @@ Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role =
               person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
               person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")), 
               person("Colin", "Martindale", role = c('dtc', "cph")), person("John", "Wiseman", role = c('dtc', "cph")),
-              person("Nadra", "Pencle", role = c('dtc', "cph")), person("Irina", "Mălăescu", role = c('dtc', "cph"))
+              person("Nadra", "Pencle", role = c('dtc', "cph")), person("Irina", "Malaescu", role = c('dtc', "cph"))
               )
 License: GPL-3
 LazyData: TRUE
@@ -41,6 +41,7 @@ Collate:
     'hash_grady_pos.R'
     'hash_internet_slang.R'
     'hash_lemmas.R'
+    'hash_nrc_emotion.R'
     'hash_sentiment_emojis.R'
     'hash_sentiment_huliu.R'
     'utils.R'

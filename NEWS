@@ -28,6 +28,8 @@ NEW FEATURES
 
 MINOR FEATURES
 
+* `hash_nrc_emotion` added as a token to emotion lookup table.
+
 IMPROVEMENTS
 
 CHANGES

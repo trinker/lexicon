@@ -28,6 +28,8 @@ lexicon 1.2.0 -
 
 **MINOR FEATURES**
 
+* `hash_nrc_emotion` added as a token to emotion lookup table.
+
 **IMPROVEMENTS**
 
 **CHANGES**
@@ -38,6 +40,7 @@ lexicon 1.2.0 -
 * `key_corporate_social_responsibility` contained 5 regexes & 5 tokens marked as 
   Latin-1 strings.  These were pretty apostrophes that were converted to ASCII 
   apostrophes.
+  
 
 lexicon 1.0.1 - 1.1.3
 ----------------------------------------------------------------
