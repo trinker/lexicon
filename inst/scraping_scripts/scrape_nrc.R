@@ -39,3 +39,20 @@ nrc_emotions <- nrc %>%
 
 pax:::roxdat(hash_sentiment_nrc, 'hash_sentiment_nrc')
 pax:::roxdat(nrc_emotions, 'nrc_emotions')
+
+library(tidyverse)
+hash_nrc_emotions <- lexicon::nrc_emotions %>%
+    gather(emotion, indicator, -term) %>%
+    filter(indicator > 0) %>%
+    select(-indicator) %>%
+    rename(token = term) %>%
+    distinct() %>%
+    data.table::as.data.table()
+
+
+data.table::setkey(hash_nrc_emotions, 'token')
+
+
+
+pax::new_data(hash_nrc_emotions)
+pax:::roxdat(hash_nrc_emotions, 'hash_nrc_emotions')
