@@ -24,6 +24,9 @@ lexicon 1.2.0 -
 
 BUG FIXES
 
+* `hash_emoticons` had '3' as 'laighing' when it should have been '=3'.  This
+  has been corrected.
+
 NEW FEATURES
 
 MINOR FEATURES

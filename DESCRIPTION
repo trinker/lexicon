@@ -26,7 +26,7 @@ License: GPL-3
 LazyData: TRUE
 Encoding: UTF-8
 Roxygen: list(wrap = FALSE)
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 6.1.1
 BugReports: https://github.com/trinker/lexicon/issues?state=open
 URL: https://github.com/trinker/lexicon
 Collate: 
