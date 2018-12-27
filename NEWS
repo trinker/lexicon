@@ -29,6 +29,8 @@ BUG FIXES
 
 NEW FEATURES
 
+* `cliches` added for comparison of common cliche phrases.
+
 MINOR FEATURES
 
 * `hash_nrc_emotion` added as a token to emotion lookup table.

@@ -24,7 +24,12 @@ lexicon 1.2.0 -
 
 **BUG FIXES**
 
+* `hash_emoticons` had '3' as 'laughing' when it should have been '=3'.  This
+  has been corrected.
+
 **NEW FEATURES**
+
+* `cliches` added for comparison of common cliche phrases.
 
 **MINOR FEATURES**
 

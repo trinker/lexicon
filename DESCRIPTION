@@ -31,6 +31,7 @@ BugReports: https://github.com/trinker/lexicon/issues?state=open
 URL: https://github.com/trinker/lexicon
 Collate: 
     'available_data.R'
+    'cliches.R'
     'common_names.R'
     'constraining_loughran_mcdonald.R'
     'freq_first_names.R'
