@@ -37,21 +37,30 @@ as_key <- function(x, comparison = TRUE,  sentiment = TRUE, ...){
 
     if (!is.null(comparison)) {
          
-        x <- x[!x[["x"]] %in% c("acute", "acutely", "ain't", "although", "aren't", "barely", 
-            "but", "can't", "cannot", "certain", "certainly", "colossal", 
-            "colossally", "couldn't", "deep", "deeply", "definite", "definitely", 
-            "didn't", "doesn't", "don't", "enormous", "enormously", "extreme", 
-            "extremely", "faintly", "few", "greatly", "hardly", "hasn't", 
-            "haven't", "heavily", "heavy", "high", "highly", "however", "huge", 
-            "hugely", "immense", "immensely", "incalculable", "incalculably", 
-            "isn't", "least", "little", "massive", "massively", "mightn't", 
-            "more", "much", "mustn't", "neither", "never", "no", "nobody", 
-            "none", "nor", "not", "only", "particular", "particularly", "purpose", 
-            "purposely", "quite", "rarely", "real", "really", "seldom", "serious", 
-            "seriously", "severe", "severely", "shan't", "shouldn't", "significant", 
-            "significantly", "slightly", "sparesly", "sporadically", "sure", 
-            "surely", "totally", "true", "truly", "vast", "vastly", "very", 
-            "very few", "very little", "wasn't", "weren't", "won't", "wouldn't"
+        x <- x[!x[["x"]] %in% c(
+            "absolutely", "acute", "acutely", "ain't", "aint", "almost", 
+            "although", "aren't", "arent", "barely", "but", "can't", "cannot", 
+            "cant", "certain", "certainly", "colossal", "colossally", "considerably", 
+            "couldn't", "couldnt", "daren't", "darent", "decidedly", "deep", 
+            "deeply", "definite", "definitely", "despite all that", "despite all this", 
+            "despite that", "despite this", "didn't", "didnt", "doesn't", 
+            "doesnt", "don't", "dont", "enormous", "enormously", "especially", 
+            "extreme", "extremely", "faintly", "few", "greatly", "hadn't", 
+            "hadnt", "hardly", "hasn't", "hasnt", "haven't", "havent", "heavily", 
+            "heavy", "high", "highly", "however", "huge", "hugely", "immense", 
+            "immensely", "incalculable", "incalculably", "incredibly", "isn't", 
+            "isnt", "kind of", "kinda", "least", "little", "majorly", "massive", 
+            "massively", "mightn't", "mightnt", "more", "most", "much", "mustn't", 
+            "mustnt", "needn't", "neednt", "neither", "never", "no", "nobody", 
+            "none", "nor", "not", "only", "oughtn't", "oughtnt", "particular", 
+            "particularly", "partly", "purpose", "purposely", "quite", "rarely", 
+            "real", "really", "seldom", "serious", "seriously", "severe", 
+            "severely", "shan't", "shant", "shouldn't", "shouldnt", "significant", 
+            "significantly", "slightly", "somewhat", "sort of", "sorta", 
+            "sparsely", "sporadically", "sure", "surely", "that being said", 
+            "totally", "true", "truly", "uber", "vast", "vastly", "very", 
+            "very few", "very little", "wasn't", "wasnt", "weren't", "werent", 
+            "whereas", "won't", "wont", "wouldn't", "wouldnt"
         ), ]
     }
     data.table::setDT(x)

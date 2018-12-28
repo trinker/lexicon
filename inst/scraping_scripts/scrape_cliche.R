@@ -9,11 +9,13 @@ cliches <- cliche_page %>%
         from = 'a chip off the old block',
         to = 'young and vibrant'
     ) %>%
-    stringi::stri_replace_all_regex('^\\s*\'|\',\\s*$', '')
+    stringi::stri_replace_all_regex('^\\s*\'|\',\\s*$', '') %>%
+    {gsub('[?!.]$', '', .)}
 
 
 
-
+grep('[^ -~]', cliches, value = TRUE)
+grep('[A-Za-z\' ]', cliches, value = TRUE, invert = TRUE)
 
 pax::new_data(cliches, stand.alone = TRUE)
 # pax:::roxdat(cliches)
