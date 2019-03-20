@@ -19,6 +19,22 @@ And constructed with the following guidelines:
 
 
 
+
+lexicon 1.3.0 - 
+----------------------------------------------------------------
+
+**BUG FIXES**
+
+**NEW FEATURES**
+
+**MINOR FEATURES**
+
+**IMPROVEMENTS**
+
+**CHANGES**
+
+
+
 lexicon 1.2.0 - 1.2.1
 ----------------------------------------------------------------
 
