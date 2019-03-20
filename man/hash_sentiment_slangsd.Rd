@@ -40,6 +40,6 @@ article{DBLP:journals/corr/Wu-etal16,
 Wu, L., Morstatter, F.,  and Liu, H. (2016). SlangSD: Building 
 and using a sentiment dictionary of slang words for short-text sentiment 
 classification.  CoRR. abs/1168.1058.  1-15.  \cr \cr
-\url{http://slangsd.com}
+http://slangsd.com
 }
 \keyword{datasets}
