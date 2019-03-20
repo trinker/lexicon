@@ -19,7 +19,7 @@ And constructed with the following guidelines:
 
 
 
-lexicon 1.2.0 - 
+lexicon 1.2.0 - 1.2.1
 ----------------------------------------------------------------
 
 BUG FIXES
@@ -35,7 +35,6 @@ MINOR FEATURES
 
 * `hash_nrc_emotion` added as a token to emotion lookup table.
 
-IMPROVEMENTS
 
 CHANGES
 
