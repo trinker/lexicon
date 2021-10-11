@@ -4,7 +4,9 @@
 \name{profanity_arr_bad}
 \alias{profanity_arr_bad}
 \title{Stackoverflow user2592414's List of Profane Words}
-\format{A character vector with 343 elements}
+\format{
+A character vector with 343 elements
+}
 \usage{
 data(profanity_arr_bad)
 }

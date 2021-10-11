@@ -10,7 +10,7 @@ freq_first_names <- bind_rows(
             read_html() %>%
             html_table() %>%
             `[[`(1) %>%
-            tbl_df()
+            as_tibble()
     }) %>%
         bind_rows() %>%
         rename(n = ApproximateNumber) %>%
@@ -29,7 +29,7 @@ freq_first_names <- bind_rows(
             read_html() %>%
             html_table() %>%
             `[[`(1) %>%
-            tbl_df()
+            as_tibble()
     }) %>%
         bind_rows() %>%
         rename(n = ApproximateNumber) %>%
@@ -41,7 +41,8 @@ freq_first_names <- bind_rows(
             sex = 'male'
         )
 ) %>%
-    data.table::as.data.table()
+    data.table::as.data.table() %>%
+    drop_na()
 
 
 freq_last_names <- lapply(c("", 1, 2, 5, 8, 16), function(i){
@@ -51,7 +52,7 @@ freq_last_names <- lapply(c("", 1, 2, 5, 8, 16), function(i){
         read_html() %>%
         html_table() %>%
         `[[`(1) %>%
-        tbl_df()
+        as_tibble()
 }) %>%
     bind_rows() %>%
     rename(n = ApproximateNumber) %>%
@@ -61,7 +62,8 @@ freq_last_names <- lapply(c("", 1, 2, 5, 8, 16), function(i){
         n = as_numeric2(n),
         prop = n/sum(n)
     ) %>%
-    data.table::as.data.table()
+    data.table::as.data.table() %>%
+    drop_na()
 
 pax::new_data(freq_first_names)
 pax::new_data(freq_last_names)

@@ -4,7 +4,9 @@
 \name{hash_nrc_emotions}
 \alias{hash_nrc_emotions}
 \title{NRC Emotion Table}
-\format{A data frame with 8265 rows and 2 variables}
+\format{
+A data frame with 8265 rows and 2 variables
+}
 \usage{
 data(hash_nrc_emotions)
 }

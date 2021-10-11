@@ -4,7 +4,9 @@
 \name{cliches}
 \alias{cliches}
 \title{Common Cliches}
-\format{A character vector with 697 elements}
+\format{
+A character vector with 697 elements
+}
 \usage{
 data(cliches)
 }

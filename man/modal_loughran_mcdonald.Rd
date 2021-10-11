@@ -4,7 +4,9 @@
 \name{modal_loughran_mcdonald}
 \alias{modal_loughran_mcdonald}
 \title{Loughran-McDonald Modal List}
-\format{A data frame with 61 rows and 2 variables}
+\format{
+A data frame with 61 rows and 2 variables
+}
 \usage{
 data(modal_loughran_mcdonald)
 }

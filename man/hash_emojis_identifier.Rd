@@ -4,7 +4,9 @@
 \name{hash_emojis_identifier}
 \alias{hash_emojis_identifier}
 \title{Emoji Identifier Lookup Table}
-\format{A data frame with 734 rows and 2 variables}
+\format{
+A data frame with 734 rows and 2 variables
+}
 \usage{
 data(hash_emojis_identifier)
 }

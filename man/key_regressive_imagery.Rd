@@ -4,7 +4,9 @@
 \name{key_regressive_imagery}
 \alias{key_regressive_imagery}
 \title{Colin Martindale's English Regressive Imagery Dictionary}
-\format{A data frame with 3,151 rows and 5 variables}
+\format{
+A data frame with 3,151 rows and 5 variables
+}
 \usage{
 data(key_regressive_imagery)
 }

@@ -4,7 +4,9 @@
 \name{hash_valence_shifters}
 \alias{hash_valence_shifters}
 \title{Valence Shifters}
-\format{A data frame with 140 rows and 2 variables}
+\format{
+A data frame with 140 rows and 2 variables
+}
 \usage{
 data(hash_valence_shifters)
 }

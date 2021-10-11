@@ -4,7 +4,9 @@
 \name{constraining_loughran_mcdonald}
 \alias{constraining_loughran_mcdonald}
 \title{Loughran-McDonald Constraining Words}
-\format{A character vector with 184 elements}
+\format{
+A character vector with 184 elements
+}
 \usage{
 data(constraining_loughran_mcdonald)
 }

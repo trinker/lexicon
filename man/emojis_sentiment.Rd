@@ -4,7 +4,9 @@
 \name{emojis_sentiment}
 \alias{emojis_sentiment}
 \title{Emoji Sentiment Data}
-\format{A data frame with 734 rows and 10 variables}
+\format{
+A data frame with 734 rows and 10 variables
+}
 \usage{
 data(emojis_sentiment)
 }

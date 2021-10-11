@@ -4,7 +4,9 @@
 \name{profanity_banned}
 \alias{profanity_banned}
 \title{bannedwordlist.com's List of Profane Words}
-\format{A character vector with 77 elements}
+\format{
+A character vector with 77 elements
+}
 \usage{
 data(profanity_banned)
 }

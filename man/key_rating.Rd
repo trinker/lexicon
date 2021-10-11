@@ -4,7 +4,9 @@
 \name{key_rating}
 \alias{key_rating}
 \title{Ratings Data Set}
-\format{A data frame with 35 rows and 2 variables}
+\format{
+A data frame with 35 rows and 2 variables
+}
 \usage{
 data(key_rating)
 }

@@ -5,7 +5,9 @@
 \name{key_corporate_social_responsibility}
 \alias{key_corporate_social_responsibility}
 \title{Nadra Pencle and Irina Mălăescu's Corporate Social Responsibility Dictionary}
-\format{A data frame with 1,421 rows and 3 variables}
+\format{
+A data frame with 1,421 rows and 3 variables
+}
 \usage{
 data(key_corporate_social_responsibility)
 }

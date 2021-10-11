@@ -4,7 +4,9 @@
 \name{hash_internet_slang}
 \alias{hash_internet_slang}
 \title{List of Internet Slang and Corresponding Meanings}
-\format{A data frame with 175 rows and 2 variables}
+\format{
+A data frame with 175 rows and 2 variables
+}
 \usage{
 data(hash_internet_slang)
 }

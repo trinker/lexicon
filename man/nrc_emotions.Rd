@@ -4,7 +4,9 @@
 \name{nrc_emotions}
 \alias{nrc_emotions}
 \title{NRC Emotions}
-\format{A data frame with 14182 rows and 9 variables}
+\format{
+A data frame with 14182 rows and 9 variables
+}
 \usage{
 data(nrc_emotions)
 }

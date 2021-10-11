@@ -4,7 +4,9 @@
 \name{freq_first_names}
 \alias{freq_first_names}
 \title{Frequent U.S. First Names}
-\format{A data frame with 5494 rows and 3 variables}
+\format{
+A data frame with 5493 rows and 4 variables
+}
 \usage{
 data(freq_first_names)
 }

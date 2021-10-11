@@ -25,6 +25,9 @@ lexicon 1.3.0 -
 
 **BUG FIXES**
 
+* `freq_first_names` cantained a missing (`NA`) value that has been removed.  
+  Spotted thanks to Martin Cadek; see <a href="https://github.com/trinker/lexicon/issues/34">issue <a href="https://github.com/trinker/lexicon/issues/34">#34</a></a>.
+
 **NEW FEATURES**
 
 **MINOR FEATURES**

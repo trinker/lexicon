@@ -4,7 +4,9 @@
 \name{sw_jockers}
 \alias{sw_jockers}
 \title{Matthew Jocker's Expanded Topic Modeling Stopword List}
-\format{A character vector with 5,902 elements}
+\format{
+A character vector with 5,902 elements
+}
 \usage{
 data(sw_jockers)
 }

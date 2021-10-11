@@ -4,7 +4,9 @@
 \name{sw_python}
 \alias{sw_python}
 \title{Python Stopword List}
-\format{A character vector with 174 elements}
+\format{
+A character vector with 174 elements
+}
 \usage{
 data(sw_python)
 }

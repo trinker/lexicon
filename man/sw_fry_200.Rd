@@ -4,7 +4,9 @@
 \name{sw_fry_200}
 \alias{sw_fry_200}
 \title{Fry's 200 Most Commonly Used English Words}
-\format{A character vector with 200 elements}
+\format{
+A character vector with 200 elements
+}
 \usage{
 data(sw_fry_200)
 }

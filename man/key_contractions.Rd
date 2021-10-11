@@ -4,7 +4,9 @@
 \name{key_contractions}
 \alias{key_contractions}
 \title{Contraction Conversions}
-\format{A data frame with 70 rows and 2 variables}
+\format{
+A data frame with 70 rows and 2 variables
+}
 \usage{
 data(key_contractions)
 }

@@ -4,9 +4,11 @@
 \name{pos_df_irregular_nouns}
 \alias{pos_df_irregular_nouns}
 \title{Irregular Nouns Word Dataframe}
-\format{A data frame with 124 rows and 2 variables  
+\format{
+A data frame with 124 rows and 2 variables  
 https://cms.azed.gov/home/GetDocumentFile?id=54de1d89aadebe14a8707103 \cr \cr
-https://en.wikipedia.org/wiki/English_plurals}
+https://en.wikipedia.org/wiki/English_plurals
+}
 \usage{
 data(pos_df_irregular_nouns)
 }

@@ -4,7 +4,9 @@
 \name{pos_df_pronouns}
 \alias{pos_df_pronouns}
 \title{Pronouns}
-\format{A data frame with 34 rows and 5 variables}
+\format{
+A data frame with 34 rows and 5 variables
+}
 \usage{
 data(pos_df_pronouns)
 }

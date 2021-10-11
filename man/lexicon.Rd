@@ -4,7 +4,6 @@
 \name{lexicon}
 \alias{lexicon}
 \alias{package-lexicon}
-\alias{lexicon-package}
 \title{Lexicons for Text Analysis}
 \description{
 A collection of lexical hash tables, dictionaries, and word lists.

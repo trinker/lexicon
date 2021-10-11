@@ -4,7 +4,9 @@
 \name{key_sentiment_jockers}
 \alias{key_sentiment_jockers}
 \title{Jockers Sentiment Key}
-\format{An object of class \code{data.frame} with 10748 rows and 2 columns.}
+\format{
+An object of class \code{data.frame} with 10748 rows and 2 columns.
+}
 \usage{
 key_sentiment_jockers
 }

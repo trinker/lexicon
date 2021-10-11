@@ -13,7 +13,7 @@
 #' @keywords datasets
 #' @name freq_first_names
 #' @usage data(freq_first_names)
-#' @format A data frame with 5494 rows and 3 variables
+#' @format A data frame with 5493 rows and 4 variables 
 #' @references
 #' https://www.census.gov/topics/population/genealogy/data/1990_census/1990_census_namefiles.html
 NULL

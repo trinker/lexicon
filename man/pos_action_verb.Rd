@@ -4,7 +4,9 @@
 \name{pos_action_verb}
 \alias{pos_action_verb}
 \title{Action Word List}
-\format{A character vector with 1569 elements}
+\format{
+A character vector with 1569 elements
+}
 \usage{
 data(pos_action_verb)
 }

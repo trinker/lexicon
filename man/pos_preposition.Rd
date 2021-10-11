@@ -4,7 +4,9 @@
 \name{pos_preposition}
 \alias{pos_preposition}
 \title{Preposition Words}
-\format{A character vector with 162 elements}
+\format{
+A character vector with 162 elements
+}
 \usage{
 data(pos_preposition)
 }

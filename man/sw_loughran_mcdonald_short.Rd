@@ -4,7 +4,9 @@
 \name{sw_loughran_mcdonald_short}
 \alias{sw_loughran_mcdonald_short}
 \title{Loughran-McDonald Short Stopword List}
-\format{A character vector with 121 elements}
+\format{
+A character vector with 121 elements
+}
 \usage{
 data(sw_loughran_mcdonald_short)
 }

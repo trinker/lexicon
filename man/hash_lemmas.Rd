@@ -4,7 +4,9 @@
 \name{hash_lemmas}
 \alias{hash_lemmas}
 \title{Lemmatization List}
-\format{A data frame with 41,531 rows and 2 variables}
+\format{
+A data frame with 41,531 rows and 2 variables
+}
 \usage{
 data(hash_lemmas)
 }

@@ -4,7 +4,9 @@
 \name{pos_interjections}
 \alias{pos_interjections}
 \title{Interjections}
-\format{A character vector with 139 elements}
+\format{
+A character vector with 139 elements
+}
 \usage{
 data(pos_interjections)
 }

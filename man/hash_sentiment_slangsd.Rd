@@ -4,7 +4,9 @@
 \name{hash_sentiment_slangsd}
 \alias{hash_sentiment_slangsd}
 \title{SlangSD Sentiment Polarity Table}
-\format{A data frame with 48,277 rows and 2 variables}
+\format{
+A data frame with 48,277 rows and 2 variables
+}
 \usage{
 data(hash_sentiment_slangsd)
 }

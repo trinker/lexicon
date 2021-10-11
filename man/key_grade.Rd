@@ -4,7 +4,9 @@
 \name{key_grade}
 \alias{key_grade}
 \title{Grades Data Set}
-\format{A data frame with 15 rows and 2 variables}
+\format{
+A data frame with 15 rows and 2 variables
+}
 \usage{
 data(key_grade)
 }

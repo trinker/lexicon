@@ -4,7 +4,9 @@
 \name{hash_emoticons}
 \alias{hash_emoticons}
 \title{Emoticons}
-\format{A data.table with 144 rows and 2 variables}
+\format{
+A data.table with 144 rows and 2 variables
+}
 \usage{
 data(hash_emoticons)
 }

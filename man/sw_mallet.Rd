@@ -4,7 +4,9 @@
 \name{sw_mallet}
 \alias{sw_mallet}
 \title{MALLET Stopword List}
-\format{A character vector with 523 elements}
+\format{
+A character vector with 523 elements
+}
 \usage{
 data(sw_mallet)
 }

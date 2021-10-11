@@ -4,7 +4,9 @@
 \name{hash_sentiment_socal_google}
 \alias{hash_sentiment_socal_google}
 \title{SO-CAL Google Polarity Table}
-\format{A data frame with 3272 rows and 2 variables}
+\format{
+A data frame with 3272 rows and 2 variables
+}
 \usage{
 data(hash_sentiment_socal_google)
 }

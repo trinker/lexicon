@@ -4,7 +4,9 @@
 \name{profanity_racist}
 \alias{profanity_racist}
 \title{Titus Wormer's List of Racist Words}
-\format{A character vector with 470 elements}
+\format{
+A character vector with 470 elements
+}
 \usage{
 data(profanity_racist)
 }

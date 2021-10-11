@@ -4,7 +4,9 @@
 \name{hash_sentiment_jockers}
 \alias{hash_sentiment_jockers}
 \title{Jockers Polarity Lookup Table}
-\format{An object of class \code{data.table} (inherits from \code{data.frame}) with 10738 rows and 2 columns.}
+\format{
+An object of class \code{data.table} (inherits from \code{data.frame}) with 10738 rows and 2 columns.
+}
 \usage{
 hash_sentiment_jockers
 }

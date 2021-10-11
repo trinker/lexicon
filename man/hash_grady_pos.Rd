@@ -5,7 +5,9 @@
 \alias{hash_grady_pos}
 \alias{grady_pos_feature}
 \title{Grady Ward's Moby Parts of Speech}
-\format{A data frame with 246,691 rows and 3 variables}
+\format{
+A data frame with 246,691 rows and 3 variables
+}
 \source{
 Originally downloaded from: http://icon.shef.ac.uk/Moby
 }

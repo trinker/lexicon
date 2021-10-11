@@ -4,7 +4,9 @@
 \name{sw_lucene}
 \alias{sw_lucene}
 \title{Lucene Stopword List}
-\format{A character vector with 33 elements}
+\format{
+A character vector with 33 elements
+}
 \usage{
 data(sw_lucene)
 }

@@ -4,7 +4,9 @@
 \name{sw_dolch}
 \alias{sw_dolch}
 \title{Leveled Dolch List of 220 Common Words}
-\format{A character vector with 220 elements}
+\format{
+A character vector with 220 elements
+}
 \usage{
 data(sw_dolch)
 }

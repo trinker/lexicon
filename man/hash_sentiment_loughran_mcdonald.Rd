@@ -4,7 +4,9 @@
 \name{hash_sentiment_loughran_mcdonald}
 \alias{hash_sentiment_loughran_mcdonald}
 \title{Loughran-McDonald Polarity Table}
-\format{A data frame with 2,702 rows and 2 variables}
+\format{
+A data frame with 2,702 rows and 2 variables
+}
 \usage{
 data(hash_sentiment_loughran_mcdonald)
 }
