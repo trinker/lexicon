@@ -13,9 +13,9 @@ data(sw_jockers)
 \description{
 A dataset containing a character vector of Jocker's stopwords he used for
 topic modeling.  He later resorted to eliminating everything but nouns:
-\url{http://www.matthewjockers.net/2013/04/12/secret-recipe-for-topic-modeling-themes/}.
+\url{https://www.matthewjockers.net/2013/04/12/secret-recipe-for-topic-modeling-themes/}.
 }
 \references{
-\url{http://www.matthewjockers.net/materials/uwm-2013}
+\url{https://www.matthewjockers.net/materials/uwm-2013/}
 }
 \keyword{datasets}

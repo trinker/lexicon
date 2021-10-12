@@ -39,5 +39,5 @@
 #' @name sw_python
 #' @usage data(sw_python)
 #' @format A character vector with 174 elements
-#' @references \url{https://pypi.python.org/pypi/stop-words}
+#' @references \url{https://pypi.org/project/stop-words/}
 NULL

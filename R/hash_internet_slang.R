@@ -1,7 +1,7 @@
 #' List of Internet Slang and Corresponding Meanings
 #'
 #' A dataset containing Internet slang terms and corresponding meaning.  The data
-#' set is an augmented version of \url{http://www.smart-words.org/abbreviations/text.html}.
+#' set is an augmented version of \url{https://www.smart-words.org/abbreviations/text.html}.
 #'
 #' @details
 #' \itemize{
@@ -16,5 +16,5 @@
 #' @format A data frame with 175 rows and 2 variables
 #' @references Possel, H. (n.d.). English language smart words.  Retrieved from 
 #' http://www.smart-words.org \cr \cr
-#' \url{http://www.smart-words.org/abbreviations/text.html}
+#' \url{https://www.smart-words.org/abbreviations/text.html}
 NULL

@@ -36,6 +36,6 @@ In: COLING, pp. 2666-2677, Osaka (2016))
 Cambria, E., Poria, S., Bajpai, R. and Schuller, B. SenticNet 4:
 A semantic resource for sentiment analysis based on conceptual primitives.
 In: COLING, pp. 2666-2677, Osaka (2016)
-\url{http://sentic.net/downloads}
+\url{https://sentic.net/downloads/}
 }
 \keyword{datasets}

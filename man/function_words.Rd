@@ -11,8 +11,7 @@ A character vector with 350 elements
 data(function_words)
 }
 \description{
-A vector of function words from
-\href{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}{John and Muriel Higgins's list}
+A vector of function words from John and Muriel Higgins's list
 used for the text game ECLIPSE.  The list is augmented with additional
 contractions from \code{\link[lexicon]{key_contractions}}.
 }
@@ -21,6 +20,6 @@ contractions from \code{\link[lexicon]{key_contractions}}.
 }
 
 \references{
-\url{http://myweb.tiscali.co.uk/wordscape/museum/funcword.html}
+'http://myweb.tiscali.co.uk/wordscape/museum/funcword.html'
 }
 \keyword{datasets}

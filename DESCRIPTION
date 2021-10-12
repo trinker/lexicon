@@ -3,7 +3,7 @@ Title: Lexicons for Text Analysis
 Version: 1.3.1
 Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
 Description: A collection of lexical hash tables, dictionaries, and word lists.
-Depends: R (>= 3.2.2)
+Depends: R (>= 3.5.0)
 Imports: data.table, syuzhet (>= 1.0.1)
 Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre", "cph")), person("University of Notre
               Dame", role = c('dtc', "cph")), person("Department of Knowledge Technologies", role = c('dtc', "cph")),

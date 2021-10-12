@@ -4,7 +4,7 @@ lexicon
 
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
-developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
+developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](https://www.repostatus.org/#active)
 [![Build
 Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
 [![](https://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)

@@ -47,6 +47,6 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 }
 \references{
-\url{https://pypi.python.org/pypi/stop-words}
+\url{https://pypi.org/project/stop-words/}
 }
 \keyword{datasets}

@@ -12,7 +12,7 @@ data(hash_internet_slang)
 }
 \description{
 A dataset containing Internet slang terms and corresponding meaning.  The data
-set is an augmented version of \url{http://www.smart-words.org/abbreviations/text.html}.
+set is an augmented version of \url{https://www.smart-words.org/abbreviations/text.html}.
 }
 \details{
 \itemize{
@@ -23,6 +23,6 @@ set is an augmented version of \url{http://www.smart-words.org/abbreviations/tex
 \references{
 Possel, H. (n.d.). English language smart words.  Retrieved from 
 http://www.smart-words.org \cr \cr
-\url{http://www.smart-words.org/abbreviations/text.html}
+\url{https://www.smart-words.org/abbreviations/text.html}
 }
 \keyword{datasets}
