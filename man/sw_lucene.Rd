@@ -33,6 +33,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 }
 \references{
-\url{http://lucene.apache.org/core/4_0_0/analyzers-common/org/apache/lucene/analysis/core/StopFilter.html}
+\url{https://lucene.apache.org/core/4_0_0/analyzers-common/org/apache/lucene/analysis/core/StopFilter.html}
 }
 \keyword{datasets}

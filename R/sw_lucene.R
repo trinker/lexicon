@@ -26,5 +26,5 @@
 #' @name sw_lucene
 #' @usage data(sw_lucene)
 #' @format A character vector with 33 elements
-#' @references \url{http://lucene.apache.org/core/4_0_0/analyzers-common/org/apache/lucene/analysis/core/StopFilter.html}
+#' @references \url{https://lucene.apache.org/core/4_0_0/analyzers-common/org/apache/lucene/analysis/core/StopFilter.html}
 NULL

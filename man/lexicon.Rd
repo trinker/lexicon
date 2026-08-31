@@ -2,9 +2,64 @@
 % Please edit documentation in R/lexicon-package.R
 \docType{package}
 \name{lexicon}
+\alias{lexicon-package}
 \alias{lexicon}
 \alias{package-lexicon}
 \title{Lexicons for Text Analysis}
 \description{
 A collection of lexical hash tables, dictionaries, and word lists.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/trinker/lexicon}
+  \item Report bugs at \url{https://github.com/trinker/lexicon/issues?state=open}
+}
+
+}
+\author{
+\strong{Maintainer}: Tyler Rinker \email{tyler.rinker@gmail.com} [copyright holder]
+
+Authors:
+\itemize{
+  \item Tyler Rinker \email{tyler.rinker@gmail.com} [copyright holder]
+}
+
+Other contributors:
+\itemize{
+  \item University of Notre Dame [data contributor, copyright holder]
+  \item Department of Knowledge Technologies [data contributor, copyright holder]
+  \item Unicode, Inc. [data contributor, copyright holder]
+  \item John Higgins [data contributor, copyright holder]
+  \item Grady Ward [data contributor]
+  \item Heiko Possel [data contributor]
+  \item Michal Boleslav Mechura [data contributor, copyright holder]
+  \item Bing Liu [data contributor]
+  \item Minqing Hu [data contributor]
+  \item Saif M. Mohammad [data contributor]
+  \item Peter Turney [data contributor]
+  \item Erik Cambria [data contributor]
+  \item Soujanya Poria [data contributor]
+  \item Rajiv Bajpai [data contributor]
+  \item Bjoern Schuller [data contributor]
+  \item SentiWordNet [data contributor, copyright holder]
+  \item Liang Wu [data contributor, copyright holder]
+  \item Fred Morstatter [data contributor, copyright holder]
+  \item Huan Liu [data contributor, copyright holder]
+  \item Grammar Revolution [data contributor, copyright holder]
+  \item Vidar Holen [data contributor, copyright holder]
+  \item Alejandro U. Alvarez [data contributor, copyright holder]
+  \item Stackoverflow User user2592414 [data contributor, copyright holder]
+  \item BannedWordList.com [data contributor, copyright holder]
+  \item Apache Software Foundation [data contributor, copyright holder]
+  \item Andrew Kachites McCallum [data contributor, copyright holder]
+  \item Alireza Savand [data contributor, copyright holder]
+  \item Zact Anger [data contributor, copyright holder]
+  \item Titus Wormer [data contributor, copyright holder]
+  \item Colin Martindale [data contributor, copyright holder]
+  \item John Wiseman [data contributor, copyright holder]
+  \item Nadra Pencle [data contributor, copyright holder]
+  \item Irina Malaescu [data contributor, copyright holder]
+}
+
 }
